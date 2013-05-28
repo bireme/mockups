@@ -1,4 +1,4 @@
 mockups
 =======
 
-Applications mockups
+Application mockups
