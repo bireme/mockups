@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 7]>
+<html class="ie ie7" lang="pt-BR">
+    <![endif]-->
+    <!--[if IE 8]>
+    <html class="ie ie8" lang="pt-BR">
+        <![endif]-->
+        <!--[if !(IE 7) | !(IE 8)  ]><!-->
+        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR" >
+            <!--<![endif]-->
+            <head>
+                <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                <meta name="viewport" content="width=device-width, user-scalable=no" />
+                <title>LILDBI-Web</title>
+                <link rel="stylesheet" href="css/generic.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="css/2_columns.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="css/custom.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext" type="text/css" media="all" />
+                <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="css/local.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="css/lildbi-style.css" type="text/css" media="all" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+                <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+                <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+                <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $('.tooltip').tooltipster({
+                            animation: 'fade',
+                        });
+                    });
+                </script>
+            </head>
+            <body class="full-width">
+                <div class="container 2_columns">
+                    <div class="header">
+                        <div class="bar">
+                            <div id="otherVersions">
+                                <ul id="languages_list">
+                                    <li>
+                                        <a href="/en/">
+                                        <img src="images/gb.png" alt=" " />
+                                        English</a>
+                                    </li>
+                                    <li>
+                                        <a href="/es/">
+                                        <img src="images/es.png" alt=" " />
+                                        Español</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top top_pt-br">
+                            <div id="parent">
+                                <a href="/" title="Biblioteca Virtual em Saúde"> 
+                                <img src="images/logo-pt.png" alt="Logo da BVS"/>
+                                </a>
+                            </div>
+                            <div class="site_name">
+                                <h1><a title="LILDBI-Web" href=""><span>LILDBI-Web</span></a></h1>
+                            </div>
+                        </div>
+                        <nav role="navigation">
+                            <div class="menu">
+                                <ul id="prime_nav" class="menu">
+                                    <li><a href="/"><span>Home</span></a></li>
+                                    <li><a href="#"><span>Sobre o LILDBI-Web</span></a></li>
+                                    <li><a href="#"><span>Tutoriais</span></a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="spacer"></div>
+                    </div>
+                    <div id="content" class="row-fluid">
+                        <div class="ajusta2">
+                            <section class="header-search">
+                                <form role="search" method="get" id="searchform" action="http://bvsalud.org/portal-lis/lis-search/">
+                                    <input value='' name="q" class="input-search" id="s" type="text" placeholder="Buscar Documentos">
+                                    <input id="searchsubmit" value="Buscar" type="submit">
+                                    <a href="#" title="Dica! Você pode fazer sua pesquisa utilizando operadores booleano" class="help ketchup tooltip"><i class="fa fa-question-circle fa-2x "></i></a>
+                                </form>
+                            </section>
+                            <section id="conteudo">
+                                <header class="row-fluid border-bottom">
+                                    <h1 class="h1-header"><span class="breadcrumb-home"><a href="home-curto.html">HOME</a> / <a href="#">Saúde Materna</a></span> / Comisión Territorial de Grados Científicos...</h1>
+                                    <div class="spacer"></div>
+                                    <div class="resultsBar">
+                                        <div class="format">
+                                            <label for="displayFormat" class="hide">Formato de apresentação</label>
+                                            <select name="format" id="displayFormat" class="inputText" onchange="javascript:change_format(this);">
+                                                <option value="">Formato de apresentação</option>
+                                                <option value="summary">Curto</option>
+                                                <option value="abstract">Detalhado</option>
+                                            </select>
+                                        </div>
+                                        <div class="orderBy">
+                                            <label for="sortBy" class="hide">Ordem do resultado</label>
+                                            <select name="sortBy" id="sortBy" class="inputText" onchange="javascript:change_sort(this);">
+                                                <option value="">Ordem do resultado</option>
+                                                <option value="RELEVANCE">Relevância</option>
+                                                <option value="YEAR_DESC">Ano decrescente</option>
+                                                <option value="YEAR_ASC">Ano crescente</option>
+                                            </select>
+                                        </div>
+                                        <div class="orderBy">
+                                            <label for="countSelect" class="hide">Documentos por página</label>
+                                            <select name="countSelect" id="countSelect" onchange="change_count(this);">
+                                                <option value="">Documentos por página</option>
+                                                <option value="10">10</option>
+                                                <option value="20" selected="true">20</option>
+                                                <option value="30">30</option>
+                                                <option value="50">50</option>
+                                                <option value="100">100</option>
+                                            </select>
+                                        </div>
+                                        <!-- AddThis Button BEGIN -->
+                                        <div class="addthis_toolbox addthis_default_style">
+                                            <span class="addthis_separator">|</span>
+                                            <a class="addthis_button_facebook at300b" title="Facebook" href="#"><span class="at4-icon-left at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Share on facebook</span></span></a>
+                                            <a class="addthis_button_delicious at300b" target="_blank" title="Delicious" href="#"><span class="at4-icon-left at4-icon aticon-delicious" style="background-color: rgb(25, 85, 158);"><span class="at_a11y">Share on delicious</span></span></a>
+                                            <a class="addthis_button_google_plusone_share at300b" target="_blank" title="Google+" href="#"><span class="at4-icon-left at4-icon aticon-google_plusone_share" style="background-color: rgb(206, 77, 57);"><span class="at_a11y">Share on google_plusone_share</span></span></a>
+                                            <a class="addthis_button_favorites at300b" title="Favorites" href="#"><span class="at4-icon-left at4-icon aticon-favorites" style="background-color: rgb(245, 202, 89);"><span class="at_a11y">Share on favorites</span></span></a>
+                                            <a class="addthis_button_compact at300m" href="#"><span class="at4-icon-left at4-icon aticon-compact" style="background-color: rgb(252, 109, 76);"><span class="at_a11y">More Sharing Services</span></span></a> 
+                                            <div class="atclear"></div>
+                                        </div>
+                                        <script type="text/javascript">addthis_pub  = 'bvs.regional';</script>
+                                        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>    
+                                        <!-- AddThis Button END -->
+                                    </div>
+                                </header>
+                                <div class="row-fluid">
+                                    <ol class="doc-loop doc-view">
+                                        <li>
+                                            <h2 class="h2-loop-tit">Comisión Territorial de Grados Científicos: su contribución al desarrollo doctoral en la provincia Villa Clara <br/><span class="altLang">The territorial commission of scientific degree: its contribution to the development of Ph. Ds. in Villa Clara Province</span></h2>
+                                            
+                                            <p class="row-fluid">
+                                                <a href="#">Ruiz Hernández, José Ramón</a>
+                                            </p>
+                                            <p class="row-fluid">
+                                                <a href="#">Edumecentro</a>; 7(3): 1-19, jul.-set. 2015. ilus.
+                                            </p>
+                                            <p class="row-fluid">
+                                                Artigo em Espanhol | LILACS-Express | ID: lil-749569
+                                            </p>
+                                            <p class="row-fluid">
+                                                Número de Classificação: 614.32 | Autor: T17a | Volume 1: v.1 | Tombo: 1001
+                                            </p>
+                                            <p class="row-fluid">
+                                                <a href="#"><em class="fa fa-file-text-o"></em> Texto Completo</a>
+                                            </p>
+                                            <p class="row-fluid abstract">
+                                                <div class="abstract-version">
+                                                    <strong>RESUMO</strong>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum mollis nisi, ut egestas turpis elementum at. Duis ultrices auctor risus, sed venenatis turpis vulputate nec. Nunc ut purus nec dui condimentum commodo. Nulla mattis ac purus quis pellentesque. Praesent suscipit odio id urna pulvinar mattis. Sed nec nibh vel tellus aliquet mattis. Nullam sed feugiat magna, et finibus eros. Nam finibus libero at ligula laoreet, et pharetra libero tincidunt. Nunc non diam tempor, euismod diam eu, pulvinar elit. Donec in feugiat nibh.
+                                                <div>
+                                                <div class="abstract-version altLang">
+                                                    <strong>ABSTRACT</strong>
+                                                    Donec orci ante, egestas eget purus viverra, congue euismod diam. Fusce sit amet ex nec est commodo dictum. Praesent vitae lectus massa. Morbi rutrum nec tellus vitae commodo. In hac habitasse platea dictumst. Suspendisse sit amet felis ultrices, pretium ex sed, consectetur neque. Donec laoreet urna ac porttitor eleifend. Sed varius nisi suscipit elit suscipit accumsan. Donec euismod nunc massa, a molestie ligula maximus vel. Vivamus laoreet dui in nulla rhoncus dictum. Mauris nec faucibus felis, vitae eleifend lorem. Cras sed dignissim orci. Quisque nec lectus leo. Suspendisse consequat augue purus, sed molestie augue eleifend ut. Mauris purus quam, rhoncus vitae neque eu, blandit molestie metus. Mauris eget aliquam nisl, eu varius est.
+                                                </div>
+                                            </p>
+                                            <p class="row-fluid subjects">
+                                                <strong>ASSUNTOS</strong>
+                                                <a href="#">Lorem ipsum dolor</a>, <a href="#">Sit amet</a>, <a href="#">Consectetur adipiscing elit</a>, <a href="#">Cras condimentum</a>, <a href="#">Mollis nisi ut egestas</a>, <a href="#">Turpis elementum at</a>.
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </section>
+                            <aside id="sidebar">
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Assunto Principal</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Suplementos
+                                        </li>
+                                        <li class="cat-item">
+                                            Educação
+                                        </li>
+                                        <li class="cat-item">
+                                            Atenção à Saúde
+                                        </li>
+                                        <li class="cat-item">
+                                            Educação em Saúde
+                                        </li>
+                                        <li class="cat-item">
+                                            Condições Sociais
+                                        </li>
+                                        <li class="cat-item">
+                                            Mostras
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Tipo de Publicação</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Artigo
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Base de Dados</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            LILACS
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">País de Publicação</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Cuba
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Limite</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Adulto
+                                        </li>
+                                        <li class="cat-item">
+                                            Feminino
+                                        </li>
+                                        <li class="cat-item">
+                                            Humanos
+                                        </li>
+                                        <li class="cat-item">
+                                            Gravidez
+                                        </li>
+                                        <li class="cat-item">
+                                            Lactente
+                                        </li>
+                                        <li class="cat-item">
+                                            Recém Nascido
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Idioma</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Espanhol
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Revista</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            Lorem Ipsum
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="row-fluid marginbottom25 widget_categories">
+                                    <header class="row-fluid border-bottom marginbottom15">
+                                        <h1 class="h1-header">Ano de Publicação</h1>
+                                    </header>
+                                    <ul>
+                                        <li class="cat-item">
+                                            2004
+                                        </li>
+                                    </ul>
+                                </section>
+                            </aside>
+                            <div class="spacer"></div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div id="text-6" class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="logo-footer">
+                                    <img src="images/logo-ops.png" alt="logo OPS" />
+                                </div>
+                                <div class="institutional-info">
+                                    <strong>BIREME - OPAS - OMS</strong>
+                                    Centro Latino-Americano e do Caribe de Informação em Ciências da Saúde<br />
+                                    <small>Departamento de Gestão do Conhecimento e Comunicações (KMC)</small>
+                                </div>
+                                <div class="spacer"></div>
+                            </div>
+                        </div>
+                        <div class="spacer"></div>
+                    </div>
+                    <div class="siteInfo">
+                        <ul>
+                            <li><a href="http://wordpress.org" title="WordPress.org">WordPress</a> version 3.8.3</li>
+                            <li><a href="https://github.com/bireme/bvs-site-wp-plugin" title="plugin repository">BVS-Site Plugin</a> version 0.3</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .container -->
+                <noscript>Your browser does not support JavaScript!</noscript>
+            </body>
+        </html>

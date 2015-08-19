@@ -1,0 +1,78 @@
+body {
+    background: #ededed !important;  
+    color: #000;
+    background-image: url('') !important;
+    background-position: top center !important;
+}
+a {
+    color: #333;     
+    }
+a:visited {
+    color: #333;        
+    }
+.container {
+    background: #ffffff !important;   
+}
+.bar a {
+    color: #ffffff;   
+}
+.header h1 a {
+    color: #;
+}
+#content h1, .content h1 a {
+    color: #333 !important;
+}
+#content h2, .content h2 a {
+    color: #333 !important;
+}
+#content h3, .content h3 a {
+    color: #333 !important;
+}
+.column_1 .widget {
+    background: #FFF;
+    color: #000;
+}
+.column_1 a {
+    color: #333;
+}
+.column_1 a:visited {
+    color: #333;
+}
+.column_1 h3, .column_1 h3 a {
+    color: #333;                                                
+}
+.column_1 h3 {
+    border-color: #333;
+}
+.column_1 {
+    width: 65%;
+}
+.column_2 .widget {
+    background: #FFF;
+    color: #000;
+}
+.column_2 a {
+    color: #333;
+}
+.column_2 a:visited {
+    color: #333;
+}
+.column_2 h3, .column_2 h3 a {
+    color: #333;                                                
+}
+.column_2 h3 {
+    border-color: #333;
+}
+.column_2 {
+    width: 32%;
+}
+.footer {
+    background: #FFF;
+    color: #000;
+}
+.footer a {
+    color: #333;
+}
+.footer a:visited {
+    color: #333;
+}

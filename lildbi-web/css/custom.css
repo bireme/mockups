@@ -1,0 +1,51 @@
+/****** REFNET STYLES ******/
+
+/* Search Strategy List 
+----------------------------------------------- */
+
+.post-status {
+	font-weight:bold;
+	font-style:italic;
+	color: #999;
+}
+.post-description_of_the_search {
+	font-size: 110%;
+}
+.post-date {
+	font-style:italic;
+	color: #999;
+}
+.post-vhls_databases {
+	font-weight:bold;
+	color: #999;
+}
+
+
+/* SEARCH RESULT 
+----------------------------------------------- */
+
+.search-results #content {
+	padding: 0 12px;
+}
+.search-results .page-header {
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+}
+.search-results #content article {
+	padding: 6px 12px;
+	margin: 0 0 10px 0;
+	border-bottom:none;
+}
+.search-results #content article p {
+	line-height:150%;
+}
+.search-results #content article header {
+	margin: 0;
+}
+.search-results .entry-header a {
+	font-size: 150%;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
