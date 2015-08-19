@@ -215,9 +215,10 @@ input[type=radio]{float:left; margin:3px 5px 0 0;}
 #recaptcha_area{
 	margin-bottom: 12px;
 }
-@media (min-width: 766px) and (max-width: 999px) {
+@media (min-width: 766px) and (max-width: 1099px) {
+	.ajusta, .ajusta3, .ajusta2, .top, .bar .barInner, .footerArea {width:100%; margin:0;}
 	.container{width:95% !important;margin: 0 2.5% !important;}
-	#conteudo{width: 95%;margin: 0 2.5%;}
+	#conteudo{width: 65%;margin: 0 2.5%;}
 	#sidebar{width:30%;}
 	.conteudo-loop{width:94%;}
 }
