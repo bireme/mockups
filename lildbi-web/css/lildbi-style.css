@@ -267,3 +267,8 @@ input[type=radio]{float:left; margin:3px 5px 0 0;}
 	.tablet{display:block;}
 	.menu-mapa-do-site-pt-container {width:auto;}
 }
+@media (max-width: 479px) {
+	.container {width: 97%;}
+	.header-search .input-search {width:48%;}
+	#parent {margin-top: 40px;}
+}
