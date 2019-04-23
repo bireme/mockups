@@ -42,7 +42,7 @@
 						<h2 class="mb-0">
 							<span class="acordionIcone float-right fas fa-minus"></span>
 							<button class="btn btn-link collapsed labelMain" type="button">
-								POPULATION
+								Population
 							</button>
 						</h2>
 					</div>
@@ -53,10 +53,10 @@
 									<input type="text" id="L1" class="form-control" placeholder="Type of patient eg. diabetcs">
 								</div>
 								<div class="col-md-4">
-									<select name="" id="" class="form-control">
-										<option value="">Title, Abstract, Subject</option>
+									<select name="" id="" class="form-control formSelect">
+										<option value="">Title, Abstract, DeSC/MeSH Terms</option>
 										<option value="">Title</option>
-										<option value="">Subject Descriptor</option>
+										<option value="">DeSC/MeSH Terms</option>
 									</select>
 								</div>
 							</div>
@@ -64,7 +64,7 @@
 								<div class="col-12">
 									<a href="" class="btn btn-primary margin2M" data-toggle="modal" data-target="#modal">Expand DeSH/MeSH Terms</a>
 									<div class="btn-group">
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Patient: <span class="badge badge-light badgeM">15.039</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn colorP" data-toggle="tooltip" data-placement="top" title="Click to see results">Population <span class="badge badge-light badgeM">15.039</span></a>
 									</div>
 									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
 								</div>
@@ -78,7 +78,7 @@
 						<h2 class="mb-0">
 							<span class="acordionIcone float-right fas fa-plus"></span>
 							<button class="btn btn-link collapsed labelMain" type="button">
-								INTERVENTION
+								Intervention
 							</button>
 						</h2>
 					</div>
@@ -89,10 +89,10 @@
 									<input type="text" id="L1" class="form-control" placeholder="Any Intervention eg. treatment, diagnostic test">
 								</div>
 								<div class="col-md-4">
-									<select name="" id="" class="form-control">
-										<option value="">Title, Abstract, Subject</option>
+									<select name="" id="" class="form-control formSelect">
+										<option value="">Title, Abstract, DeSC/MeSH Terms</option>
 										<option value="">Title</option>
-										<option value="">Subject Descriptor</option>
+										<option value="">DeSC/MeSH Terms</option>
 									</select>
 								</div>
 							</div>
@@ -100,8 +100,8 @@
 								<div class="col-12">
 									<a href="" class="btn btn-primary margin2M" data-toggle="modal" data-target="#modal">Expand DeSH/MeSH Terms</a>
 									<div class="btn-group">
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Click to see results">Intervention: <span class="badge badge-light badgeM">350</span></a>
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Patient AND Intervention: <span class="badge badge-light badgeM">150</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn colorI" data-toggle="tooltip" data-placement="top" title="Click to see results">Intervention <span class="badge badge-light badgeM">350</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Population AND Intervention <span class="badge badge-light badgeM">150</span></a>
 									</div>
 									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
 								</div>
@@ -115,7 +115,7 @@
 						<h2 class="mb-0">
 							<span class="acordionIcone float-right fas fa-plus"></span>
 							<button class="btn btn-link collapsed labelMain" type="button">
-								COMPARISON
+								Comparison
 							</button>
 						</h2>
 					</div>
@@ -126,10 +126,10 @@
 									<input type="text" id="L1" class="form-control"  placeholder="Comparing your intervention with another treatment">
 								</div>
 								<div class="col-md-4">
-									<select name="" id="" class="form-control">
-										<option value="">Title, Abstract, Subject</option>
+									<select name="" id="" class="form-control formSelect">
+										<option value="">Title, Abstract, DeSC/MeSH Terms</option>
 										<option value="">Title</option>
-										<option value="">Subject Descriptor</option>
+										<option value="">DeSC/MeSH Terms</option>
 									</select>
 								</div>
 							</div>
@@ -137,8 +137,8 @@
 								<div class="col-12">
 									<a href="" class="btn btn-primary margin2M" data-toggle="modal" data-target="#modal">Expand DeSH/MeSH Terms</a>
 									<div class="btn-group">
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Click to see results">Comparison: <span class="badge badge-light badgeM">200</span></a>
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Patient AND Intervention AND Comparison: <span class="badge badge-light badgeM">80</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn colorC" data-toggle="tooltip" data-placement="top" title="Click to see results">Comparison <span class="badge badge-light badgeM">200</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Population AND Intervention AND Comparison <span class="badge badge-light badgeM">80</span></a>
 									</div>
 									<span></span>
 								</div>
@@ -152,7 +152,7 @@
 						<h2 class="mb-0">
 							<span class="acordionIcone float-right fas fa-plus"></span>
 							<button class="btn btn-link collapsed labelMain" type="button" >
-								OUTCOMES
+								Outcome
 							</button>
 						</h2>
 					</div>
@@ -163,10 +163,10 @@
 									<input type="text" id="L1" class="form-control"  placeholder="Outcomes interest eg. reduced mortality, fewer exacerbati">
 								</div>
 								<div class="col-md-4">
-									<select name="" id="" class="form-control">
-										<option value="">Title, Abstract, Subject</option>
+									<select name="" id="" class="form-control formSelect">
+										<option value="">Title, Abstract, DeSC/MeSH Terms</option>
 										<option value="">Title</option>
-										<option value="">Subject Descriptor</option>
+										<option value="">DeSC/MeSH Terms</option>
 									</select>
 								</div>
 							</div>
@@ -174,8 +174,8 @@
 								<div class="col-12">
 									<a href="" class="btn btn-primary margin2M" data-toggle="modal" data-target="#modal">Expand DeSH/MeSH Terms</a>
 									<div class="btn-group">
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Click to see results">Outcomes: <span class="badge badge-light badgeM">200</span></a>
-										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Patient AND Intervention AND Comparison AND Outcomes: <span class="badge badge-light badgeM">80</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn colorO" data-toggle="tooltip" data-placement="top" title="Click to see results">Outcomes <span class="badge badge-light badgeM">200</span></a>
+										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Population AND Intervention AND Comparison AND Outcomes <span class="badge badge-light badgeM">80</span></a>
 
 									</div>
 									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
@@ -191,7 +191,7 @@
 						<h2 class="mb-0">
 							<span class="acordionIcone float-right fas fa-plus"></span>
 							<button class="btn btn-link collapsed labelMain" type="button" >
-								TYPE OF STUDY
+								Type of Study
 							</button>
 						</h2>
 					</div>
@@ -267,14 +267,14 @@
 
 			<div>
 				<h3 class="result text-center">
-					<b><a href="htt target="_blank"ps://bvsalud.org/" class="btn btn-lg btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results" target="_blank">Search Results: 10</a></b>
-					<a href="" class="btn btn-lg btn-primary">Refresh <i class="fas fa-redo"></i></a>
+					<b><a href="http://pesquisa.bvsalud.org/portal/?lang=pt&index=tw&home_url=https%3A%2F%2Fbvsalud.org&home_text=Portal+Regional+da+BVS&q=&submit=Pesquisa" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="top" title="Click to see results" target="_blank">Search Results <span class="badge badge-light badgeM">10</span></a></b>
+					<!-- <a href="" class="btn btn-lg btn-primary">Refresh <i class="fas fa-redo"></i></a> -->
 				</h3>
 			</div>
 		</div>
 	</div>
 	
-	<div class="container" style="display: none"> <br>
+	<div class="container" > <br>
 		<label for=""><b>Search Details</b></label>
 		<textarea name="" id="" rows="4" class="form-control" readonly="readonly">(Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito") (Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito") (Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito") (Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito")(Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito") (Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito") (Dengue OR "dengue virus") AND (vaccine OR vacina) AND ("controle do mosquito")</textarea>
 	</div>
