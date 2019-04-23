@@ -50,7 +50,7 @@
 						<div class="card-body">
 							<div class="row">
 								<div class="col-md-8 margin2M">
-									<input type="text" id="L1" class="form-control" placeholder="Type fo patiente eg. diabetcs">
+									<input type="text" id="L1" class="form-control" placeholder="Type of patient eg. diabetcs">
 								</div>
 								<div class="col-md-4">
 									<select name="" id="" class="form-control">
