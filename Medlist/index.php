@@ -107,7 +107,7 @@
 			
 		</div>
 	</section>
-	<section class="sectionCinza padding1">
+	<section class=" padding1">
 		<div class="container">
 			<h3 class="titulo1"><span class="colorText">Sumários </span> de evidência</h3>
 			<hr>
