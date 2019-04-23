@@ -1,0 +1,55 @@
+body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight: 400;}
+.padding1{ padding: 30px 0;}
+.padding2{ padding: 40px 0; border-top: 20px solid #fbaa33;  border-bottom: 20px solid #2d3e50;}
+.margin1{margin-top: 10px;}
+.sectionGray{ background: #ddd; }
+#lang{
+	background: #2d3e50; color: #fff;
+	text-align: right; padding: 10px;
+	font-size: 12px; margin-bottom: 10px;
+}
+#lang a{color: #fff;}
+#lang a:hover{color: #fbaa33;}
+#header{
+	padding-bottom: 30px;
+	background: #ededed;
+}
+#logo img{max-width: 150px;  }
+.title1{font-family: 'Anton', sans-serif;}
+#footer{
+	text-align: center;
+	font-size: 12px; padding: 10px;
+}
+.labelMain{
+	font-family: 'Source Sans Pro', sans-serif; font-weight: 600;
+	font-size: 25px; color: #333;
+}
+.result{ padding-top: 30px; font-weight: bold; }
+#pico{
+	text-align: right;
+}
+	#pico img{
+		margin-top: 20px;
+	}
+.acordionIcone{font-size: 20px; margin-top: 15px;}
+.card-header{cursor: pointer;}
+.card-header:hover{ background: #eee; }
+.tab-pane{ padding: 20px; }
+.tableModal tr td{ padding: 15px;}
+.modal-body{
+	overflow: auto!important;
+}
+.badgeM{font-size: 16px;}
+@media (max-width: 768px){
+	.margin1M{margin-bottom: 20px;}
+	.margin2M{margin-bottom: 5px;}
+	#lang,
+	#logo{text-align: center; }
+	.labelMain{
+		font-size: 18px;
+	}
+	.btn-group{
+		margin-bottom:5px; 
+	}
+	.btn-warning{ margin-right: 5px;}
+}
