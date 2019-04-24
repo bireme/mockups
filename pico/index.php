@@ -66,7 +66,7 @@
 									<div class="btn-group">
 										<a href="https://bvsalud.org/" target="_blank" class="btn colorP" data-toggle="tooltip" data-placement="top" title="Click to see results">Population <span class="badge badge-light badgeM">15.039</span></a>
 									</div>
-									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
+									<span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span>
 								</div>
 							</div>
 						</div>
@@ -103,7 +103,7 @@
 										<a href="https://bvsalud.org/" target="_blank" class="btn colorI" data-toggle="tooltip" data-placement="top" title="Click to see results">Intervention <span class="badge badge-light badgeM">350</span></a>
 										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Population AND Intervention <span class="badge badge-light badgeM">150</span></a>
 									</div>
-									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
+									<span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span>
 								</div>
 							</div>
 						</div>
@@ -178,7 +178,7 @@
 										<a href="https://bvsalud.org/" target="_blank" class="btn btn-warning" data-toggle="tooltip" data-placement="top" title="Click to see results">Population AND Intervention AND Comparison AND Outcomes <span class="badge badge-light badgeM">80</span></a>
 
 									</div>
-									<!-- <span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span> -->
+									<span><a href="" class="btn btn-primary">Refresh <i class="fas fa-redo"></i></a></span>
 								</div>
 							</div>
 						</div>
@@ -268,6 +268,7 @@
 			<div>
 				<h3 class="result text-center">
 					<b><a href="http://pesquisa.bvsalud.org/portal/?lang=pt&index=tw&home_url=https%3A%2F%2Fbvsalud.org&home_text=Portal+Regional+da+BVS&q=&submit=Pesquisa" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="top" title="Click to see results" target="_blank">Search Results <span class="badge badge-light badgeM">10</span></a></b>
+					<span class="float-right"><a href="" class="btn btn-lg btn-info">Refresh <i class="fas fa-redo"></i></a></span>
 				</h3>
 			</div>
 		</div>
