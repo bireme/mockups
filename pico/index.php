@@ -268,7 +268,6 @@
 			<div>
 				<h3 class="result text-center">
 					<b><a href="http://pesquisa.bvsalud.org/portal/?lang=pt&index=tw&home_url=https%3A%2F%2Fbvsalud.org&home_text=Portal+Regional+da+BVS&q=&submit=Pesquisa" class="btn btn-lg btn-success" data-toggle="tooltip" data-placement="top" title="Click to see results" target="_blank">Search Results <span class="badge badge-light badgeM">10</span></a></b>
-					<!-- <a href="" class="btn btn-lg btn-primary">Refresh <i class="fas fa-redo"></i></a> -->
 				</h3>
 			</div>
 		</div>
@@ -280,45 +279,16 @@
 	</div>
 </section>
 
+<footer id="footer" style="border-top: 10px solid #2d3e50; ">
+	<div class="container">
+		PICOS SEARCH -  All RIGHTS RESERVED
+	</div>
+</footer>
 
-
-	<!-- <section class="sectionGray padding2">
-		<div class="container">
-			<h4 class="text-center title1">Sobre Nós</h4>
-			<hr>
-			<div class="row">
-				<div class="col-md-4 margin1M">
-					<img src="img/sobreNos.png" alt="" class="img-fluid">
-				</div>
-				<div class="col-md-8">
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. In possimus, error deleniti repellendus dolorum. Velit deleniti atque voluptatibus repellat commodi a magni recusandae aut nemo quia et, ad dolores earum inventore. Perferendis possimus ex eveniet, recusandae ipsum quisquam odit beatae voluptas. Accusamus ex magni possimus aliquid doloribus praesentium ipsa saepe odio deserunt quibusdam cumque perspiciatis ratione consectetur dolores, aut voluptates rem harum veniam accusantium, adipisci distinctio eos, pariatur. Deleniti sapiente saepe nobis, tempore error incidunt sit architecto assumenda nisi earum molestias eligendi debitis nihil est ullam et. Nam quos nulla laudantium delectus enim culpa, officiis, soluta minus possimus, molestias odio eum! Cumque, eveniet, ut. Voluptas vero dolorum quo nam veniam illo repellendus at, velit qui libero optio explicabo aperiam soluta, id dicta quae doloribus rerum facilis sunt odit. Ipsum, animi, et! Quasi earum quam necessitatibus itaque pariatur, magni animi commodi consequatur asperiores reprehenderit, dolor sit aliquid porro, ut dicta hic!
-					</p>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	
-
-
-
-
-
-
-	<footer id="footer" style="border-top: 10px solid #2d3e50; ">
-		<div class="container">
-			PICOS SEARCH -  All RIGHTS RESERVED
-		</div>
-	</footer>
-
-
-	
-
-	<?php include 'modais.php' ?>
-
-	<script src="js/popper.min.js"></script>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+<?php include 'modais.php' ?>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
