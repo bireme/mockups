@@ -22,6 +22,15 @@
 	</div>
 	<b class="title2">ATRIBUTOS DO ARTIGO</b>
 	<div class="box2 box2B">
-		Texto Compelto / Base de dados Internacionais / MEDLINE / Medicina, Serviços de Saúde / Inglês / Artigo / 2019 / Estados Unidos.
+		<span class="atribArtigos"><b>Título:</b> Texto. <br></span>
+		<span class="atribArtigos"><b>Lorem amet:</b> Lorem dolor. <br></span>
+		<span class="atribArtigos"><b>Lorem :</b> Lorem ipsum. <br></span>
+		<span class="atribArtigos"><b>Lorem ipsum dolor sit amet:</b> Lorem ipsum dolor. <br></span>
+		<span class="atribArtigos"><b>Lorem ipsum sit amet:</b> Ipsum dolor. <br></span>
+		<span class="atribArtigos"><b>Lorem:</b> Dolor. <br></span>
+		<span class="atribArtigos"><b>Sit amet:</b> Lorem. <br></span>
+		<span class="atribArtigos"><b>Dolor sit:</b> Lorem ipsum dolor. <br></span>
+		<span class="atribArtigos"><b>Lorem sit amet:</b> Lorem dolor. <br></span>
+		<span class="atribArtigos"><b>Ipsum amet:</b> Lorem ipsum dolor. <br></span>
 	</div>
 </div>

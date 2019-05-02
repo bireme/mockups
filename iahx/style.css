@@ -16,7 +16,7 @@
 #header{background: #ededed; padding: 30px 0px 30px 0px;}
 #logo img{ max-width: 210px; }
 .box1{ background: #fff; padding: 10px; margin-bottom: 15px; position: relative;}
-.box2{ background: #ededed; border:1px solid #e4e4e4; padding: 10px; font-size: 14px; font-weight: bold;margin-top: 20px;}
+.box2{ background: #ededed; border:1px solid #e4e4e4; padding: 10px; font-size: 14px; margin-top: 20px;}
 .box2B{margin-top:10px; margin-bottom: 10px; }
 .box3{margin-top: 30px;}
 .box4{background: #fff; padding: 30px; margin-bottom: 20px;}
@@ -124,6 +124,7 @@
 	padding: 20px; border: solid 1px #ddd; border-top: 0; 
 	margin-bottom: 20px;
 }
+.atribArtigos{padding: 1px; margin: 1px; font-size: 13px; display: block;}
 /******************** Breakpoints *******************/
 @media (max-width: 768px){
 	.marginMC1{ margin-bottom: 10px;}
