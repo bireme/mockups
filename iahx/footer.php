@@ -1,5 +1,5 @@
 <!-- Rodapé -->
-<footer id="footer" class="padding1">
+<footer id="footer" class="padding1 d-print-none">
 	<div class="container">
 		<hr><br>
 		<div class="row">
@@ -20,7 +20,7 @@
 
 
 <!-- seta up -->
-<div id="to-top" class="to-top">
+<div id="to-top" class="to-top d-print-none">
 	<span class="float-left">
 		<i class="fas fa-arrow-up"></i>
 	</span>

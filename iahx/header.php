@@ -1,5 +1,5 @@
 <!-- Topo -->
-<header id="header">
+<header id="header" class="d-print-none">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3" id="logo">

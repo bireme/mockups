@@ -164,3 +164,24 @@
 	#tabResumo li{ border: 0; margin: 0 5px 5px 0; border: 1px solid #ddd; }
 	#tabResumo .active{border: 0; background: #eee;}
 }
+@media print{
+	p,a, h1,h2,h3,h4,h5,h5,	titleArt, b{
+		color: #000!important;
+	}
+	.box4{
+		padding:0 ; 
+	}
+	.d-print-block{
+		max-width: 100%; flex: 0 0 100%;
+	}
+   #resumo, #tabResumo li, .nav-tabs, #tabResumo .active{
+   	border: 0!important; background: #fff;
+   	padding: 0; margin: 0;
+   }
+	#tabResumo, #tabResumo li{display: none;}
+	.tab-content > .tab-pane {
+	    display: block !important;
+	    opacity: 1 !important; margin-bottom: 30px;
+	    visibility: visible !important;
+	}
+}

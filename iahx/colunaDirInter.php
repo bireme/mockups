@@ -1,5 +1,5 @@
 <!-- Direita -->
-<div class="col-md-3">
+<div class="col-md-3 d-print-none">
 	<div class="boxTools"><a href="" class="btnTools"><i class="far fa-file-alt"></i> Texto Completo</a></div>
 	<div class="boxTools"><a href="" class="btnTools"><i class="fas fa-home"></i> Adicionar na Minha BVS</a></div>
 	<div class="boxTools"><a href="" class="btnTools"><i class="far fa-envelope"></i> Enviar por email</a></div>
