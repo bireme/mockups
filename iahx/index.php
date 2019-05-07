@@ -38,7 +38,7 @@
 				<div class="col-md-7 d-print-block">
 					<?php for ($i=0; $i < 20; $i++) { ?>
 						<div class="box1">
-							<div class="inputCheck1"><input type="checkbox"></div>
+							<div class="inputCheck1 d-print-none"><input type="checkbox"></div>
 							<div class="textArt">
 								<div class="titleArt"><a href="interna.php">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</a></div>
 								<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
