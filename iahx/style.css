@@ -139,6 +139,7 @@
 .tree li:last-child{
 	    background: #fff url(img/lastnode.png) no-repeat;
 }
+..page-link{line-height: 1;}
 /******************** Breakpoints *******************/
 @media (max-width: 768px){
 	.marginMC1{ margin-bottom: 10px;}
