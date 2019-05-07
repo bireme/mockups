@@ -17,7 +17,7 @@
 	<section class="">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7 offset-md-3">
+				<div class="col-md-7 offset-md-3 d-print-none">
 					<div class="row padding1">
 						<div class="col-md-4">
 							<!-- Organizar por: -->
@@ -35,7 +35,7 @@
 				</div>
 				<?php  include 'colunaFilter.php' ?>
 				<!-- Centro -->
-				<div class="col-md-7">
+				<div class="col-md-7 d-print-block">
 					<?php for ($i=0; $i < 20; $i++) { ?>
 						<div class="box1">
 							<div class="inputCheck1"><input type="checkbox"></div>

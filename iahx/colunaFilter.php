@@ -1,8 +1,8 @@
 <!-- Esquerda -->
-<div class="col-12"  id="btnFiltraM">
+<div class="col-12 d-print-none"  id="btnFiltraM">
 	<i class="fas fa-filter"></i> FILTRAR
 </div>
-<div class="col-md-3" id="filterEsq">
+<div class="col-md-3 d-print-none" id="filterEsq">
 	<div class="btnFilter"  data-toggle="collapse" data-target="#filtrar">
 		<span>FILTRAR</span>
 		<span class="float-right"><small>Configurações</small> <i class="fas fa-cog"></i></span>
@@ -80,23 +80,23 @@
 		<div class="box2 collapse show" id="colecoes" >
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check1"></div>
-				<label class="labelCheck1" for="check1">Bases de dados internacionais (27252844)</label>
+				<label class="labelCheck1" for="check1"><a href="">Bases de dados internacionais (27252844)</a></label>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check2"></div>
-				<label class="labelCheck1" for="check2">Bases de dados de organismos internacionais (250634)</label>
+				<label class="labelCheck1" for="check2"><a href="">Bases de dados de organismos internacionais (250634)</a></label>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check3"></div>
-				<label class="labelCheck1" for="check3">Bases de dados especializadas (108170)</label>
+				<label class="labelCheck1" for="check3"><a href="">Bases de dados especializadas (108170)</a></label>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check4"></div>
-				<label class="labelCheck1" for="check4">Bases de dados nacionais (574941)</label>
+				<label class="labelCheck1" for="check4"><a href="">Bases de dados nacionais (574941)</a></label>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check5"></div>
-				<label class="labelCheck1" for="check5">Recursos educacionais (14427)</label>
+				<label class="labelCheck1" for="check5"><a href="">Recursos educacionais (14427)</a></label>
 			</div>
 		</div>
 	</div>

@@ -24,10 +24,10 @@
 	<span class="float-left">
 		<i class="fas fa-arrow-up"></i>
 	</span>
-	<span class="to-topText float-right text-left">
+	<!-- <span class="to-topText float-right text-left">
 		VOLTAR <br>
 		PARA <br>
 		O TOPO
-	</span>
+	</span> -->
 </div>
 

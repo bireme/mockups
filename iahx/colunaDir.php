@@ -1,5 +1,5 @@
 <!-- Direita -->
-<div class="col-md-2 d-none d-sm-block">
+<div class="col-md-2 d-none d-sm-block d-print-none">
 	<div class="custom-control custom-switch d-none d-sm-block">
 		<input type="checkbox" class="custom-control-input" id="customSwitches">
 		<label class="custom-control-label" for="customSwitches">Ver mais detalhes</label>

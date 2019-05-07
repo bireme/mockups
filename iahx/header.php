@@ -21,7 +21,7 @@
 				<div class="headerSearch" >
 					<form action="search.php">
 						<div class="row">
-							<div class="col-md-3 selectBoxSearch">
+							<div class="col-md-4 selectBoxSearch">
 								<select name="" id="" class="formSelect">
 									<option placeholder="">Todos</option>
 									<option>Título</option>
@@ -30,7 +30,7 @@
 									<option>Resumo</option>
 								</select>
 							</div>
-							<div class="col-md-7 inputBoxSearch">
+							<div class="col-md-6 inputBoxSearch">
 								<input type="text" placeholder="Buscar">
 							</div>
 							<div class="col-md-2 btnBoxSearch">
