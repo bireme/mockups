@@ -25,38 +25,38 @@
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane fade show active" id="opcao1" role="tabpanel" aria-labelledby="opcao1-tab">
 							<div class="form-group">
-								<input type="checkbox" id="1"> <label for="1">Dengue</label>
+								<input type="checkbox" id="dengue1"> <label for="dengue1">Dengue</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="2"> <label for="2">Vacinas para Dengue </label>
+								<input type="checkbox" id="dengue2"> <label for="dengue2">Vacinas para Dengue </label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="3"> <label for="3">Dengue Grave</label>
+								<input type="checkbox" id="dengue3"> <label for="dengue3">Dengue Grave</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="4"> <label for="4">Insetos Vetores </label>
+								<input type="checkbox" id="dengue4"> <label for="dengue4">Insetos Vetores </label>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="opcao2" role="tabpanel" aria-labelledby="opcao2-tab">
 							<div class="form-group">
-								<input type="checkbox" id="5"> <label for="5">Zica</label>
+								<input type="checkbox" id="zica1"> <label for="zica1">Zica</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="6"> <label for="6">Zica Vírus</label>
+								<input type="checkbox" id="zica2"> <label for="zica2">Zica Vírus</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="7"> <label for="7">Diagnostico Zica</label>
+								<input type="checkbox" id="zica3"> <label for="zica3">Diagnostico Zica</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="8"> <label for="8">Infecção pelo Zica Vírus </label>
+								<input type="checkbox" id="zica4"> <label for="zica4">Infecção pelo Zica Vírus </label>
 							</div>
 						</div>
 						<div class="tab-pane fade" id="opcao3" role="tabpanel" aria-labelledby="opcao3-tab">
 							<div class="form-group">
-								<input type="checkbox" id="9"> <label for="9">Vírus Chikungunya</label>
+								<input type="checkbox" id="chikungunya1"> <label for="chikungunya1">Vírus Chikungunya</label>
 							</div>
 							<div class="form-group">
-								<input type="checkbox" id="10"> <label for="10">Febre de Chikungunya</label>
+								<input type="checkbox" id="chikungunya2"> <label for="chikungunya2">Febre de Chikungunya</label>
 							</div>
 						</div>
 					</div>
@@ -166,7 +166,7 @@
 				</div>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-block btn-primary"  data-dismiss="modal">Continue</button>
+				<button type="button" class="btn btn-block btn-primary" data-dismiss="modal" id="btnModal3">Continue</button>
 			</div>
 		</div>
 	</div>
