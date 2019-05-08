@@ -66,7 +66,7 @@
 			<label class="labelCheck1" for="f14">País de aflição</label>
 		</div>
 	</div>
-	<a href="" class="btnBlueM" id="btnFiltroD">FILTRAR</a>
+	<button type="submit" class="btnBlueM" id="btnFiltroD">Filtrar</button>
 	<div class="box2">
 		<div class="boxCheck">
 			<div class="inputCheck1"><input type="checkbox" id="t1"></div>

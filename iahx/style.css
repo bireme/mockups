@@ -62,7 +62,7 @@
 	color: #fff; margin-bottom: 5px; cursor: pointer;
 	border: 0; 
 }
-#btnFiltroD{position: sticky; top: 0; z-index: 99; width: 100%;}
+#btnFiltroD{position: sticky; top: 0; z-index: 99;}
 .btnFilter:hover{background: #464bbb;}
 .selectOrder{width: 100%; padding: 5px; font-size: 14px; border: 1px solid #ddd;}
 .formControl{
@@ -139,7 +139,20 @@
 .tree li:last-child{
 	    background: #fff url(img/lastnode.png) no-repeat;
 }
-..page-link{line-height: 1;}
+.page-link{line-height: 1;}
+.boxEvidence{
+	border-radius: 5px;
+	border:1px solid #eee; padding: 30px 15px;
+	margin-bottom: 20px; box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+	transition: all 1s ease;
+}
+.boxEvidence:hover{background: #fff;}
+.boxEviColor1{background:#edfaf5;}
+.boxEviColor2{background:#fff3ef;}
+.boxEviColor3{background:#fef4f7;}
+.boxEviColor4{background:#ecfafc;}
+.boxEviColor5{background:#dbf4f8;}
+.boxEviColor6{background:#bdf8ee;}
 /******************** Breakpoints *******************/
 @media (max-width: 768px){
 	.marginMC1{ margin-bottom: 10px;}
