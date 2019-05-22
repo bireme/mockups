@@ -28,7 +28,7 @@
 							</select>
 						</div>
 						<div class="col-md-4 text-center">
-							<a href=""><b>20</b></a> | <a href="">50</a> | <a href="">100</a>
+							<small>	Mostrar:</small> <a href=""><b>20</b></a> | <a href="">50</a> | <a href="">100</a>
 						</div>
 						<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>28.216.226</b></small></div>
 					</div>

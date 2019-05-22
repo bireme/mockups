@@ -4,7 +4,7 @@
 </div>
 <div class="col-md-3 d-print-none" id="filterEsq">
 	<div class="btnFilter"  data-toggle="collapse" data-target="#filtrar">
-		<span>FILTRAR</span>
+		<span>FILTROS</span>
 		<span class="float-right"><small>Configurações</small> <i class="fas fa-cog"></i></span>
 		<div class="clearfix"></div>
 	</div>

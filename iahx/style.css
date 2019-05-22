@@ -13,6 +13,7 @@
 	transition: background .5s ease;
 }
 .btnTools:hover{ text-decoration: none; background: #ddd; color: #333; }
+.btnToolsMain{display: block; background: #30348d; color: #fff;padding: 15px;}
 #header{background: #ededed; padding: 30px 0px 30px 0px;}
 #logo img{ max-width: 210px; }
 .box1{ background: #fff; padding: 10px; margin-bottom: 15px; position: relative;}
@@ -153,7 +154,32 @@
 .boxEviColor4{background:#ecfafc;}
 .boxEviColor5{background:#dbf4f8;}
 .boxEviColor6{background:#bdf8ee;}
+.tab-pane h1{font-size: 24px;}
+.tab-pane h2{font-size: 22px;}
+.tab-pane h3{font-size: 20px;}
+.social{ float: right; width: 40px; margin:0 0 20px 20px; position: sticky; top: 0; margin-top: 38px;}
+.mediaSocial{
+	padding: 10px; display: block;
+	font-size: 20px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 1px; transition: all .3s ease;
+}
+.mediaSocial:hover { background: #999; color: #fff; text-decoration: none; }
+.fa-facebook-f { background: #3B5998; color: white;}
+.fa-twitter { background: #55ACEE; color: white;}
+.fa-linkedin-in { background: #007bb5;  color: white;}
+.fa-whatsapp { background: #a4c639;  color: white;}
+.fa-share-alt { background: #333;  color: white;}
+#resumo, #tabResumo{width: 92%;}
 /******************** Breakpoints *******************/
+@media (max-width: 1200px){
+	#resumo, #tabResumo{width: 90%;}
+}
+@media (max-width: 992px){
+	#resumo, #tabResumo{width: 86%;}
+}
 @media (max-width: 768px){
 	.marginMC1{ margin-bottom: 10px;}
 	.marginB2{margin-bottom: 0px;}
@@ -193,6 +219,11 @@
 	#aplicarFiltro a{color: #fff;}
 	#tabResumo li{ border: 0; margin: 0 5px 5px 0; border: 1px solid #ddd; }
 	#tabResumo .active{border: 0; background: #eee;}
+}
+@media (max-width: 556px){
+	#resumo, #tabResumo{width: 100%;}
+	.social{ margin: 0 0 20px 0;float: none; width: auto; position: static;}
+	.mediaSocial{display: block;}
 }
 @media print{
 	p,a, h1,h2,h3,h4,h5,h5,	titleArt, b{

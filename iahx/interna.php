@@ -33,7 +33,7 @@
 					</div>
 
 					<div class="box4 d-print-flex-12">
-
+						<?php include 'social.php'?>	
 						<ul class="nav nav-tabs" id="tabResumo" role="tablist">
 							<li class="nav-item">
 								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">RESUMO</a>
@@ -48,6 +48,8 @@
 						<div class="tab-content" id="resumo">
 							<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 								<div class="d-none d-print-block"><b>RESUMO</b></div>
+								
+								<h2>Cabeçalho 2</h2>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam, tempora quis perferendis modi voluptatum accusantium, expedita iste reiciendis cumque velit sunt reprehenderit nesciunt culpa hic consectetur, veniam numquam voluptatibus. Dolor rerum perferendis quis, corporis minima velit unde assumenda quia, facere officiis repellendus. Tenetur excepturi alias labore, harum sed nam nisi voluptatum, rem odit eligendi, voluptatem blanditiis possimus minus fugit repellendus soluta qui quod dolor dolorem illo fugiat provident similique vero? Non soluta sunt molestiae saepe reprehenderit facere adipisci, fugit, voluptatum vitae, sapiente dolorem numquam, dignissimos. Libero, numquam officiis praesentium quo enim eum ducimus dolorum hic. Dolorem veritatis eveniet perspiciatis, quis, vitae cumque expedita rerum nesciunt repellat aliquam velit deleniti odit soluta quia iusto ipsam natus blanditiis sequi deserunt. Voluptatibus culpa non, mollitia numquam eligendi quibusdam minus nemo rem unde ipsam, dolor omnis. Unde, quia, minima quos at alias inventore earum, necessitatibus quod aut, magnam quibusdam eaque reiciendis veniam corporis laborum consequatur. Vel praesentium pernatur obcaecati error adipisci beatae, voluptatibus ratione! Cupiditate repudiandae officiis dolores, dolorem numquam ea ipsa harum iure, aliquam illo, reiciendis aut, voluptate amet quisquam eius. Impedit perspiciatis molestias sit iusto culpa aliquid, praesentium vitae placeat est excepturi necessitatibus, repudiandae? Laboriosam, iste. Dolor fugiat sit illum ut omnis? Debitis recusandae temporibus ratione minima minus quos nam delectus, nemo rem repellat molestias ipsum vel labore qui iusto nihil saepe, accusamus ut similique eligendi, nisi ducimus. Quisquam quasi, eligendi quam quod id voluptatibus, laborum corporis.
 							</div>
 							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
