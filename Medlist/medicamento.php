@@ -22,134 +22,76 @@
 				<li class="breadcrumb-item active" aria-current="page">Tiopental Sódico</li>
 			</ol>
 		</nav>
-
 		<h1 class="titulo1"><span class="colorText">Tiopental</span>  Sódico</h1>
-
-		<ul class="nav nav-tabs" id="myTab" role="tablist">
-			<li class="nav-item">
-				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#lista1" role="tab" aria-controls="home" aria-selected="true">WHO Model List of Essential Medicines</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#lista2" role="tab" aria-controls="profile" aria-selected="false">PAHO Strategic Fund Medicine List</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" id="home-tab" data-toggle="tab" href="#lista1" role="tab" aria-controls="home" aria-selected="true">WHO Model List of Essential Medicines</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link disabled" id="profile-tab" data-toggle="tab" href="#lista2" role="tab" aria-controls="profile" aria-selected="false">PAHO Strategic Fund Medicine List</a>
-			</li>
-		</ul>
 		<div class="tab-content" id="myTabContent">
 			<div class="tab-pane fade show active" id="lista1" role="tabpanel" aria-labelledby="home-tab">
 				<div class="row">
-					<div class="col-md-4">
-						<h4><b>Observações:</b></h4>
-						<b><u>WHO Model List of Essential Medicines</u></b><br>
-						<i>12.1. Oxytocics</i><br>
-						<ul>
-							<li>Outras observações: Thiopental may be used as an alternative depending on local availability and cost.</li>
-						</ul>
-					</div>
-					<div class="col-md-8">
+					<div class="col-12">
+						
 
-						<h4><b><span class="colorText">Formas</span>  Farmacêuticas</b></h4>
 						<div class="row">
 							<div class="col-12 col-md-4 medPills">
-								<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
-									<a class="nav-link active" data-toggle="pill" href="#med1" role="tab" aria-controls="v-pills-messages" aria-selected="ture">Powder for injection</a>
-									<a class="nav-link" data-toggle="pill" href="#med2" role="tab" aria-controls="v-pills-messages" aria-selected="false">Oral liquid</a>
-									<a class="nav-link" data-toggle="pill" href="#med3" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tablet (chewable)</a>
-									<a class="nav-link" data-toggle="pill" href="#med4" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tablet (scored)</a>
-									<a class="nav-link" data-toggle="pill" href="#med5" role="tab" aria-controls="v-pills-messages" aria-selected="false">Comprimido</a>
+								<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+									<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+										Powder for injection
+										<small class="navSmall">125 mg amoxicillin + 31.25 mg clavulanic acid/5 ml</small>
+									</a>
+									<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+										Oral liquid
+										<small class="navSmall">125 mg amoxicillin + 31.25 mg clavulanic acid/5 ml</small>
+									</a>
 								</div>
 							</div>
-							<div class="col-12 col-md-8">
-								<div class="tab-content substancia2" id="v-pills-tabContent">
-									<div class="tab-pane fade show active" id="med1" role="tabpanel" aria-labelledby="v-pills-home-tab">
-										<b>Composição:</b> <br> 2% (hydrochloride) + epinephrine 1:50 000
-										<hr>
-										<b>ATC:</b> N/A
+							<div class="col-12 col-md-8 medPills">
+								<div class="tab-content" id="tabMedicamentos">
+								<h4><b>Este medicamento está presente em:</b></h4>
+									<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+										<div class="table-responsive">
+											<table class="table table-bordered table-striped table-hover">
+												<thead>
+													<tr>
+														<th>Lista </th>
+														<th>Seção da Lista</th>
+														<th>Observação</th>
+													</tr>
+												</thead>
+												<tbody class="font12">
+													<tr>
+														<td><a href="">WHO Model List of Essential Medicines</a></td>
+														<td>1.1.1. Inhalational medicines</td>
+														<td>No observations</td>
+													</tr>
+													<tr>
+														<td><a href="">PAHO Strategic Fund Medicine List</a></td>
+														<td>1.1.1. Inhalational medicines</td>
+														<td>No observations</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
-									<div class="tab-pane fade" id="med2" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-										<b>Composição:</b> <br> 125 mg amoxicillin + 31.25 mg clavulanic acid/5 ml
-										<hr>
-										<b>ATC:</b> N/A
-									</div>
-									<div class="tab-pane fade" id="med3" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-										<b>Composição:</b> <br> 250 mg amoxicillin + 62.5 mg clavulanic acid/5 ml
-										<hr>
-										<b>ATC:</b> N/A
-									</div>
-									<div class="tab-pane fade" id="med4" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-										<b>Composição:</b> <br> 2% (hydrochloride) + epinephrine 1:50 000
-										<hr>
-										<b>ATC:</b> N/A
-									</div>
-									<div class="tab-pane fade" id="med5" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-										<b>Composição:</b> <br> 500 mg (as trihydrate) + 125 mg (as potassium salt)
-										<hr>
-										<b>ATC:</b> N/A
+									<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+										<div class="table-responsive">
+											<table class="table table-bordered">
+												<thead>
+													<tr>
+														<th>Lista </th>
+														<th>Seção da Lista</th>
+														<th>Observação</th>
+													</tr>
+												</thead>
+												<tbody class="font12">
+													<tr>
+														<td>WHO Model List of Essential Medicines</td>
+														<td>1.1.1. Inhalational medicines</td>
+														<td>No observations</td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="lista2" role="tabpanel" aria-labelledby="profile-tab">
-				<h4><b>Observações:</b></h4>
-				<b><u>PAHO Strategic Fund Medicine List</u></b><br>
-				<i>6.2. Antianginal medicines</i><br>
-				<ul>
-					<li>Outras observações: Limited supply options (normally, none or only one supplier identified / prequalified); may result in longer delivery times.</li>
-				</ul>
-				<i>12.1 Antianginosos</i><br>
-				<ul>
-					<li>Outras observações: Limited supply options (normally, none or only one supplier identified / prequalified); may result in longer delivery times.</li>
-				</ul>
-				<hr>
-				<h4><b><span class="colorText">Formas</span>  Farmacêuticas</b></h4>
-				<div class="row">
-					<div class="col-12 col-md-3 medPills">
-						<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
-							<a class="nav-link active" data-toggle="pill" href="#med1b" role="tab" aria-controls="v-pills-messages" aria-selected="ture">Powder for injection</a>
-							<a class="nav-link" data-toggle="pill" href="#med2b" role="tab" aria-controls="v-pills-messages" aria-selected="false">Oral liquid</a>
-							<a class="nav-link" data-toggle="pill" href="#med3b" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tablet (chewable)</a>
-							<a class="nav-link" data-toggle="pill" href="#med4b" role="tab" aria-controls="v-pills-messages" aria-selected="false">Tablet (scored)</a>
-							<a class="nav-link" data-toggle="pill" href="#med5b" role="tab" aria-controls="v-pills-messages" aria-selected="false">Comprimido</a>
-						</div>
-					</div>
-					<div class="col-12 col-md-9">
-						<div class="tab-content" id="v-pills-tabContent">
-							<div class="tab-pane fade show active" id="med1b" role="tabpanel" aria-labelledby="v-pills-home-tab">
-								<h5><b>Powder for injection</b></h5>
-								<b>Composição:</b> <br> 2% (hydrochloride) + epinephrine 1:50 000
-								<hr>
-								<b>ATC:</b> N/A
-							</div>
-							<div class="tab-pane fade" id="med2b" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-								<h5><b>Oral liquid</b></h5>
-								<b>Composição:</b> <br> 125 mg amoxicillin + 31.25 mg clavulanic acid/5 ml
-								<hr>
-								<b>ATC:</b> N/A
-							</div>
-							<div class="tab-pane fade" id="med3b" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-								<h5><b>Tablet (chewable)</b></h5>
-								<b>Composição:</b> <br> 250 mg amoxicillin + 62.5 mg clavulanic acid/5 ml
-								<hr>
-								<b>ATC:</b> N/A
-							</div>
-							<div class="tab-pane fade" id="med4b" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-								<h5><b>Tablet (scored)</b></h5>
-								<b>Composição:</b> <br> 2% (hydrochloride) + epinephrine 1:50 000
-								<hr>
-								<b>ATC:</b> N/A
-							</div>
-							<div class="tab-pane fade" id="med5b" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-								<h5><b>Comprimido</b></h5>
-								<b>Composição:</b> <br> 500 mg (as trihydrate) + 125 mg (as potassium salt)
-								<hr>
-								<b>ATC:</b> N/A
 							</div>
 						</div>
 					</div>
@@ -441,56 +383,52 @@
 						<thead>
 							<tr>
 								<th>Descrição</th>
-								<th width="150" class="text-center">Ação</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>
+									<div class="btn-group float-right">
+										<a href="pdf.php" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
+									</div>
 									<h6><b>Benzoyl peroxide for treating mild-moderate acne</b></h6>
 									Contexto: Acne vulgaris. <br>
 									Questão: Should children or adults with mild to moderate acne be treated with benzoyl peroxide compared to other topical preparations for acne? <br>
 									Idioma: Inglês
 								</td>
-								<td class="text-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
-									</div>
-								</td>
+								
 							</tr>
 
 							<tr>
 								<td>
+									<div class="btn-group float-right">
+										<a href="pdf.php" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
+									</div>
 									<h6><b>Benzoyl peroxide for treating mild-moderate acne</b></h6>
 									Contexto: Acne vulgaris. <br>
 									Questão: Should children or adults with mild to moderate acne be treated with benzoyl peroxide compared to other topical preparations for acne? <br>
 									Idioma: Inglês
 								</td>
-								<td class="text-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
-									</div>
-								</td>
+								
 							</tr>
 
 							<tr>
 								<td>
+									<div class="btn-group float-right">
+										<a href="pdf.php" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
+										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
+									</div>
 									<h6><b>Benzoyl peroxide for treating mild-moderate acne</b></h6>
 									Contexto: Acne vulgaris. <br>
 									Questão: Should children or adults with mild to moderate acne be treated with benzoyl peroxide compared to other topical preparations for acne? <br>
 									Idioma: Inglês
 								</td>
-								<td class="text-center">
-									<div class="btn-group">
-										<a href="" class="btn btn-sm btn-success" title="PDF" ><i class="far fa-file-pdf iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Download" ><i class="fas fa-download iconeSumario"></i></a>
-										<a href="" class="btn btn-sm btn-success" title="Imprimir" ><i class="fas fa-print iconeSumario"></i></a>
-									</div>
-								</td>
+								
 							</tr>
 						</tbody>
 					</table>

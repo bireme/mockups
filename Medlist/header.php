@@ -1,6 +1,16 @@
 <header>
-	<h3 class="tituloPrincial text-center">Listas Anotadas de Medicamentos e Dispositivos</h3>
-	<nav class="navbar navbar-expand-lg navbar-dark">
+	<div class="tituloPrincial">
+		<div class="container" style="position: relative;">
+				<ul id="idioma" class="">
+					<a class="" href="#">English</a>
+					<a class="" href="#">Español</a>
+					<a class="" href="#">Português</a>
+				</ul>
+				<h3 class="tituloPrincial text-center">Listas Anotadas de Medicamentos e Dispositivos</h3>
+		</div>
+	</div>
+	
+<!-- 	<nav class="navbar navbar-expand-lg navbar-dark">
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -22,7 +32,6 @@
 							<a class="dropdown-item" href="lista.php">PAHO Strategic Fund medicine List 2</a>
 							<a class="dropdown-item" href="lista.php">WHO Model Lista of Essetial Medicines (Dispositivos)</a>
 							<a class="dropdown-item" href="lista.php">PAHO Strategic Fund medicine List (Dispositivos)</a>
-							<!-- <a class="dropdown-item" href="comparar.php">Listas Nacionais</a> -->
 						</div>
 					</li>
 					<li class="nav-item">
@@ -30,14 +39,10 @@
 					</li>
 				</ul>
 				<div class="dropdown-divider"></div>
-				<ul class="navbar-nav navLang">
-					<a class="nav-link" href="#">En</a>
-					<a class="nav-link" href="#">Es</a>
-					<a class="nav-link" href="#">Pt</a>
-				</ul>
+				
 			</div>
 		</div>
-	</nav>
+	</nav> -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">

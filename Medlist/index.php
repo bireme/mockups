@@ -19,22 +19,25 @@
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="img/banner3.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
+					<img src="img/banner3.jpg" class="d-none d-md-block" alt="">
+					<img src="img/banner3M.jpg" class="d-sm-block d-md-none" alt="">
+					<div class="carousel-caption">
 						<h4>Lorem ipsum dolor sit amet.</h4>
 						<a href="" class="btn btn-info">Saiba Mais</a>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/banner.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
+					<img src="img/banner.jpg" class="d-none d-md-block" alt="">
+					<img src="img/bannerM.jpg" class="d-sm-block d-md-none" alt="">
+					<div class="carousel-caption">
 						<h4>Lorem ipsum dolor sit amet.</h4>
 						<a href="" class="btn btn-info">Saiba Mais</a>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/banner2.jpg" class="d-block w-100" alt="...">
-					<div class="carousel-caption d-none d-md-block">
+					<img src="img/banner2.jpg" class="d-none d-md-block" alt="">
+					<img src="img/banner2M.jpg" class="d-sm-block d-md-none" alt="">
+					<div class="carousel-caption">
 						<h4>Lorem ipsum dolor sit amet.</h4>
 						<a href="" class="btn btn-info">Saiba Mais</a>
 					</div>
@@ -54,13 +57,13 @@
 		<div id="homeCount">
 			<h4 class="homeCountTitle">STATISTICS</h4>
 			<div class="row text-center">
-				<div class="col">
+				<div class="col-12 col-md-4">
 					<div class="homeCountNumber counter-up" data-count-to="12000"><span></span>M</div> Medicamentos
 				</div>
-				<div class="col">
+				<div class="col-12 col-md-4">
 					<div class="homeCountNumber counter-up" data-count-to="60"><span></span>M</div> Sumários de Evidências
 				</div>
-				<div class="col">
+				<div class="col-12 col-md-4">
 					<div class="homeCountNumber counter-up" data-count-to="244"><span></span>M</div> Dispositivos Médicos
 				</div>
 			</div>
@@ -73,10 +76,10 @@
 	
 	<section class="container">
 		<div class="row">
-			<div class="col-md-10 offset-md-1">
-				<div class="row">
+			<div class="col-md-12">
+				<div class="row" id="listasHome">
 					<!-- lista 1 -->
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="homeBox">
 							<img src="img/lista1.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">WHO Model List of Essential Medicines 1</a>
@@ -85,7 +88,7 @@
 						</div>
 					</div>
 					<!-- lista 2 -->
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<div class="homeBox">
 							<img src="img/lista2.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 1</a>
@@ -94,10 +97,20 @@
 						</div>
 					</div>
 
-					<!-- lista 4 -->
-					<div class="col-md-4">
+					<!-- lista 2 -->
+					<div class="col-md-3">
 						<div class="homeBox">
 							<img src="img/lista4.png" alt="">
+							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 1</a>
+							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 2</a>
+							
+						</div>
+					</div>
+
+					<!-- lista 4 -->
+					<div class="col-md-3">
+						<div class="homeBox">
+							<img src="img/paises.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">WHO List of Essential Medicines Devices</a>
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO List of Essential Medicines Devices</a>
 						</div>
@@ -123,32 +136,6 @@
 		</div>
 	</section>
 
-
-	<!-- <section class="padding1">
-		<div class="container">
-			<h3 class="titulo1"><span class="colorText">Perfil </span> Listas</h3>
-			<hr>
-			<div class="row">
-				<div class="col-md-4 text-center publico">
-					<img src="img/iconeCientista.svg" alt="" class="img-fluid">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint optio aspernatur nihil temporibus accusamus quod consequatur illo eum non! Delectus, velit. Magnam perferendis, architecto. Aut ipsa non magni error.</p>
-					<a href="sumario.php" class="btn btn-success">Visualizar</a>
-				</div>
-				<div class="col-md-4 text-center publico">
-					<img src="img/iconeEstudante.svg" alt="" class="img-fluid">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint optio aspernatur nihil temporibus accusamus quod consequatur illo eum non! Delectus, velit. Magnam perferendis, architecto. Aut ipsa non magni error.</p>
-					<a href="sumario.php" class="btn btn-success">Visualizar</a>
-				</div>
-				<div class="col-md-4 text-center publico">
-					<img src="img/iconePesquisador.svg" alt="" class="img-fluid">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sint optio aspernatur nihil temporibus accusamus quod consequatur illo eum non! Delectus, velit. Magnam perferendis, architecto. Aut ipsa non magni error.</p>
-					<a href="sumario.php" class="btn btn-success">Visualizar</a>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-
 	<section class="sectionCinza padding1">
 		<div class="container">
 			<h3 class="titulo1"><span class="colorText">Comparar </span> Listas por Países</h3>
@@ -158,7 +145,7 @@
 					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eaque facilis, officiis nisi iste itaque recusandae consequatur porro provident dolorem quis quae voluptatem, maxime saepe quam commodi possimus autem doloribus laborum in quod illum ex quidem incidunt? Deleniti provident dolorum, eos eum corporis laborum commodi quod in asperiores earum assumenda.</p>
 					<a href="comparar.php" class="btn btn-success">Comprar Listas</a>
 				</div>
-				<div class="col-md-2 offset-md-3">
+				<div class="col-6 offset-3 col-md-5 offset-md-0 col-lg-2 offset-lg-3">
 					<img src="img/mundi.png" alt="" class="img-fluid">
 				</div>
 			</div>

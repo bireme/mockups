@@ -221,7 +221,9 @@
 			</div>
 			<div class="col-md-4  col-lg-3 col-sm-12 order-md-1">
 				<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-					<a class="nav-link navLinkList active" id="medicines1" data-toggle="pill" href="#m1" role="tab"  aria-selected="true">Anaesthetics</a>
+					<a class="nav-link navLinkList active" id="medicines1" data-toggle="pill" href="#m1" role="tab"  aria-selected="true">
+						Anaesthetics
+					</a>
 					<a class="nav-link navLinkList" id="medicines2" data-toggle="pill" href="#m2" role="tab">Analgesics, antipyretics, non-steroidal anti-inflammatory medicines (NSAIMs), medicines used to treat gout and disease modifying agents in rheumatoid disorders (DMARDs)</a>
 					<a class="nav-link navLinkList" id="medicines3" data-toggle="pill" href="#m3" role="tab">Antiallergics and medicines used in anaphylaxis</a>
 					<a class="nav-link navLinkList" id="medicines4" data-toggle="pill" href="#m4" role="tab">Antidotes and other substances used in poisonings</a>
