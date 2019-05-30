@@ -1,0 +1,85 @@
+*{font-family: 'Roboto', sans-serif;}
+.padding1{padding: 40px 0;}
+.btn-success{background: #4e7952;}
+.bgColor1{background: #4e7952;color: #fff;}
+.bgColor2{background: #669966;color: #fff;}
+.fonte1{font-size: 12px;}
+#header{background: #669966; padding: 20px 0;}
+#busca{background: #4e7952; padding: 10px 0;position: sticky; top: 0; z-index: 10;}
+#footer{padding: 20px; font-size: 12px;}
+#numeros{background: url("img/bgNumeros.jpg") no-repeat fixed center; background-size: cover; }
+#numeros h2{padding: 20px;¨position: relative;}
+	#numeros h2::after{
+		content: "";
+		position: absolute;
+		top: 70px;  left:25%;
+		background: #669966;
+		height: 1px; width: 50%;
+	}
+.numerosBox{margin: 30px 0;}
+.counter-up{font-size: 3em; font-weight: bold;}
+#consultaServico h4{background: #4e7952; color: #fff;padding: 10px; margin-top: 20px;}
+.iconeCS{color: #4e7952; font-size: 50px; line-height: 100px;transition: all .5s ease}
+#to-top{cursor: pointer;}
+#to-top:hover{color: #4e7952;}
+.slick-prev{left: 0!important;z-index: 10; top:40px!important;}
+.slick-next{right: 30px!important; z-index: 10; top:40px!important;}
+.slick-prev:before, .slick-next:before{font-size: 50px!important;}
+/*select topo*/
+.headerSearch{ background: #fff; border: 1px solid #ddd;}
+.btnBoxSearch{	text-align: right;}
+.inputBoxSearch input, 
+.selectBoxSearch select{
+	width: 100%; height: 100%; border: 0px;
+	padding: 10px; outline: none;
+}
+.formSelect{
+	-webkit-appearance: none;
+   	-moz-appearance: none;
+   	appearance: none;
+   	background: url(img/down.svg) no-repeat #fff;
+   	background-position: 100% center;
+   	border:1px solid #ddd;	border-radius: 5px;
+}
+.btnBoxSearch button{
+	background: #669966; color: #fff; border: 0; padding: 10px;
+	height: 50px; width: 50px;
+}
+.btnBoxSearch button:hover{	background: #69af69;}
+.btnBoxSearch button i{	font-size: 30px;}
+.textBTSearch{ display: none; }
+#searchLanguage{color: #fff; margin-top: 10px; display: none;}
+	#searchLanguage label{margin-right: 10px;}
+#languege{float: right; margin-top: -20px; position: absolute; right: 0;}
+#languege a{background:#4e7952;  color: #fff; font-size: 12px; padding: 5px;}
+#languege a:hover{background: #86b986; text-decoration: none;}
+.breadcrumb{background: #cee2ce!important;}
+.consultaAlfabetico{list-style: none; padding: 0; text-align: center;}
+.consultaAlfabetico span a{ border:1px solid #ddd; display: inline-block; padding: 15px; margin-bottom: 15px; font-size: 20px; font-weight: bold; transition: background .5s ease;}
+.consultaAlfabetico span a:hover{ background: #669966; color: #fff; text-decoration: none;}
+.consultaAlfabetico span .active{ background: #669966; color: #fff;}
+.tree{list-style-type: none; font-size: 14px; margin: 0; padding: 0;}
+.tree li{margin: 0; padding: 0 0 0 20px;  line-height: 25px;}
+.border-light {border-color: #6699664d!important;}
+.tab-content{border:1px solid #ddd; padding: 10px; border-top: 0;}
+.homeIconeConsulta{
+	width: 110px; height: 110px; border: 5px solid #4e7952; transition: all .5s ease;
+	border-radius: 50%; line-height: 100px; text-align: center; margin: 0 auto 15px;
+}
+.homeConsult:hover .homeIconeConsulta{border-color:#ebebeb;background: #4e7952;}
+.homeConsult:hover i{color:#ebebeb; font-size: 60px;}
+#indiceLetras{background: #f8f9fa; padding: 10px; text-align: center; margin-bottom:10px;/* position: sticky; top:70px;*/}
+.trigramaTree{background: #f9f9f9; padding: 20px; word-wrap: break-word; border-radius:0 10px 10px 0;}
+/************** Breakpoint ****************/
+@media (max-width: 768px){
+.selectBoxSearch{ border: 0;}
+	.inputBoxSearch input{border-top: 1px solid #ddd;}
+	.formSelect{ background: url(img/downMobile.svg) no-repeat #fff; background-position: 100% center;}
+	.btnBoxSearch button{padding: 10px;	width: 100%;}
+	.btnBoxSearch button i{	font-size: 15px;}
+	.textBTSearch{display: inline-block; font-weight: bold; padding-left: 10px;}
+}	
+@media (max-width: 576px){
+	#logoMain{text-align: center;}
+	#logosSecond{text-align: center; margin-top: 20px;}
+}
