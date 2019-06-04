@@ -230,8 +230,8 @@
 	transition: box-shadow 0.5s ease, background 0.5s ease;
 	min-height: 320px;
 }
-#listasHome .col-md-3:first-child .homeBox {margin-left: 30px;}
-#listasHome .col-md-3:last-child .homeBox{margin-right: 30px;}
+#listasHome .col-lg-3:first-child .homeBox {margin-left: 30px;}
+#listasHome .col-lg-3:last-child .homeBox{margin-right: 30px;}
 .homeBox:hover{
 	box-shadow: 0 0 3px rgba(0,0,0,.5);
 	background: #eee;
@@ -302,6 +302,16 @@
 .active>.navSmall{color: #fff;}
 #tabMedicamentos {padding: 0!important;}
 /********************* Breakpoint *************/
+@media (max-width: 1200px){
+	.homeBox{padding: 45px 10px 20px;}
+}
+@media (max-width: 992px){
+	#homeCount{margin-bottom: 20px;}
+	.homeBox,
+	#listasHome .col-lg-3:first-child .homeBox,
+	#listasHome .col-lg-3:last-child .homeBox{margin: 0 auto 20px 0;}
+	.homeBox{padding: 45px 30px 20px;}
+}
 @media (max-width: 768px){
 	.homeCountTitle{
 		text-align: center;
@@ -309,17 +319,17 @@
 	.tituloPrincial{font-size: 24px;}
 	.navLang{text-align: center; display:inline-block!important;}
 	.navLang .nav-link{display: inline-block!important; padding-right:10px;}
-	.homeBox{
-		padding: 35px 30px 10px;
-		margin-top: 20px;
-		min-height: auto;
-	}
 	.carousel-caption{
 		right: 5%; left: 5%;
 		padding: 10px; bottom: 10px;
 	}
 	.carousel-caption h4{
 		font-size: 18px;
+	}
+	.homeBox{
+		padding: 35px 30px 10px;
+		margin-top: 20px;
+		min-height: auto;
 	}
 	.textBtn{display: none;}
 	#search{
