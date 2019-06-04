@@ -1,11 +1,11 @@
 <!-- Esquerda -->
 <div class="col-12 d-print-none"  id="btnFiltraM">
-	<i class="fas fa-filter"></i> FILTRAR
+	<i class="fas fa-filter"></i> ADICIONAR FILTROS
 </div>
 <div class="col-md-3 d-print-none" id="filterEsq">
 	<div class="btnFilter"  data-toggle="collapse" data-target="#filtrar">
-		<span>FILTROS</span>
-		<span class="float-right"><small>Configurações</small> <i class="fas fa-cog"></i></span>
+		<span>ADICIONAR FILTROS</span>
+		<!-- <span class="float-right"><small>Configurações</small> <i class="fas fa-cog"></i></span> -->
 		<div class="clearfix"></div>
 	</div>
 	<div class="box2 collapse" id="filtrar" >
@@ -79,7 +79,7 @@
 	</div>
 	<div>
 		<div class="titleBox2" data-toggle="collapse" data-target="#colecoes">
-			Coleções <span class="acordionIcone float-right fas fa-minus"></span>
+			Coleções <span class="acordionIcone float-right fas fa-angle-up"></span>
 		</div>
 		<div class="box2 collapse show" id="colecoes" >
 			<div class="boxCheck">
@@ -108,7 +108,7 @@
 	<!-- ------------------------------------------- -->
 	<div>
 		<div class="titleBox2" data-toggle="collapse" data-target="#bases">
-			Base de Dados <span class="acordionIcone float-right fas fa-minus"></span>
+			Base de Dados <span class="acordionIcone float-right fas fa-angle-up"></span>
 		</div>
 		<div class="box2 collapse show" id="bases">
 			<div class="boxCheck">
@@ -134,7 +134,7 @@
 	<?php for ($i=1; $i < 10 ; $i++) { ?>
 		<div>
 			<div class="titleBox2" data-toggle="collapse" data-target="#C<?php echo $i; ?>">
-				Outros Filtros <?php echo $i; ?> <span class="acordionIcone float-right fas fa-caret-down"></span>
+				Outros Filtros <?php echo $i; ?> <span class="acordionIcone float-right fas fa-angle-down"></span>
 			</div>
 			<div class="box2 collapse" id="C<?php echo $i; ?>">
 				<div class="boxCheck">
