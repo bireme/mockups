@@ -18,7 +18,6 @@
 	<?php include 'header.php' ?>
 	<?php include 'nav.php' ?>
 	<?php include 'barSearch.php' ?>
-	
 	<section class="padding1">
 		<div class="container">
 			<nav aria-label="breadcrumb">
@@ -28,267 +27,145 @@
 				</ol>
 			</nav>
 
+
+			<div class="btn-group float-right">
+				<button id="btnLista" class="btn btn-success" disabled="">Lista</button>				
+				<button id="btnHierarquico" class="btn btn-success">Hierárquico</button>				
+			</div>
 			<h3 class="titleMain">Pesquisa sobre. Degue</h3>
-			
-			<?php for ($i = 0; $i <5 ; $i++) {?>
-			<!-- Incio Loop -->
-			<div class="card border-light">
-				<div class="card-header">
-					<b><?=1+$i;?> / 5 </b>
-					<span class="float-right">
-						<div class="btn-group">
-							<a href="" class="btn btn-sm btn-success"><i class="fas fa-angle-double-up"></i></a>
-							<a href="" class="btn btn-sm btn-success"><i class="fas fa-angle-up"></i></a>
-							<a href="" class="btn btn-sm btn-success"><i class="fas fa-angle-down"></i></a>
-							<a href="" class="btn btn-sm btn-success"><i class="fas fa-angle-double-down"></i></a>
-						</div>
-					</div>
-					<div class="card-body" style="font-size: 12px;">
-						<table class="table table-bordered table-sm" align="center">
-							<tbody>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Descritor <em>Inglês</em>:</td>
-									<td width="1"></td>
-									<td valign="top" align="left" width="85%"><b>Dengue</b>
-									</td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Descritor <em>Espanhol</em>:</td>
-									<td width="1"></td>
-									<td valign="top" align="left" width="85%"><b>Dengue</b></td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Descritor <em>Português</em>:</td>
-									<td width="1"></td>
-									<td valign="top" align="left" width="85%"><b>Dengue</b></td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Sinônimos <em>Português</em>:</td>
-									<td width="1">&nbsp;</td>
-									<td valign="top" align="left" width="85%">
-										Febre da Dengue<br>
-										Febre Quebra-Ossos<br>
-										Infecção pelo Vírus da Dengue<br>
-										Infecção por Vírus da Dengue<br>
-										Infecção por Vírus de Dengue
-									</td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Categoria:</td>
-									<td width="1"></td>
-									<td valign="top" align="left" width="85%">
-										<a href="">C02.081.270</a><br>
-										<a href="">C02.782.350.250.214</a><br>
-										<a href="">C02.782.417.214</a><br>
-										<a href="">SP4.001.012.148.144</a><br>
-									</td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Definição <em>Português</em>:</td>
-									<td width="1">
-										&nbsp;
-									</td>
-									<td valign="top" align="left" width="85%">
-										<div id="definition">
-											<a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Doença">Doença</a> febril aguda transmitida por picada de mosquitos AEDES infectados com o <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Vírus da Dengue">VÍRUS DA DENGUE</a>. É autolimitada e caracterizada por febre, <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Mialgia">mialgia</a>, <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Cefaleia">cefaleia</a> e <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Exantema">exantema</a>. A <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Dengue Grave">DENGUE GRAVE</a> é uma forma mais virulenta da <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Dengue">dengue.</a>&nbsp;
-										</div>
-
-									</td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">
-
-										Nota de Indexação <em>Português</em>:
-									</td>
-									<td width="1">
-										&nbsp;
-									</td>
-									<td valign="top" align="left" width="85%">
-										coordene com <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Doenças Negligenciadas">DOENÇAS NEGLIGENCIADAS</a> se pertinente; <a href="/cgi-bin/wxis1660.exe/decsserver/?IsisScript=../cgi-bin/decsserver/decsserver.xis&amp;previous_page=homepage&amp;task=exact_term&amp;interface_language=p&amp;search_language=p&amp;search_exp=Dengue Grave">DENGUE GRAVE</a> também está disponível
-									</td>
-								</tr>
-								<tr>
-									<td valign="top" align="right" colspan="2" width="15%">Qualificadores Permitidos <em>Português</em>:	</td>
-									<td width="1"></td>
-									<td valign="top" align="left" width="85%">
-										<table class="table table-striped">
-											<tbody><tr>
-												<td width="190">
-													SU <a href="">cirurgia</a>
-												</td>
-												<td width="190">
-													CL <a href="">classificação</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													CO <a href="">complicações</a>
-												</td>
-												<td width="190">
-													CN <a href="">congênito</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													DG <a href="">diagnóstico por imagem</a>
-												</td>
-												<td width="190">
-													DI <a href="">diagnóstico</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													DH <a href="">dietoterapia</a>
-												</td>
-												<td width="190">
-													EC <a href="">economia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													EM <a href="">embriologia</a>
-												</td>
-												<td width="190">
-													NU <a href="">enfermagem</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													EN <a href="">enzimologia</a>
-												</td>
-												<td width="190">
-													EP <a href="">epidemiologia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													ET <a href="">etiologia</a>
-												</td>
-												<td width="190">
-													EH <a href="">etnologia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													PP <a href="">fisiopatologia</a>
-												</td>
-												<td width="190">
-													GE <a href="">genética</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													HI <a href="">história</a>
-												</td>
-												<td width="190">
-													IM <a href="">imunologia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													CI <a href="">induzido quimicamente</a>
-												</td>
-												<td width="190">
-													CF <a href="">líquido cefalorraquidiano</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													ME <a href="">metabolismo</a>
-												</td>
-												<td width="190">
-													MI <a href="">microbiologia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													MO <a href="">mortalidade</a>
-												</td>
-												<td width="190">
-													PS <a href="">parasitologia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													PA <a href="">patologia</a>
-												</td>
-												<td width="190">
-													PC <a href="">prevenção &amp; controle</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													PX <a href="">psicologia</a>
-												</td>
-												<td width="190">
-													RT <a href="">radioterapia</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													RH <a href="">reabilitação</a>
-												</td>
-												<td width="190">
-													BL <a href="">sangue</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													TH <a href="">terapia</a>
-												</td>
-												<td width="190">
-													TM <a href="">transmissão</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													DT <a href="">tratamento farmacológico</a>
-												</td>
-												<td width="190">
-													UR <a href="">urina</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="190">
-													VE <a href="">veterinária</a>
-												</td>
-												<td width="190">
-													VI <a href="">virologia</a>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</td>
-							</tr>
-							<tr>
-								<td valign="top" align="right" colspan="2" width="15%">
-									Número do Registro:
-								</td>
-								<td width="1">
-									&nbsp;
-								</td>
-								<td valign="top" align="left" width="450">
-									3727&nbsp;
-								</td>
-							</tr>
-							<tr>
-								<td valign="top" align="right" colspan="2" width="15%">
-									Identificador Único:
-								</td>
-								<td width="1">
-									&nbsp;
-								</td>
-								<td valign="top" align="left" width="85%">
-									D003715&nbsp;
-								</td>
-							</tr>
-						</tbody>
-					</table>
+			<div id="lista">
+				<!-- Inicio Loop -->
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">Dengue Virus | Virus del Dengue | Vírus da Dengue </a><span class="badge badge-info">Termo</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">Dengue | Dengue  | Dengue  | Dengue </a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href=indices.php"">Severe Dengue | Dengue Grave | Dengue Grave </a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">Dengue Vaccines |	Vacunas contra el Dengue | Vacinas contra Dengue </a><span class="badge badge-info">Termo</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,2-epoxy-3,4-dihydroxy-1,2,3,4-tetrahydrobenzo(c)phenanthrene </a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">(4-(m-Chlorophenylcarbamoyloxy)-2-butynyl)trimethylammonium Chloride</a><span class="badge badge-info">Termo</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,2-diamino-4-nitrobenzene </a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href=indices.php"">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,4-phenylenebis(methylene)selenocyanate</a><span class="badge badge-info">Termo</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,2-epoxy-3,4-dihydroxy-1,2,3,4-tetrahydrobenzo(c)phenanthrene </a> <span class="badge badge-info">Descritor</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
 				</div>
 			</div>
-			<!-- Fim Loop -->
-			<br>
-		<?php } ?>
+			<!-- Final Loop -->
+
+			<div id="hierarquico">
+				<ul class="tree">
+					<li><a href="indices.php"><i class="fas fa-minus-circle"></i> DOENÇAS</a>
+						<ul class="tree" id="1">
+							<li><a href=""><i class="fas fa-minus-circle"></i> Víroses</a>
+								<ul class="tree">
+									<li><a href=""><i class="fas fa-minus-circle"></i> Infecções por Arbovirus</a></li>
+										<ul class="tree">
+											<li><a href=""><i class="fas fa-plus-circle"></i> Doença Equina Africanas</a></li>
+											<li><a href=""><i class="fas fa-plus-circle"></i> Bluetongue</a></li>
+											<li><a href=""><i class="fas fa-minus-circle"></i> <b>Dengue</b></a>
+												<ul class="tree">
+													<li><a href=""><i class="far fa-circle"></i> Doença Equina Africanas</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalite por Arbovirus</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalomielite Equina</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre por Flebótomos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre do Vale de Rift</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Doenças Transmitidas por Carrapatos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre Amarela</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Infecção pelo Zika virus</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<hr>
+
+				<ul class="tree">
+					<li><a href="indices.php"><i class="fas fa-minus-circle"></i> SAÚDE PÚBLICA</a>
+						<ul class="tree" id="1">
+							<li><a href=""><i class="fas fa-minus-circle"></i> Saúde Ambiental</a>
+								<ul class="tree">
+									<li><a href=""><i class="fas fa-minus-circle"></i> Saúde</a></li>
+										<ul class="tree">
+											<li><a href=""><i class="fas fa-plus-circle"></i> Doença Equina Africanas</a></li>
+											<li><a href=""><i class="fas fa-plus-circle"></i> Bluetongue</a></li>
+											<li><a href=""><i class="fas fa-minus-circle"></i> <b>Dengue</b></a>
+												<ul class="tree">
+													<li><a href=""><i class="far fa-circle"></i> Doença Equina Africanas</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalite por Arbovirus</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalomielite Equina</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre por Flebótomos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre do Vale de Rift</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Doenças Transmitidas por Carrapatos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre Amarela</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Infecção pelo Zika virus</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<hr>
+
+				<ul class="tree">
+					<li><a href="indices.php"><i class="fas fa-minus-circle"></i> DOENÇAS</a>
+						<ul class="tree" id="1">
+							<li><a href=""><i class="fas fa-minus-circle"></i> Víroses</a>
+								<ul class="tree">
+									<li><a href=""><i class="fas fa-minus-circle"></i> Infecções por Arbovirus</a></li>
+										<ul class="tree">
+											<li><a href=""><i class="fas fa-plus-circle"></i> Doença Equina Africanas</a></li>
+											<li><a href=""><i class="fas fa-plus-circle"></i> Bluetongue</a></li>
+											<li><a href=""><i class="fas fa-minus-circle"></i> <b>Dengue</b></a>
+												<ul class="tree">
+													<li><a href=""><i class="far fa-circle"></i> Doença Equina Africanas</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalite por Arbovirus</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Encefalomielite Equina</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre por Flebótomos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre do Vale de Rift</a></li>
+									<li><a href=""><i class="fas fa-plus-circle"></i> Doenças Transmitidas por Carrapatos</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Febre Amarela</a></li>
+									<li><a href=""><i class="far fa-circle"></i> Infecção pelo Zika virus</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<hr>
+			</div>
+
 		</div>
 	</section>
 

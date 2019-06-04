@@ -18,8 +18,11 @@
 	<?php include 'header.php' ?>
 	<?php include 'nav.php' ?>
 	<?php include 'barSearch.php' ?>
+	<div class="titulo1 text-center">
+		<h2>Como citar o DeCS</h2>
+	</div>
 	
-	<section class="padding1">
+	<section class="padding2">
 		<div class="container">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
@@ -28,8 +31,6 @@
 					<li class="breadcrumb-item active" aria-current="page">Índice Hierárquico</li>
 				</ol>
 			</nav>
-			<h1 class="titleMain">Como citar o DeCS</h1>
-			<hr>
 			<h3>Estilo Vancouver</h3>
 			<dl>
 				<dt>Inglês</dt>
@@ -41,6 +42,7 @@
 				<dt>Português</dt>
 				<dd>Descritores em Ciências da Saúde: DeCS [Internet]. ed. 2017. São Paulo (SP): BIREME / OPAS / OMS. 2017 [atualizado 2017 Mai; citado 2017 Jun 13]. Disponível em: <a href="http://decs.bvsalud.org">http://decs.bvsalud.org</a>.</dd>
 			</dl>
+			<div id="linha"></div>
 
 			<h3>Estilo ABNT</h3>
 			<dl>
@@ -54,6 +56,7 @@
 				<dd>Descritores em Ciências da Saúde: DeCS. *. ed. rev. e ampl. São Paulo: BIREME / OPAS / OMS, 2017. Disponível em: <a href="http://decs.bvsalud.org">http://decs.bvsalud.org</a>. Acesso em 22 de jun. 2017. <br>
 				Obs: no * pode ser colocada em qual edição está o DeCS.</dd>
 			</dl>
+			<div id="linha"></div>
 			
 			<i><b>Data de criação: 26 de junho de 2017.</b></i>
 		</section>

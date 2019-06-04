@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:400,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<?php include 'header.php' ?>
@@ -24,11 +25,24 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-					<li class="breadcrumb-item"><a href="consultaAvancada.php">Consultas</a></li>
 					<li class="breadcrumb-item active" aria-current="page">Índice Hierárquico</li>
 				</ol>
 			</nav>
-			<h1 class="titleMain">Extremidades</h1>
+			<div class="row">
+				<div class="col-md-8">		
+					<h6 class="titleMain">
+						<p><small class="badge badge-info">en</small> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p><small class="badge badge-info">es</small> Vitae eum voluptatem consequuntur quo repellat explicabo ducimus voluptatibus ullam consectetur tenetur nobis vero.</p>
+						<p><small class="badge badge-info">pt</small> Perspiciatis numquam autem voluptatem architecto odio tempore voluptate consectetur accusamus! Pariatur odit distinctio nemo reprehenderit eos aperiam!</p>
+					</h6>
+				</div>
+				<div class="col-md-4">
+					<b>Unique ID: </b>D005121 <br>
+					<b>Date Established: </b> 1966/01/01 <br>
+					<b>Date of Entry: </b> 1966/01/01 <br>
+					<b>Revision Date: </b> 2015/06/15
+				</div>
+			</div>
 			<div>
 				<hr>
 				<div class="row">
@@ -51,44 +65,35 @@
 							<div class="tab-pane fade show active" id="details" role="tabpanel">
 								<table class="table table-sm table-bordered table-striped">
 									<tr>
-										<td><b>MeSH Heading</b></td>
-										<td>Extremities</td>
-									</tr>
-									<tr>
 										<td><b>Tree Number(s)</b></td>
+										<td width="50px"></td>
 										<td>A01.378</td>
 									</tr>
 									<tr>
 										<td><b>MeSH Heading</b></td>
+										<td></td>
 										<td><b>Extremities</b></td>
 									</tr>
 									<tr>
-										<td><b>Unique ID</b></td>
-										<td>D005121</td>
-									</tr>
-									<tr>
 										<td><b>Scope Note</b></td>
-										<td>The farthest or outermost projections of the body, such as the HAND and FOOT.</td>
+										<td align="center"><a href="" style="font-size: 25px;" data-toggle="collapse" data-target="#score"><i class="fas fa-globe-americas" data-toggle="tooltip" data-placement="top" title="Mostrar Traduções"></i></a></td>
+										<td>
+											The farthest or outermost projections of the body, such as the HAND and FOOT.
+											<div class="collapse" id="score">
+												<small class="badge badge-info">es</small> - Las proyecciones más alejadas o más externas del cuerpo, como la MANO y el PIE. <br>
+												<small class="badge badge-info">pt</small> - As projeções mais distantes ou mais externas do corpo, como a mão e o pé. <br>
+											</div>
+										</td>
 									</tr>
 									<tr>
 										<td><b>Entry Term(s)</b></td>
+										<td></td>
 										<td>Limbs</td>
 									</tr>
 									<tr>
 										<td><b>Entry Combination</b></td>
+										<td></td>
 										<td><a href="">abnormalities: Limb Deformities, Congenital</a></td>
-									</tr>
-									<tr>
-										<td><b>Date Established</b></td>
-										<td>1966/01/01</td>
-									</tr>
-									<tr>
-										<td><b>Date of Entry</b></td>
-										<td>1999/01/01</td>
-									</tr>
-									<tr>
-										<td><b>Revision Date</b></td>
-										<td>2015/06/15</td>
 									</tr>
 								</table>
 							</div>

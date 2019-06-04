@@ -18,8 +18,11 @@
 	<?php include 'header.php' ?>
 	<?php include 'nav.php' ?>
 	<?php include 'barSearch.php' ?>
+	<div class="titulo1 text-center">
+		<h2>Vocabulário Estruturado</h2>
+	</div>
 	
-	<section class="padding1">
+	<section class="padding2">
 		<div class="container">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
@@ -27,10 +30,7 @@
 					<li class="breadcrumb-item"><a href="sobre.php">Sobre o DeCS</a></li>
 					<li class="breadcrumb-item active" aria-current="page">Vocabulário Estruturado</li>
 				</ol>
-			</nav>
-
-			<h1 class="titleMain">Vocabulário Estruturado</h1>
-			<hr>	
+			</nav>	
 			<div class="accordion" id="accordionExample">
 				<div class="card">
 					<div class="card-header" id="headingOne">

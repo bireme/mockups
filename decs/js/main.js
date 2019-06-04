@@ -39,13 +39,26 @@ $(function () {
 
 //Buscar
 $("#fieldSearch").click(function(){
-	$("#searchLanguage").show(200);
+	$("#navConsultaAvancada").show(200);
 	setTimeout(function () {
-		$("#searchLanguage").hide(200);
+		$("#navConsultaAvancada").hide(200);
 	}, 10000);
 });
 $("#fieldSearch").focus(function(){
-	$("#searchLanguage").show(200);
+	$("#navConsultaAvancada").show(200);
 });
 
-	
+/// Lista / Hierarquico
+
+$('#btnHierarquico').click(function(){
+	$('#hierarquico').show();
+	$('#lista').hide();
+	$('#btnHierarquico').attr('disabled','disabled');
+	$('#btnLista').removeAttr('disabled');
+})
+$('#btnLista').click(function(){
+	$('#lista').show();
+	$('#hierarquico').hide();
+	$('#btnLista').attr('disabled','disabled');
+	$('#btnHierarquico').removeAttr('disabled');
+})

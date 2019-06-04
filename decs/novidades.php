@@ -15,11 +15,14 @@
 	<link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
-	<?php include 'header.php' ?>
-	<?php include 'nav.php' ?>
-	<?php include 'barSearch.php' ?>
+	<?php include 'header.php'?>
+	<?php include 'nav.php'?>
+	<?php include 'barSearch.php'?>
+	<div class="titulo1 text-center">
+		<h2>Novidades</h2>
+	</div>
 	
-	<section class="padding1">
+	<section class="padding2">
 		<div class="container">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
@@ -27,10 +30,6 @@
 					<li class="breadcrumb-item active" aria-current="page">Novidades</li>
 				</ol>
 			</nav>
-
-			<h1 class="titleMain">Novidades</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste distinctio sed architecto rem sapiente atque itaque soluta quisquam at ex praesentium, repellendus perferendis dignissimos, recusandae nisi voluptatibus deserunt consequuntur.</p>
-			<hr>	
 			
 			<div class="accordion" id="accordionExample">
 				<?php for ($i = 2019; $i > 1998 ; $i--) {?>

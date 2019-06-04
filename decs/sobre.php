@@ -18,8 +18,11 @@
 	<?php include 'header.php' ?>
 	<?php include 'nav.php' ?>
 	<?php include 'barSearch.php' ?>
+	<div class="titulo1 text-center">
+		<h2>Vocabulário Estruturado</h2>
+	</div>
 	
-	<section class="padding1">
+	<section class="padding2">
 		<div class="container">
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
@@ -28,9 +31,8 @@
 				</ol>
 			</nav>
 
-			<h1 class="titleMain">Vocabulário Estruturado</h1>
-			<hr>	
 			<h4>Descritores em Ciências da Saúde</h4>
+			<div id="linha"></div>
 			<p class="text-justify">
 				O <a href="aboutvocabp.php"><i>vocabulário estruturado</i></a> e trilíngue DeCS - Descritores em Ciências da Saúde foi criado pela <a href="http://new.paho.org/bireme/" target="_blank"><i>BIREME</i></a> para servir como uma linguagem única na indexação de artigos de revistas científicas, livros, anais de congressos, relatórios técnicos, e outros tipos de materiais, assim como para ser usado na pesquisa e recuperação de assuntos da literatura científica nas fontes de informação disponíveis na Biblioteca Virtual em Saúde ( <a href="http://bvsalud.org/"  target="_blank">BVS</a>) como <i><a href="https://bit.ly/2qhm64W">LILACS</a></i>, <i><a href="https://bit.ly/2GOjzWl">MEDLINE</a></i> e outras.
 			</p>
@@ -45,27 +47,27 @@
 			</p>
 			<p>
 				Além dos termos médicos originais do MeSHforam desenvolvidas as áreas específicas de <i><a href="sp-hp-sh-vs_p.htm">Saúde Pública, Homeopatia, Ciência e Saúde e Vigilância Sanitária</a></i>.
-				</p>
-				<p>
-					Os conceitos que compõem o DeCS são organizados em uma <i><a href="estrutura_hierarquica2018.htm">estrutura hierárquica</a></i> permitindo a execução de pesquisa em termos mais amplos ou mais específicos ou todos os termos que pertençam a uma mesma estrutura hierárquica.
-				</p>
-				<p>
-					O DeCS é um vocabulário dinâmico totalizando 33.558 descritores e qualificadores, sendo destes 29.018 do MeSH e 4.540 exclusivamente do DeCS. Existem 7741 códigos hierárquicos em categorias DeCS, sendo que 2.309 destes códigos em 1.635 descritores MeSH. As seguintes são categorias DeCS e seus totais de descritores: Ciência e Saúde (231), Homeopatia (1.948), Saúde Pública (3.527) e Vigilância Sanitária (817). O número é maior que o total, pois um descritor pode ocorrer mais de uma vez na hierarquia. Por ser dinâmico, registra processo constante de crescimento e mutação registrando a cada ano um mínimo de 1000 interações na base de dados dentre alterações, substituições e criações de novos termos ou áreas. 
-				</p>
-				<p>
-					Com a criação das BVS, surgiram as estratégias de buscas temáticas para facilitar o trabalho de pesquisa aos temas mais importantes de cada BVS.
-				</p>
-				<p>
-					A atualização que anualmente o MeSH realiza e também as mudanças que ocorrem nas demais categorias DeCS, exigem a revisão e atualização das estratégias de busca das áreas temáticas da BVS, principalmente quanto a códigos hierárquicos. Assim, é recomendado que o grupo responsável por sua criação assegure-se de que essas estratégias possam ser revisadas anualmente antes de implementá-las. Leia página sobre <i>como <a href="revisao_estrategias_tematicas2018.htm">revisar estratégias de buscas temáticas</a></i>.
-				</p>
-				<p>	Data de atualização: 4/2018</p>
-			</div>
-		</section>
+			</p>
+			<p>
+				Os conceitos que compõem o DeCS são organizados em uma <i><a href="estrutura_hierarquica2018.htm">estrutura hierárquica</a></i> permitindo a execução de pesquisa em termos mais amplos ou mais específicos ou todos os termos que pertençam a uma mesma estrutura hierárquica.
+			</p>
+			<p>
+				O DeCS é um vocabulário dinâmico totalizando 33.558 descritores e qualificadores, sendo destes 29.018 do MeSH e 4.540 exclusivamente do DeCS. Existem 7741 códigos hierárquicos em categorias DeCS, sendo que 2.309 destes códigos em 1.635 descritores MeSH. As seguintes são categorias DeCS e seus totais de descritores: Ciência e Saúde (231), Homeopatia (1.948), Saúde Pública (3.527) e Vigilância Sanitária (817). O número é maior que o total, pois um descritor pode ocorrer mais de uma vez na hierarquia. Por ser dinâmico, registra processo constante de crescimento e mutação registrando a cada ano um mínimo de 1000 interações na base de dados dentre alterações, substituições e criações de novos termos ou áreas. 
+			</p>
+			<p>
+				Com a criação das BVS, surgiram as estratégias de buscas temáticas para facilitar o trabalho de pesquisa aos temas mais importantes de cada BVS.
+			</p>
+			<p>
+				A atualização que anualmente o MeSH realiza e também as mudanças que ocorrem nas demais categorias DeCS, exigem a revisão e atualização das estratégias de busca das áreas temáticas da BVS, principalmente quanto a códigos hierárquicos. Assim, é recomendado que o grupo responsável por sua criação assegure-se de que essas estratégias possam ser revisadas anualmente antes de implementá-las. Leia página sobre <i>como <a href="revisao_estrategias_tematicas2018.htm">revisar estratégias de buscas temáticas</a></i>.
+			</p>
+			<p>	Data de atualização: 4/2018</p>
+		</div>
+	</section>
 
-		<?php include 'footer.php' ?>
-		<script src="js/jquery-3.4.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.min.js"></script>
-		<script src="js/main.js"></script>
-	</body>
-	</html>
+	<?php include 'footer.php' ?>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -38,24 +38,6 @@
 				<div class="col-md-8">
 					<form action="resultado.php">
 						<div class="row">
-							<div class="col-12"><h4>Consulta por palavra</h4></div>
-							<div class="col-6">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="">
-								</div>
-							</div>
-							<div class="col-12">
-								<div class="form-group">
-									<label for="searchPT"><input type="radio" name="idioma" id="searchPT" checked> Português </label>
-									<label for="searchES"><input type="radio" name="idioma" id="searchES"> Espanhol </label>
-									<label for="searchEN"><input type="radio" name="idioma" id="searchEN"> Inglês </label> <br>
-								<button type="submit" class="btn btn-success">Consultar</button>
-								</div>
-							</div>
-						</div>
-						<hr>
-
-						<div class="row">
 							<div class="col-12"><h4>Outras Buscas</h4></div>
 							<div class="col-md-12">
 								<div class="row form-group">
@@ -78,27 +60,11 @@
 								</div>
 							</div>
 						</div>
-						<hr>
-						
-						<div class="row">
-							<div class="col-12"><h4>Consulta por Índice </h4></div>
-							<div class="col-md-4">
-								<div class="btn-group">
-									<a href="consultaAlfabetica.php" class="btn btn-success ">Alfabético</a>
-									<a href="consultaPermutado.php" class="btn btn-success ">Permutado</a>
-									<a href="consultaHierarquico.php" class="btn btn-success ">Hierárquico</a>
-								</div>
-							</div>
-						</div>
-
-						
 					</form>		
 				</div>
 			</div>
-			
 		</div>
 	</section>
-
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
