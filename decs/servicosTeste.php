@@ -32,7 +32,7 @@
 			</nav>
 			<div class="row">
 				<div class="col-md-4">
-					Faça sua buscar, caso tenha alguma dúvida <a href="http://wiki.reddes.bvsalud.org/index.php/Servi%C3%A7os_DeCS" target="_blank">clique aqui </a>para você como consultar
+					Efetue sua busca. Caso tenha alguma dúvida, <a href="http://wiki.reddes.bvsalud.org/index.php/Servi%C3%A7os_DeCS" target="_blank">clique aqui </a>para saber mais.
 				</div>
 				<div class="col-md-8">
 					<form action="http://decs.bvsalud.org/cgi-bin/mx/cgi=@vmx/decs/?tree_id=B01.050.150.900.649.313.988.400.112.199.120.510.550"  target="_blank">
@@ -65,7 +65,7 @@
 					</form>
 
 					<br>
-					<form action="http://trigramas.bireme.br/cgi-bin/mx/cgi=@1?collection=DeCSp&text=cardiovascula&maxrel=10&minsim=0.30&xml" target="_blank">
+					<form action="http://decs.bvsalud.org/cgi-bin/mx/cgi=@vmx/decs?lang=p&words=Cardiovascular"  target="_blank">
 						<div class="row">
 							<div class="col-12">
 								<div class="form-group">

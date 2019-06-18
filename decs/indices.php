@@ -31,9 +31,10 @@
 			<div class="row">
 				<div class="col-md-8">		
 					<h6 class="titleMain">
-						<p><small class="badge badge-info">en</small> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<p><small class="badge badge-info">es</small> Vitae eum voluptatem consequuntur quo repellat explicabo ducimus voluptatibus ullam consectetur tenetur nobis vero.</p>
-						<p><small class="badge badge-info">pt</small> Perspiciatis numquam autem voluptatem architecto odio tempore voluptate consectetur accusamus! Pariatur odit distinctio nemo reprehenderit eos aperiam!</p>
+						<p><small class="badge badge-info minWidth">pt</small> Vacinas contra Dengue</p>
+						<p><small class="badge badge-info minWidth">en</small> Vacunas contra el Dengue</p>
+						<p><small class="badge badge-info minWidth">en</small> Dengue Vaccines</p>
+						<p><small class="badge badge-info minWidth">es</small> Vaccins Dengue</p>
 					</h6>
 				</div>
 				<div class="col-md-4">
@@ -78,10 +79,11 @@
 										<td><b>Scope Note</b></td>
 										<td align="center"><a href="" style="font-size: 25px;" data-toggle="collapse" data-target="#score"><i class="fas fa-globe-americas" data-toggle="tooltip" data-placement="top" title="Mostrar Traduções"></i></a></td>
 										<td>
-											The farthest or outermost projections of the body, such as the HAND and FOOT.
+											Vacinas contra Dengue
 											<div class="collapse" id="score">
-												<small class="badge badge-info">es</small> - Las proyecciones más alejadas o más externas del cuerpo, como la MANO y el PIE. <br>
-												<small class="badge badge-info">pt</small> - As projeções mais distantes ou mais externas do corpo, como a mão e o pé. <br>
+												<small class="badge badge-info minWidth">es</small> - Vacunas contra el Dengue. <br>
+												<small class="badge badge-info minWidth">en</small> - Dengue Vaccines. <br>
+												<small class="badge badge-info minWidth">fr</small> - Vaccins Dengue. <br>
 											</div>
 										</td>
 									</tr>

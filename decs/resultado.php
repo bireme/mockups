@@ -36,6 +36,9 @@
 			<div id="lista">
 				<!-- Inicio Loop -->
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
+					<a href="indices.php">Dengue Vaccines |	Vacunas contra el Dengue | Vacinas contra Dengue | Vaccins Dengue </a><span class="badge badge-info">Termo</span>
+				</div>
+				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
 					<a href="indices.php">Dengue Virus | Virus del Dengue | Vírus da Dengue </a><span class="badge badge-info">Termo</span>
 				</div>
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
@@ -43,9 +46,6 @@
 				</div>
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
 					<a href=indices.php"">Severe Dengue | Dengue Grave | Dengue Grave </a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">Dengue Vaccines |	Vacunas contra el Dengue | Vacinas contra Dengue </a><span class="badge badge-info">Termo</span>
 				</div>
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
 					<a href="indices.php">1,2-epoxy-3,4-dihydroxy-1,2,3,4-tetrahydrobenzo(c)phenanthrene </a> <span class="badge badge-info">Descritor</span>

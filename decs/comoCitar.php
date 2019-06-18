@@ -34,31 +34,31 @@
 			<h3>Estilo Vancouver</h3>
 			<dl>
 				<dt>Inglês</dt>
-				<dd>Health Sciences Descriptors: DeCS [Internet]. 2017 ed. São Paulo (SP): BIREME / PAHO / WHO. 2017 [updated 2017 May 18; cited 2017 Jun 13]. Available from: <a href="http://decs.bvsalud.org/I/homepagei.htm">http://decs.bvsalud.org/I/homepagei.htm</a></dd>
+				<dd>Health Sciences Descriptors: DeCS [Internet]. 2019 ed. São Paulo (SP): BIREME / PAHO / WHO. 2019 [updated 2019 May 18; cited 2019 Jun 13]. Available from: <a href="index.php">http://decs.bvsalud.org/I/homepagei.htm</a></dd>
 
 				<dt>Espanhol</dt>
-				<dd>Descriptores en Ciencias de la Salud: DeCS [Internet]. ed. 2017. Sao Paulo (SP): BIREME / OPS / OMS. 2017 [actualizado 2017 May 18; citado 2017 Jun 13]. Disponible en: <a href="http://decs.bvsalud.org/E/homepagee.htm">http://decs.bvsalud.org/E/homepagee.htm</a></dd>
+				<dd>Descriptores en Ciencias de la Salud: DeCS [Internet]. ed. 2019. Sao Paulo (SP): BIREME / OPS / OMS. 2019 [actualizado 2019 May 18; citado 2019 Jun 13]. Disponible en: <a href="index.php">http://decs.bvsalud.org/E/homepagee.htm</a></dd>
 
 				<dt>Português</dt>
-				<dd>Descritores em Ciências da Saúde: DeCS [Internet]. ed. 2017. São Paulo (SP): BIREME / OPAS / OMS. 2017 [atualizado 2017 Mai; citado 2017 Jun 13]. Disponível em: <a href="http://decs.bvsalud.org">http://decs.bvsalud.org</a>.</dd>
+				<dd>Descritores em Ciências da Saúde: DeCS [Internet]. ed. 2019. São Paulo (SP): BIREME / OPAS / OMS. 2019 [atualizado 2019 Mai; citado 2019 Jun 13]. Disponível em: <a href="index.php">http://decs.bvsalud.org</a>.</dd>
 			</dl>
 			<div id="linha"></div>
 
 			<h3>Estilo ABNT</h3>
 			<dl>
 				<dt>Inglês</dt>
-				<dd>Health Sciences Descriptors: DeCS. *. rev. and enl. ed. São Paulo: BIREME / PAHO / WHO, 2017. Available from: <a href="http://decs.bvsalud.org/I/homepagei.htm">http://decs.bvsalud.org/I/homepagei.htm</a>. Access on 22 June 2017.</dd>
+				<dd>Health Sciences Descriptors: DeCS. *. rev. and enl. ed. São Paulo: BIREME / PAHO / WHO, 2019. Available from: <a href="index.php">http://decs.bvsalud.org/I/homepagei.htm</a>. Access on 22 June 2019.</dd>
 
 				<dt>Espanhol</dt>
-				<dd>Descriptores en Ciencias de la Salud: DeCS. *. ed. rev. y ampl. São Paulo: BIREME / OPS / OMS, 2017. Disponible en: <a href="http://decs.bvsalud.org/E/homepagee.htm">http://decs.bvsalud.org/E/homepagee.htm</a>. Acceso en 22 de jun. 2017.</dd>
+				<dd>Descriptores en Ciencias de la Salud: DeCS. *. ed. rev. y ampl. São Paulo: BIREME / OPS / OMS, 2019. Disponible en: <a href="index.php">http://decs.bvsalud.org/E/homepagee.htm</a>. Acceso en 22 de jun. 2019.</dd>
 				
 				<dt>Português</dt>
-				<dd>Descritores em Ciências da Saúde: DeCS. *. ed. rev. e ampl. São Paulo: BIREME / OPAS / OMS, 2017. Disponível em: <a href="http://decs.bvsalud.org">http://decs.bvsalud.org</a>. Acesso em 22 de jun. 2017. <br>
+				<dd>Descritores em Ciências da Saúde: DeCS. *. ed. rev. e ampl. São Paulo: BIREME / OPAS / OMS, 2019. Disponível em: <a href="index.php">http://decs.bvsalud.org</a>. Acesso em 22 de jun. 2019. <br>
 				Obs: no * pode ser colocada em qual edição está o DeCS.</dd>
 			</dl>
 			<div id="linha"></div>
 			
-			<i><b>Data de criação: 26 de junho de 2017.</b></i>
+			<i><b>Data de criação: 26 de junho de 2019.</b></i>
 		</section>
 
 		<?php include 'footer.php' ?>

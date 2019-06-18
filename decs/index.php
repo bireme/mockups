@@ -30,10 +30,7 @@
 					<a href="sobre.php"><img src="img/banner2.jpg" class="img-fluid d-none d-sm-block" alt="..."></a>
 					<a href="sobre.php"><img src="img/banner2M.jpg" class="img-fluid d-block d-sm-none" alt="..."></a>
 				</div>
-				<div class="carousel-item">
-					<a href="servicos.php"><img src="img/banner3.jpg" class="img-fluid d-none d-sm-block" alt="..."></a>
-					<a href="servicos.php"><img src="img/banner3M.jpg" class="img-fluid d-block d-sm-none" alt="..."></a>
-				</div>
+				
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -55,8 +52,8 @@
 					</div>
 					<h4 class="titulo2">Conheça o DeCS</h4>
 					<ul class="list-unstyle">
-						<li><a href="novidades.php">Novidades</a></li>
 						<li><a href="sobre.php">Sobre o DeCS</a></li>
+						<li><a href="novidades.php">Novidades</a></li>
 						<li><a href="comoCitar.php">Como Citar o DeCS</a></li>
 					</ul>
 				</div>
@@ -79,7 +76,6 @@
 					<h4 class="titulo2">Para Desenvolvedores</h4>
 					<ul class="list-unstyle">
 						<li><a href="servicos.php">Serviços Web do DeCS</a></li>
-						<li><a href="http://wiki.reddes.bvsalud.org/index.php/Servi%C3%A7os_DeCS" target="_blank">Web Service</a></li>
 					</ul>
 				</div>
 

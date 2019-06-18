@@ -32,27 +32,16 @@
 				</ol>
 			</nav>
 			<div class="row">
-				<div class="col-md-12"> <br>
+				<div class="col-md-4">
+					<img src="img/servicos.jpg" class="img-fluid rounded" alt="">
+				</div>
+				<div class="col-md-8"> <br>
 					<h4>Licença de uso (Gratuito)</h4>
 					<p>Para proteção dos direitos de autor, os serviços web do DeCS são oferecidos <b>gratuitamente por meio de uma licença de uso</b>. Assim, pedimos que primeiramente preencha o nosso <a href="https://goo.gl/forms/8e5YbUm500COhQGF2" target="_blank">Formulário padrão pré-Licença de uso do DeCS</a>.</p>
 					<p>Depois que recebermos esta informação, lhe enviaremos uma licença para cada idioma solicitado.</p>
 					<div id="linha"></div>
 
-					<h4>Formas de acesso</h4>
-					<p>O serviço DeCS permite a recuperação remota, via chamada http, de seus conceitos através de três tipos de busca: a <b>hierárquica, a busca por palavras e a busca por palavras com operadores booleanos</b>.</p>
-					<div id="linha"></div>
-
-					<h5>Busca hierárquica</h5>
-					<p>Permite a recuperação de termos no DeCS através do seus códigos hierárquicos. O código hierárquico é passado através do parâmetro “tree_id”.</p>
-					<div id="linha"></div>
-
-					<h5>Busca por palavras</h5>
-					<p>Permite através do parâmetro “words”, a pesquisa de “palavra a palavra”, as quais são internamente conectadas com o operador AND.</p>
-					<div id="linha"></div>
-
-					<h5>Busca por palavras com operadores booleanos</h5>
-					<p>Permite o uso de uma expressão booleana, através do parâmetro de busca “bool”, onde os termos são conectados por operadores booleanos AND, OR e AND NOT tal como no exemplo abaixo:</p>
-					<div id="linha"></div>
+					
 					<div class="text-center">
 						<div class="btn-group">
 							<a href="http://wiki.reddes.bvsalud.org/index.php/Servi%C3%A7os_DeCS" class="btn btn-success" target="_blank">Saiba como utilizar</a>
