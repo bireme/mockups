@@ -109,6 +109,4 @@
 			);
 			register_post_type( 'listas' , $argsListas );
 		}
-
-	
 ?>

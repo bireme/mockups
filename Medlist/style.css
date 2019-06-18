@@ -9,7 +9,7 @@
 .cursor{ cursor: pointer; }
 .sectionCinza{background: #eee; margin-top: 50px;}
 .sectionCinza2{background: #eceded; margin-top: 50px;}
-.tituloPrincial{background: #2e789e;  padding: 10px; margin-bottom: 10px}
+.tituloPrincial{background: #2e789e;  padding: 10px; margin-bottom: 10px;}
 .tituloPrincial h3{padding: 10px; color: #FFF; font-weight: bold; font-size: 30px; text-align: center;}
 .nav-pills{ background: #eee; }
 .nav-pills>a{ color: #333!important; }
@@ -30,7 +30,7 @@
 .nav-tabs .active{ background: #eee; }
 .nav-tabs .disabled{ color: #999!important;background: #efefef!important;}
 .navLang{
-	text-align: right;
+	text-align: right; position: absolute; top:0px;
 }
 #idioma{ text-align: right; position: absolute; top: -10px; right: 0; }
 #idioma a{color: #fff; background: #1b5c7e; padding: 7px; font-size: 12px;}
@@ -41,7 +41,7 @@
 	background: #fff;
 }
 #footer{
-	background: #dddddd; padding: 20px 0; 
+	background: #9c9c9c; padding: 20px 0; 
 	text-align: center;
 }
 #footer img{
@@ -202,9 +202,6 @@
 	background: #eee;
 	cursor: auto;
 }
-
-
-
 /************** Busca ************/
 #homeCount{
 	padding: 20px 50px 50px 50px;
@@ -223,10 +220,10 @@
 /*caixas home*/
 .homeBox{
 	background-color: #fff; 
-	padding: 45px 40px 20px; 
+	padding: 45px 40px 20px;
 	box-shadow: 0 0 3px rgba(0,0,0,.15);
 	box-sizing: border-box;
-	margin-top: -30px; text-align: center;
+	margin-top: -30px; margin-bottom: 30px; text-align: center;
 	transition: box-shadow 0.5s ease, background 0.5s ease;
 	min-height: 320px;
 }
@@ -271,7 +268,6 @@
 	color: #fff; text-shadow: 2px 2px 0 #000;
 	text-transform: uppercase;
 }
-
 #boxSearch{
 	position: absolute; top: 10px;
 }

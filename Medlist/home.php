@@ -12,15 +12,17 @@
 
 	<section class="container">
 		<div class="row">
-			<div class="col-md-10 offset-md-1">
-				<div class="row">
+			<div class="col-md-12">
+				<div class="row" id="listasHome">
 					<!-- lista 1 -->
-					<div class="col-md-4">
-						<div class="homeBox">
+					<div class="col-md-6 col-lg-3">
+						<div class="homeBox text-center">
 							<img src="<?php bloginfo('template_directory') ?>/img/lista1.png" alt="">
 							<?php 
 							$grupoListas = new WP_Query([
 								'post_type' => 'listas',
+								'orderby'			=> 'title',
+								'order'				=> 'ASC'
 							]);
 							while($grupoListas->have_posts()) : $grupoListas->the_post();
 								$grupo = get_field('grupo');
@@ -36,8 +38,8 @@
 					</div>
 
 					<!-- lista 2 -->
-					<div class="col-md-4">
-						<div class="homeBox">
+					<div class="col-md-6 col-lg-3">
+						<div class="homeBox text-center">
 							<img src="<?php bloginfo('template_directory') ?>/img/lista2.png" alt="">
 							<?php 
 
@@ -55,9 +57,9 @@
 					</div>
 
 					<!-- lista 3 -->
-					<div class="col-md-4">
-						<div class="homeBox">
-							<img src="<?php bloginfo('template_directory') ?>/img/lista4.png" alt="">
+					<div class="col-md-6 col-lg-3">
+						<div class="homeBox text-center">
+							<img src="<?php bloginfo('template_directory') ?>/img/lista3.png" alt="">
 							<?php 
 							
 							while($grupoListas->have_posts()) : $grupoListas->the_post();
@@ -72,14 +74,28 @@
 							?>
 						</div>
 					</div>
+
+					<!-- lista 4 -->
+					<div class="col-md-6 col-lg-3">
+						<div class="homeBox text-center">
+							<img src="<?php bloginfo('template_directory') ?>/img/lista4.png" alt="">
+							<?php  
+							while($grupoListas->have_posts()) : $grupoListas->the_post();
+								$grupo = get_field('grupo');
+								$titulo = get_field('titulo');
+								$link = get_field('link');
+								if ($grupo == 'Paises') {
+									?>
+									<a href="<?php echo $link; ?>" class="btn btn-sm btn-primary btn-block"><?php echo $titulo; ?></a>
+								<?php } 
+							endwhile;
+							?>
+						</div>
+					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
-
-
-
 	<section class=" padding1">
 		<div class="container">
 			<h3 class="titulo1"><span class="colorText"><?php echo pll_e('Sumários de evidência'); ?></span></h3>
