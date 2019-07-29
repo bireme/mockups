@@ -8,12 +8,11 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/favicon.png" sizes="192x192">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:400,700,900&display=swap" rel="stylesheet">
+	<link href="css/fontawesome/css/all.css" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -98,8 +97,10 @@
 			</div>
 		</div>
 	</section>
+	<?php include 'parceiros.php' ?>
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

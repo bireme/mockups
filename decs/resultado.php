@@ -8,7 +8,7 @@
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img/favicon.png" sizes="192x192">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link href="css/fontawesome/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/slick.css">
@@ -35,42 +35,44 @@
 			<h3 class="titleMain">Pesquisa sobre. Degue</h3>
 			<div id="lista">
 				<!-- Inicio Loop -->
+				<?php for ($i=0; $i < 5; $i++) { ?>
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">Dengue Vaccines |	Vacunas contra el Dengue | Vacinas contra Dengue | Vaccins Dengue </a><span class="badge badge-info">Termo</span>
+					<small class="badge badgeWarning">En</small>
+					<a href="indices.php"> Dengue Vaccines</a> | 
+					<small class="badge badgeWarning">Es</small> 
+					<a href="indices.php">Vacunas contra el Dengue</a> | 
+					<small class="badge badgeWarning">Pt</small>
+					<a href="indices.php">Vacinas contra Dengue</a> | 
+					<small class="badge badgeWarning">Fr</small> 
+					<a href="indices.php">Vaccins Dengue</a> 
+					<span class="badge badge-info">Termo</span>
 				</div>
+				<!-- Exemplo2 -->
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">Dengue Virus | Virus del Dengue | Vírus da Dengue </a><span class="badge badge-info">Termo</span>
+					<small class="badge badgeWarning">En</small>
+					<a href="indices.php">Dengue</a> | 
+					<small class="badge badgeWarning">Es</small>
+					<a href="indices.php">Dengue</a> | 
+					<small class="badge badgeWarning">Pt</small>
+					<a href="indices.php">Dengue</a> | 
+					<small class="badge badgeWarning">Fr</small>
+					<a href="indices.php">Dengue</a> 
+					<span class="badge badge-info">Termo</span>
 				</div>
+				<!-- Exemplo3 -->
 				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">Dengue | Dengue  | Dengue  | Dengue </a> <span class="badge badge-info">Descritor</span>
+					<small class="badge badgeWarning">En</small>
+					<a href="indices.php">Dengue Virus</a> | 
+					<small class="badge badgeWarning">Es</small>
+					<a href="indices.php">Virus del dengue</a> | 
+					<small class="badge badgeWarning">Pt</small>
+					<a href="indices.php">Vírus da Dengue</a> | 
+					<small class="badge badgeWarning">Fr</small>
+					<a href="indices.php">Virus de la dengue</a> 
+					<span class="badge badge-info">Descritor</span>
 				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href=indices.php"">Severe Dengue | Dengue Grave | Dengue Grave </a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,2-epoxy-3,4-dihydroxy-1,2,3,4-tetrahydrobenzo(c)phenanthrene </a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">(4-(m-Chlorophenylcarbamoyloxy)-2-butynyl)trimethylammonium Chloride</a><span class="badge badge-info">Termo</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,2-diamino-4-nitrobenzene </a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href=indices.php"">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,4-phenylenebis(methylene)selenocyanate</a><span class="badge badge-info">Termo</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,2-epoxy-3,4-dihydroxy-1,2,3,4-tetrahydrobenzo(c)phenanthrene </a> <span class="badge badge-info">Descritor</span>
-				</div>
-				<div style="border-bottom: 1px solid #ddd; padding: 10px 0;">
-					<a href="indices.php">1,8-dinitropyrene</a> <span class="badge badge-info">Descritor</span>
-				</div>
+
+				<?php } ?>
 			</div>
 			<!-- Final Loop -->
 

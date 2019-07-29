@@ -176,6 +176,8 @@
 #resumo a{color:#000;}
 .decs{border-bottom: 2px solid #55acee;}
 .decs:hover{border-width: 4px; text-decoration: none; background: #efefef;}
+.indicacoes img{ margin-bottom: 10px; border:1px solid #eee;}
+.indicacoes img:hover{ filter: grayscale(50%); }
 /******************** Breakpoints *******************/
 @media (max-width: 1200px){
 	#resumo, #tabResumo{width: 90%;}

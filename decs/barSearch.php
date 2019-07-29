@@ -10,10 +10,10 @@
 							<option>Índice Alfabético </option>
 						</select>
 					</div>
-					<div class="col-md-6 col-lg-7 inputBoxSearch">
+					<div class="col-md-6 col-lg-8 inputBoxSearch">
 						<input type="text" placeholder="Buscar" id="fieldSearch" autocomplete="off">
 					</div>
-					<div class="col-md-2 btnBoxSearch">
+					<div class="col-md-2 col-lg-1 btnBoxSearch">
 						<button type="submit">
 							<i class="fas fa-search"></i>
 							<span class="textBTSearch"> BUSCAR</span>

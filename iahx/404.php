@@ -23,25 +23,50 @@
 				</ol>
 			</nav>
 			<div class="row padding1">
-				<div class="col-md-12 box4 text-center">
-					<h1 class="title2">Error 404!</h1> <br>
-					<div class="alert alert-secondary fade show" role="alert" >
-						Sorry, the page you are looking for could not be found.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="alert alert-secondary fade show" role="alert" >
-						Desculpe, a página que você está procurando não foi encontrada.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="alert alert-secondary fade show" role="alert" >
-						Lo sentimos, la página que estás buscando no se pudo encontrar.
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
+				<div class="col-md-12 box4">
+					<h4 class="text-center">
+						<i class="fas fa-exclamation-triangle"></i> Não foram encontrados documentos para sua pesquisa! <br>
+						<small>Veja abaixo nossas sugestões para continuar sua navegação.</small>
+					</h4>
+					
+					<hr>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-6">
+									<h5>Montamos essas expressções:</h5>
+									<ul type="square">
+										<li><a href="">Dengue And Zica - Título</a></li>
+										<li><a href="">Dengue - Assunto</a></li>
+										<li><a href="">Vírus da Dengue - Resumo</a></li>
+										<li><a href="">Tratamento para Dengue</a></li>
+										<li><a href="">Prevenção da Dengue</a></li>
+										<li><a href="">Vírus da Dengue</a></li>
+										<li><a href="">Sintomas da Dengue</a></li>
+										<li><a href="">Dengue And Zica</a></li>
+										<li><a href="">Dengue AND Zica AND Chincungunha</a></li>
+									</ul>
+								</div>
+								<div class="col-md-6 indicacoes">
+									<h5>Voce quis dizer:</h5>
+									<ul type="square">
+										<li><a href="">Vírus da Dengue</a></li>
+										<li><a href="">Sintomas da Dengue</a></li>
+										<li><a href="">Dengue And Zica</a></li>
+										<li><a href="">Dengue AND Zica AND Chincungunha</a></li>
+										<li><a href="">Tratamento para Dengue</a></li>
+										<li><a href="">Prevenção da Dengue</a></li>
+										<li><a href="">Sintomas da Dengue</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<!-- <div class="col-md-4 indicacoes">
+							<a href="http://lilacs.bvsalud.org/" target="_blank"><img src="img/404-2.jpg" alt="" class="img-fluid"></a>
+							<a href="http://decs.bvsalud.org/" target="_blank"><img src="img/404-4.jpg" alt="" class="img-fluid"></a>
+							<a href="https://www.paho.org/bireme/index.php?lang=pt" target="_blank"><img src="img/404-1.jpg" alt="" class="img-fluid"></a>
+						</div> -->
 					</div>
 				</div>
 			</div>

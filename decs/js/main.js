@@ -62,3 +62,34 @@ $('#btnLista').click(function(){
 	$('#btnLista').attr('disabled','disabled');
 	$('#btnHierarquico').removeAttr('disabled');
 })
+
+// popover
+$(function () {
+	$('[data-toggle="popover"]').popover()
+})
+
+// Sliders Parceiros
+$('.sliderParceiros').slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
