@@ -9,6 +9,8 @@
 	<title>Portal Regional da BVS</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400,600,900" rel="stylesheet">
 </head>
@@ -65,6 +67,202 @@
 						<b>ASSUNTO</b><br>
 						<a href="" class="link1 decs" >Lorem ipsum</a>, <a href="" class="link1 decs" >dolor sit amet</a>, <a href="" class="link1 decs" >consectetur adipisicing elit</a></a>
 					</div>
+					<div class="titleArt"><h4><b>SIMILARES</b></h4></div>
+					<div id="similares">
+						<div class="box4" >
+							<div class="titleArt"><b>MEDILINE</b></div>
+							<hr>
+							<div class="row">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="row collapse" id="maisMediline">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="text-center similaresMais" data-toggle="collapse" data-target="#maisMediline">
+								<span class="acordionIcone fas fa-angle-down"></span>
+							</div> 
+						</div>
+						<div class="box4">
+							<div class="titleArt"><b>LILACS</b></div>
+							<hr>
+							<div class="row">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="row collapse" id="maisLilacs">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="text-center similaresMais" data-toggle="collapse" data-target="#maisLilacs">
+								<span class="acordionIcone fas fa-angle-down"></span>
+							</div> 
+						</div>
+
+
+
+						<div class="box4">
+							<div class="titleArt"><b>LIS - Localizador de Informação em Saúde</b></div>
+							<hr>
+							<div class="row">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="row collapse" id="maisLis">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="text-center similaresMais" data-toggle="collapse" data-target="#maisLis">
+								<span class="acordionIcone fas fa-angle-down"></span>
+							</div> 
+						</div>
+
+						<div class="box4">
+							<div class="titleArt"><b>MULTIMIDIA</b></div>
+							<hr>
+							<div class="row">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+
+							<div class="row collapse" id="maisMultimida">
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: Effects on the brain, gut and immune system.</a><br>
+									<a href="" class="link2">Pharmacol Res. 2017</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</a><br>
+									<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
+								</div>
+								<div class="col-md-4 similares">
+									<a href="" class="link1">Methamphetamine: an update on epidemiology, pharmacology, clinical phenomenology, and treatment literature</a><br>
+									<a href="" class="link2">Methods Mol Biol. 2012</a>
+								</div>
+							</div>
+							<div class="text-center similaresMais" data-toggle="collapse" data-target="#maisMultimida">
+								<span class="acordionIcone fas fa-angle-down"></span>
+							</div> 
+						</div>
+					</div>
 				</div>
 				<?php include 'colunaDirInter.php' ?>
 			</div>
@@ -73,6 +271,17 @@
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		$('#similares').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			infinite: true,
+			dots: false
+		});
+	</script>
 </body>
 </html>

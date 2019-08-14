@@ -14,6 +14,12 @@
 }
 .btnTools:hover{ text-decoration: none; background: #ddd; color: #333; }
 .btnToolsMain{display: block; background: #30348d; color: #fff;padding: 15px;}
+.btnFilterDate{
+	border: 1px solid #ddd; color: #fff; font-size: 18px;
+	padding:4px 10px; margin-bottom: 10px; display: inline-block;
+	transition: background .5s ease; background:#30348d;
+}
+.btnFilterDate:hover{ background:#464bbb; color: #fff;  }
 #header{background: #ededed; padding: 30px 0px 30px 0px;}
 #logo img{ max-width: 150px; }
 .box1{ background: #fff; padding: 10px; margin-bottom: 15px; position: relative;}
@@ -178,6 +184,11 @@
 .decs:hover{border-width: 4px; text-decoration: none; background: #efefef;}
 .indicacoes img{ margin-bottom: 10px; border:1px solid #eee;}
 .indicacoes img:hover{ filter: grayscale(50%); }
+.similares{ margin-bottom: 20px; }
+.similaresMais{ background: #fdfafa; font-size: 20px; cursor: pointer }
+.slick-prev:before, .slick-next:before{color: #30348d!important;}
+.slick-next{right: 10px!important; z-index: 10;}
+.slick-prev{left: 10px!important; z-index: 10;}
 /******************** Breakpoints *******************/
 @media (max-width: 1200px){
 	#resumo, #tabResumo{width: 90%;}

@@ -173,6 +173,9 @@
                 <div class="col-4">
                     <input id="range_year_end" class="form-control" type="text" name="range_year_end" value="">
                 </div>
+                <div class="col-2">
+                	<a href="" class="btnFilterDate"><i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
     </div>
