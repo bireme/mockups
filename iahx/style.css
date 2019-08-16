@@ -264,3 +264,9 @@
 	.breadcrumb, .to-top, .social{display:none!important;}
 	.decs{border-bottom: 0; transition: 0;}
 }
+/*coreçõe svg Internet Explorer Edge*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%; 
+  }
+}
