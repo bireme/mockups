@@ -22,16 +22,17 @@
 					<form action="search.php">
 						<div class="row">
 							<div class="col-md-4 selectBoxSearch">
-								<select name="" id="" class="formSelect">
-									<option placeholder="">Todos</option>
+								<select class="formSelect">
+									<option>Título, resumo, assunto</option>
 									<option>Título</option>
 									<option>Autor</option>
-									<option>Assunto</option>
+									<option>Descritor de assunto</option>
 									<option>Resumo</option>
 								</select>
 							</div>
 							<div class="col-md-6 inputBoxSearch">
-								<input type="text" placeholder="Buscar">
+								<input type="text" id="q" placeholder="Buscar">
+								<a id="speakBtn" href="#"><i class="fas fa-microphone-alt"></i></a>
 							</div>
 							<div class="col-md-2 btnBoxSearch">
 								<button type="submit">

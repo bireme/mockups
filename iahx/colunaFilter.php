@@ -159,26 +159,33 @@
 
 	<!-- ------------------------------------------- -->
 	<div>
-        <div class="titleBox2" data-toggle="collapse" data-target="#range_year">
+		<div class="titleBox2" data-toggle="collapse" data-target="#range_year">
 			Intervalo de anos <span class="acordionIcone float-right fas fa-angle-up"></span>
 		</div>
 
-        <div class="box2 collapse show" id="range_year" >
-            <a href="">Last 5 years</a><br/>
-            <a href="">Last 10 years</a><br/>
-            <div class="form-row">
-                <div class="col-4">
-                    <input id="range_year_start" class="form-control" type="text" name="range_year_start" value="">
-                </div>
-                <div class="col-4">
-                    <input id="range_year_end" class="form-control" type="text" name="range_year_end" value="">
-                </div>
-                <div class="col-2">
-                	<a href="" class="btnFilterDate"><i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div class="box2 collapse show" id="range_year" >
+			<div class="boxCheck">
+				<div class="inputCheck1"><input type="radio" id="five" name="years"></div>
+				<label class="labelCheck1" for="five">Last 5 years</label>
+			</div>
+			<div class="boxCheck">
+				<div class="inputCheck1"><input type="radio" id="ten" name="years"></div>
+				<label class="labelCheck1" for="ten">Last 10 years</label>
+			</div>
+			
+			<div class="form-row">
+				<div class="col-4">
+					<input id="range_year_start" class="form-control" type="text" name="range_year_start" value="">
+				</div>
+				<div class="col-4">
+					<input id="range_year_end" class="form-control" type="text" name="range_year_end" value="">
+				</div>
+				<div class="col-2">
+					<a href="" class="btnFilterDate"><i class="fas fa-arrow-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="aplicarFiltro">
 		<a href="">APLICAR FILTROS SELECIONADOS</a>
 	</div>

@@ -17,17 +17,10 @@
 		</div>
 	</div>
 </footer>
-
-
 <!-- seta up -->
 <div id="to-top" class="to-top d-print-none">
 	<span class="float-left">
 		<i class="fas fa-arrow-up"></i>
 	</span>
-	<!-- <span class="to-topText float-right text-left">
-		VOLTAR <br>
-		PARA <br>
-		O TOPO
-	</span> -->
 </div>
 

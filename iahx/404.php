@@ -2,17 +2,20 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-	<meta name="autor" content="">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="autor" content=" BIREME | OPAS | OMS - > Márcio Alves">
+	<meta name="keywords" content="Inserir Palavras Chaves">
+	<meta name="description" content="Inserir Descrição">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://pesquisa.teste.bvsalud.org/portal/static/regional/image/favicon.ico">
 	<title>Portal Regional da BVS</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/acessibilidade.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400,600,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
+	<?php include 'topAcessibility.php'?>
 	<?php include 'header.php' ?>
 	<section class="">
 		<div class="container">
@@ -22,7 +25,7 @@
 					<li class="breadcrumb-item active" aria-current="page">404</li>
 				</ol>
 			</nav>
-			<div class="row padding1">
+			<div class="row padding1" id="main_container">
 				<div class="col-md-12 box4">
 					<h4 class="text-center">
 						<i class="fas fa-exclamation-triangle"></i> Não foram encontrados documentos para sua pesquisa! <br>
@@ -76,6 +79,8 @@
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/accessibility.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

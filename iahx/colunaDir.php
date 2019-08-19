@@ -21,7 +21,7 @@
 	</div>
 	<div class="box3">
 		<h6 class="title1">SELEÇÃO DE CONTEÚDO</h6>
-		<textarea name="" id="resumo" rows="8" class="textarea1" data-toggle="modal" data-target="#myModal1">(instance:"regional") AND ( year_cluster:("2002") AND pais_afiliacao:("^iUnited States^eEstados"))</textarea>
+		<textarea id="resumo" rows="8" class="textarea1" data-toggle="modal" data-target="#myModal1">(instance:"regional") AND ( year_cluster:("2002") AND pais_afiliacao:("^iUnited States^eEstados"))</textarea>
 		<span class="float-right"><small><a href="">VER MAIS</a></small></span>
 		<a href="" class="btnBlueM">Buscar</a>
 	</div>

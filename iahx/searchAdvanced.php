@@ -2,17 +2,20 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-	<meta name="autor" content="">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="autor" content=" BIREME | OPAS | OMS - > Márcio Alves">
+	<meta name="keywords" content="Inserir Palavras Chaves">
+	<meta name="description" content="Inserir Descrição">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://pesquisa.teste.bvsalud.org/portal/static/regional/image/favicon.ico">
 	<title>Portal Regional da BVS</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/acessibilidade.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400,600,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
+	<?php include 'topAcessibility.php'?>
 	<?php include 'header.php' ?>
 	<section class="">
 		<div class="container">
@@ -22,12 +25,12 @@
 					<li class="breadcrumb-item active" aria-current="page">BUSCA AVANÇADA</li>
 				</ol>
 			</nav>
-			<div class="row padding1">
+			<div class="row padding1" id="main_container">
 				<div class="col-md-12 box4">
 					<h4 class="title2">BUSCA AVANÇADA</h4> <br>
-					<form action="">
+					<form action="#">
 						<b class="title2">ASSUNTO</b><br>
-						<textarea name="" id="" class="form-control formControl marginB2">(instance:"regional") AND ( year_cluster:("2002") AND pais_afiliacao:("^iUnited States^eEstados"))</textarea> 
+						<textarea name="assunto" id="assunto" class="form-control formControl marginB2">(instance:"regional") AND ( year_cluster:("2002") AND pais_afiliacao:("^iUnited States^eEstados"))</textarea> 
 
 						<div class="marginB2">
 							<b>Use o formulário abaixo para construir sua expressão de busca</b>
@@ -40,7 +43,7 @@
 								<input type="text" class="form-control formControl marginMC1">
 							</div>
 							<div class="col-md-2">
-								<select name="" id="" class="form-control formControl marginMC1">
+								<select name="todos" id="todos" class="form-control formControl marginMC1">
 									<option value="Todos">Todos</option>
 								</select>
 							</div>
@@ -126,7 +129,7 @@
 
 										<div>
 											<input type="checkbox" id="1b">
-											<label for="1"b>MEDLINE</label>	
+											<label for="1b">MEDLINE</label>	
 										</div>
 
 										<div>
@@ -197,62 +200,62 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div>
-											<input type="checkbox" id="1">
-											<label for="1">Artigo</label>	
+											<input type="checkbox" id="1d">
+											<label for="1d">Artigo</label>	
 										</div>
 
 										<div>
-											<input type="checkbox" id="2">
-											<label for="2">Monografia</label>
+											<input type="checkbox" id="2d">
+											<label for="2d">Monografia</label>
 										</div>
 										
 										<div>
-											<input type="checkbox" id="3">
-											<label for="3">Tese</label>
+											<input type="checkbox" id="3d">
+											<label for="3d">Tese</label>
 										</div>
 										
 										<div>
-											<input type="checkbox" id="4">
-											<label for="4">Congressos e conferência</label>
+											<input type="checkbox" id="4d">
+											<label for="4d">Congressos e conferência</label>
 										</div>
 
 										<div>
-											<input type="checkbox" id="5">
-											<label for="5">Não convencional</label>
+											<input type="checkbox" id="5d">
+											<label for="5d">Não convencional</label>
 										</div>
 										<div>
-											<input type="checkbox" id="6">
-											<label for="6">Terminologia</label>
+											<input type="checkbox" id="6d">
+											<label for="6d">Terminologia</label>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div>
-											<input type="checkbox" id="1">
-											<label for="1">Documento de projeto</label>	
+											<input type="checkbox" id="1e">
+											<label for="1e">Documento de projeto</label>	
 										</div>
 
 										<div>
-											<input type="checkbox" id="2">
-											<label for="2">Recurso educacional aberto</label>
+											<input type="checkbox" id="2e">
+											<label for="2e">Recurso educacional aberto</label>
 										</div>
 										
 										<div>
-											<input type="checkbox" id="3">
-											<label for="3">Pergunta e resposta</label>
+											<input type="checkbox" id="3e">
+											<label for="3e">Pergunta e resposta</label>
 										</div>
 										
 										<div>
-											<input type="checkbox" id="4">
-											<label for="4">Áudio</label>
+											<input type="checkbox" id="4e">
+											<label for="4e">Áudio</label>
 										</div>
 
 										<div>
-											<input type="checkbox" id="5">
-											<label for="5">News</label>
+											<input type="checkbox" id="5e">
+											<label for="5e">News</label>
 										</div>
 										<div>
-											<input type="checkbox" id="6">
-											<label for="6">Vídeo</label>
+											<input type="checkbox" id="6e">
+											<label for="6e">Vídeo</label>
 										</div>
 									</div>
 								</div>
@@ -393,6 +396,8 @@
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/accessibility.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

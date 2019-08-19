@@ -2,17 +2,20 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-	<meta name="autor" content="">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="autor" content=" BIREME | OPAS | OMS - > Márcio Alves">
+	<meta name="keywords" content="Inserir Palavras Chaves">
+	<meta name="description" content="Inserir Descrição">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="http://pesquisa.teste.bvsalud.org/portal/static/regional/image/favicon.ico">
 	<title>Portal Regional da BVS</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/acessibilidade.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400,600,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
+	<?php include 'topAcessibility.php'?>
 	<?php include 'header.php' ?>
 	<section class="">
 		<div class="container">
@@ -29,7 +32,7 @@
 					</div>
 				</div>
 				<!-- Centro -->
-				<div class="col-md-9">
+				<div class="col-md-9" id="main_container">
 					<?php for ($i=0; $i < 20; $i++) { ?>
 						<div class="box4">
 							<div class="titleArt"><a href="interna.php">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</a></div>
@@ -66,6 +69,8 @@
 	<?php include 'footer.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/cookie.js"></script>
+	<script src="js/accessibility.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
