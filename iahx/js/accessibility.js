@@ -67,9 +67,9 @@ var cor = $.cookie('cor');
 // Ao Abrir a pagina 
 $( window ).on( "load", function() {
 	if(cor != ''){
-		$('body').addClass('bodyBlack');
-	}else{
 		$('body').removeClass('bodyBlack');
+	}else{
+		$('body').addClass('bodyBlack');
 	}
 });
 //Ao clicar Contraste
