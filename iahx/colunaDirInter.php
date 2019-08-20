@@ -7,7 +7,7 @@
 	<div class="boxTools"><a href="" class="btnTools"><i class="fas fa-print"></i> Imprimir refernências</a></div>
 	<div class="boxTools"><a href="" class="btnTools"><i class="fas fa-upload"></i> Exportar</a></div>
 
-	<b class="title2">ARTIGOS SIMILARES</b>
+	<!-- <b class="title2">ARTIGOS SIMILARES</b>
 	<div class="box2 box2B">
 		<a href="" class="link1"><b>Methamphetamine: Effects on the brain, gut and immune system.</b></a><br>
 		<a href="" class="link2">Pharmacol Res. 2017</a>
@@ -20,7 +20,7 @@
 		<a href="" class="link1"><b>Safety of Intravenous Methamphetamine Adminstration During Ibudilast Treatment.</b></a><br>
 		<a href="" class="link2">J Clin Psychopharmacol. 2016</a>
 
-	</div>
+	</div> -->
 	<b class="title2">ATRIBUTOS DO ARTIGO</b>
 	<div class="box2 box2B">
 		<span class="atribArtigos"><b>Título:</b> Texto. <br></span>
