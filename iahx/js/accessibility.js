@@ -65,15 +65,15 @@ $('a[href="#pesquisa"]').click(function(){
 // cache contraste
 var cor = $.cookie('cor');
 // Ao Abrir a pagina 
-$( window ).on( "load", function() {
-	if(cor != ''){
+$( document ).ready(function() {
+	if(cor == '' || typeof cor === "undefined"){
 		$('body').removeClass('bodyBlack');
 	}else{
 		$('body').addClass('bodyBlack');
 	}
 });
 //Ao clicar Contraste
-$('#contraste').click(function(){
+$('#contraste').on( "click", function(){
 	if(cor == 'bodyBlack'){
 		$.cookie("cor","",{expires:1});
 	}else{

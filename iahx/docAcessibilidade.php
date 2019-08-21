@@ -32,7 +32,7 @@
 						<h4>Accessibility</h4>
 						<p>The VHL Portal follows the main accessibility recommendations indicated for the web.</p>
 						<p>The term accessibility means including people with disabilities in participating in activities such as the use of products, services and information. Some examples are buildings with wheelchair access ramps and disabled toilets..</p>
-						<p>On the internet, accessibility refers mainly to the recommendations of the W3C World Content Accessibility Guide (WCAG) in line with international recommendations, but sets standards of accessible behavior for government websites.</p>
+						<p>On the internet, accessibility refers mainly to the recommendations of the W3C World Content Accessibility Guide (WCAG) and in the case of the Brazilian Government to the e-MAG (Electronic Government Accessibility Model). E-MAG is in line with international recommendations, but sets standards of accessible behavior for government websites.</p>
 						<p>At the top of the site there is an accessibility bar where you can find standard navigation shortcuts and the option to change the contrast. These tools are available on every page of the site.</p>
 						<hr>
 
@@ -50,17 +50,35 @@
 						<hr>
 
 
-						<h4>Learn More about Accessibility</h4>
+						<h4>Terms used on this page</h4>
+						<ul>
+							<li><b>Law</b> – A law has completed the legislation process, and is put into effect as the law of the land.</li>
+							<li><b>Policy</b> – Outlines the goals of a government ministry or agency as well as the methods and principles to achieve those goals. Policies are not laws, but can lead to the development of laws.</li>
+							<li><b>Public sector</b> – Includes government and government-run or owned entities, and entities that receive government funding.</li>
+							<li><b>Private sector</b> – Businesses and organizations that are not part of the public sector, including non-profit organizations.</li>
+							<li><b>WCAG derivative</b> - Used when a standard is based on a version of the Web Content Accessibility Guidelines (WCAG), but some requirements were excluded or modified or additional non-WCAG requirements were added.</li>
+							<li><b>Procurement law</b> - A law that requires government purchase of accessible goods and services.</li>
+							<li><b>Procurement recommendation</b> - An optional, but encouraged goal to purchase accessible goods and services.</li>
+							<li><b>Mandatory policy</b> - Required accessibility goals or implementation that is not regulated by law.</li>
+						</ul>
+						<a href="https://www.w3.org/WAI/policies/" class="btn btn-primary" target="_blank">Law and Policy Overview Table</a>
+						<hr>
 
+						<h4>Policy Resources</h4>
+						<p>
+							<a href="" target="_blank">Web Accessibility Laws and Policies</a><br>
+							Lists <b>governmental</b> policies relating to web accessibility in countries and regions around the world.
+						</p>
+						<p>
+							<a href="" target="_blank">Developing Organizational Policies on Web Accessibility</a><br>
+							Describes considerations when making simple or comprehensive policies for organizations.
+						</p>
 						<p>
 							<a href="https://www.w3.org/WAI/standards-guidelines/harmonization/" target="_blank">Why Standards Harmonization is Essential to Web Accessibility</a><br>
 							Explains the key role that harmonization of standards plays in increasing the accessibility of the Web for people with disabilities.
 						</p>
-						<p>
-							<a href="https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html" target="_blank">Convention on the Rights of Persons with Disabilities (CRPD)</a>
-						</p>
 						<hr>
-						<h4>Accessibility Laws and Standards in Latin America and the Caribbean</h4>
+						<h4>Other Countries</h4>
 						<ul>
 							<li><b>Brazil</b> - <a href="http://www4.planalto.gov.br/ipcd/assuntos/legislacao">http://www4.planalto.gov.br/ipcd/assuntos/legislacao</a></li>
 							<li><b>Argentina</b> - <a href="https://www.argentina.gob.ar/andis/legislacion-sobre-discapacidad">https://www.argentina.gob.ar/andis/legislacion-sobre-discapacidad</a></li>
