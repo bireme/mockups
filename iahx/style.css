@@ -3,13 +3,14 @@
 .padding1{padding: 20px 0;}
 .marginB1{margin-bottom: 10px;}
 .marginB2{margin-bottom: 30px;}
-.btnBlue{background:#30348d; color: #fff; padding: 10px; font-size: 14px; border:0;}
+.marginTB1{margin-top: 10px; margin-bottom: 10px;}
+.btnBlue{background:#30348d; color: #fff; padding: 10px; font-size: 14px; border:0; border-radius: 3px;}
 .btnBlue:hover{background:#464bbb; color: #fff; text-decoration: none; }
-.btnBlueM{background:#30348d; color: #fff; padding: 5px 20px; font-size: 12px; border:0;}
+.btnBlueM{background:#30348d; color: #fff; padding: 5px 20px; font-size: 12px; border:0; border-radius: 3px;}
 .btnBlueM:hover{background:#464bbb; color: #fff; text-decoration: none; }
 .btnTools{
 	border: 1px solid #ddd; color: #666; font-size: 14px;
-	padding: 5px; margin-bottom: 10px; display: inline-block;
+	padding: 5px; margin-bottom: 10px; display: block;
 	transition: background .5s ease;
 }
 .btnTools:hover{ text-decoration: none; background: #ddd; color: #333; }
@@ -28,14 +29,15 @@
 .box3{margin-top: 30px;}
 .box4{background: #fff; padding: 30px; margin-bottom: 20px;}
 .titleArt{font-size: 20px; color: #30348c;}
-.titleArt a{ font-weight: 900; color: #30348c; }
-.titleArt a:hover{ font-weight: bold; color: #474bb2; }
+.titleArt a{ color: #30348c; }
+.titleArt a:hover{ color: #474bb2; }
 .author a{ color: #000; text-decoration: underline; }
 .author a:hover{color: #999;}
 .reference a,.dataArticle a{color: #000; font-weight: 600;}
 .formgroup{	margin-bottom: 10px;}
 .formgroup input[type=checkbox]{margin:5px 10px 0 0; float: left; width: 20px; background: #fff;}
 .formgroup label{min-width: 40px; max-width: 200px;}
+.titleMain1{font-size: 30px;}
 .lang{text-align: right;}
 .lang ul{list-style: none;}
 .lang ul li{display: inline-block; }
@@ -55,17 +57,18 @@
 .textarea1{ padding: 10px; color: #333; font-size: 14px;  margin-bottom: 10px; }
 #footer{font-size: 12px;}
 .boxCheck{position: relative;}
-.inputCheck1{display: inline-block; width: 20px; position: absolute; top: 5px;}
+.inputCheck1{display: inline-block; width: 60px; position: absolute; top: 5px;}
 .labelCheck1{ display: inline-block; max-width: 80%; position: relative; left: 25px;  font-weight: 600; cursor: pointer;}
 .labelCheck1:hover{ text-decoration: underline; }
+.inputCheck1 small{margin:-20px 0 0 7px; position: relative; top: -3px;}
 .labelCheck1 a{color: #333;}
 .titleBox2{
 	font-weight: 900;  margin-top: 15px; color: #30348c; padding-bottom: 5px;
 	cursor: pointer; border-bottom: 1px solid #ddd;
 }
-.textArt{position: relative; left: 25px; width: 95%;}
+.textArt{position: relative; left: 50px; width: 90%;}
 .btnFilter{
-	background: #30348d; padding: 10px; display: block;
+	background: #30348d; padding: 10px; display: block; border-radius: 3px;
 	color: #fff; margin-bottom: 5px; cursor: pointer; border: 0;
 }
 #btnFiltroD{position: sticky; top: 0; z-index: 99;}
@@ -161,6 +164,7 @@
 	.marginMC1{ margin-bottom: 10px;}
 	.marginB2{margin-bottom: 0px;}
 	#header{text-align: center;}
+	#titleMain{display: block; float: none!important;}
 	.lang{text-align: center; margin-top: 20px;}
 		.lang ul{padding: 0;}
 	.headerBt{margin-top: 20px; text-align: center;}

@@ -66,7 +66,7 @@
 			<label class="labelCheck1" for="f14">País de aflição</label>
 		</div>
 		<hr>
-		<button class="btn btn-dark btn-sm btn-block float-right">Aplicar</button>
+		<button class="btn btnBlue btn-sm btn-block float-right">Aplicar</button>
 		<div class="clearfix"></div>
 
 	</div>

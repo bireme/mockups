@@ -31,7 +31,7 @@
 				<!-- Centro -->
 				<div class="col-md-9 d-print-block">
 					<div class="box4">
-						<div class="titleArt"><b>Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</b></div>
+						<div class="titleArt">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</div>
 						<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
 						<div class="reference"><b><i><a href="">Prog Neuropsychopharmacol Biol Psychiatry</a></i>; 88: 41-52, 2019 Jan 10.</b></div>
 						<div class="dataArticle">Artigo em Inglês | <a href="">MEDLINE</a> | ID: mdl-29953935</div>

@@ -5,6 +5,7 @@
 		<label class="custom-control-label" for="customSwitches">Ver mais detalhes</label>
 	</div>
 	<div class="box3">
+		<h6 class="title1">ENVIAR PARA:</h6>
 		<div class="boxTools"><a href="" class="btnTools"><i class="far fa-envelope"></i> Enviar por email</a></div>
 		<div class="boxTools"><a href="" class="btnTools"><i class="fas fa-upload"></i> Exportar</a></div>
 		<div class="boxTools"><a href="" class="btnTools"><i class="fas fa-print"></i> Imprimir refernências</a></div>
@@ -23,6 +24,6 @@
 		<h6 class="title1">SELEÇÃO DE CONTEÚDO</h6>
 		<textarea id="resumo" rows="8" class="textarea1" data-toggle="modal" data-target="#myModal1">(instance:"regional") AND ( year_cluster:("2002") AND pais_afiliacao:("^iUnited States^eEstados"))</textarea>
 		<span class="float-right"><small><a href="">VER MAIS</a></small></span>
-		<a href="" class="btnBlueM">Buscar</a>
+		<a href="" class="btnBlueM"><i class="fas fa-search"></i></a>
 	</div>
 </div>

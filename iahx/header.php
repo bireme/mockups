@@ -6,6 +6,10 @@
 				<a href="index.php"><img src="img/BVS.svg" alt="" class="img-fluid"></a>
 			</div>
 			<div class="col-md-9">
+				<div id="titleMain" class="float-left">
+					<div class="titleMain1">Portal Regional da BVS</div>
+					<div class="titleMain2">Informação e Conhecimento para a Saúde</div>
+				</div>
 				<div class="lang">
 					<ul>
 						<li><a href="" class="active">Pt</a></li>
@@ -16,7 +20,7 @@
 				</div>
 				<div class="headerBt">
 					<a href="" class="btnBlue">Descritor de Assunto</a>
-					<a href="searchadvanced.php" class="btnBlue">Busca Avançada</a>
+					<!--a href="searchadvanced.php" class="btnBlue">Busca Avançada</a-->
 				</div>
 				<div class="headerSearch" >
 					<form action="search.php">
