@@ -63,7 +63,7 @@ $('a[href="#pesquisa"]').click(function(){
 	$("#q").focus();
 })
 // cache contraste
-var cor = $.cookie('cor');
+var cor = Cookies.get('cor');
 // Ao Abrir a pagina 
 $( document ).ready(function() {
 	if(cor == '' || typeof cor === "undefined"){
@@ -75,9 +75,9 @@ $( document ).ready(function() {
 //Ao clicar Contraste
 $('#contraste').on( "click", function(){
 	if(cor == 'bodyBlack'){
-		$.cookie("cor","",{expires:1});
+		Cookies.set('cor', '', { expires: 1 });
 	}else{
-		$.cookie("cor","bodyBlack",{expires:1}); 
+		Cookies.set('cor', 'bodyBlack', { expires: 1 });
 	}
 	$('body').toggleClass('bodyBlack');
 });
