@@ -10,6 +10,7 @@
 	<title>Portal Regional da BVS</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/acessibilidade.css">
+	<link rel="stylesheet" href="css/feedback.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
@@ -111,10 +112,12 @@
 
 
 	<?php include 'footer.php' ?>
+	<?php include 'feedback.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/cookie.js"></script>
 	<script src="js/accessibility.js"></script>
+	<script src="js/feedback.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
