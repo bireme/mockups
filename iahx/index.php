@@ -109,15 +109,12 @@
 			</div>
 		</div>
 	</div>
-
-
 	<?php include 'footer.php' ?>
 	<?php include 'feedback.php' ?>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/cookie.js"></script>
 	<script src="js/accessibility.js"></script>
-	<script src="js/feedback.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
