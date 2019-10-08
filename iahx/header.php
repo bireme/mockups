@@ -47,6 +47,7 @@
 						</div>
 					</form>
 				</div>
+				<a href="javascript:void(0)" id="btSidebar">Sidebar</a>
 			</div>
 		</div>
 	</div>

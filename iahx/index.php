@@ -12,11 +12,13 @@
 	<link rel="stylesheet" href="css/acessibilidade.css">
 	<link rel="stylesheet" href="css/feedback.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/sidebar.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
 	<?php include 'topAcessibility.php'?>
+	<?php include 'sidebar.php'?>
 	<?php include 'header.php' ?>
 	<section class="">
 		<div class="container">
@@ -116,5 +118,6 @@
 	<script src="js/cookie.js"></script>
 	<script src="js/accessibility.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/sidebar.js"></script>
 </body>
 </html>
