@@ -46,3 +46,6 @@
   margin-left: 20px;
   padding: 0;
 }
+.sidenav ul li{
+  border-bottom: 1px dotted #6858bb;
+}
