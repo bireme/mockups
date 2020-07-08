@@ -63,3 +63,7 @@ $(window).scroll(function() {
         });
     }
 });
+$('.disclaimerTransparente').click(function(){
+  $(this).parent().find(".fa-angle-down").toggleClass("fa-angle-up");
+  $('#disclaimer').toggleClass("disclaimer");
+})

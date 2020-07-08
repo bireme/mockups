@@ -15,6 +15,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
+	<div class="loading">
+		<img src="img/loading.gif" class="rounded" alt="loading">
+	</div>
 	<?php include 'topAcessibility.php'?>
 	<?php include 'header.php' ?>
 	<section class="">

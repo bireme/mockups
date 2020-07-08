@@ -30,6 +30,19 @@
 			<div class="row padding1" id="main_container">
 				<!-- Centro -->
 				<div class="col-md-9 d-print-block">
+					<div class="alert alert-warning" role="alert">
+						<h4 class="alert-heading"><i class="fas fa-exclamation-triangle"></i> Este artigo é um preprints!</h4>
+						<div id="disclaimer">
+							<p>
+							Preprints são relatos preliminares de pesquisa que não foram certificados pela revisão por pares. Eles não devem ser considerados para orientar a prática clínica ou comportamentos relacionados à saúde e não devem ser publicados na mídia como informação estabelecida.</p>
+
+							<p>Preprints publicados online permitem que os autores recebam feedback rápido, e toda a comunidade científica pode avaliar o trabalho independentemente e responder adequadamente. Estes comentários são publicados juntamente com os preprints para qualquer pessoa ler e servir como uma avaliação pós-publicação.</p>
+
+							<div class="disclaimerTransparente">
+								<br><span class="acordionIcone fas fa-angle-down" style="font-size: 25px;"></span>
+							</div>
+						</div>
+					</div>
 					<div class="box4">
 						<div class="titleArt">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</div>
 						<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
