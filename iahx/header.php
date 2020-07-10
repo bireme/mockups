@@ -47,7 +47,7 @@
 						</div>
 					</form>
 				</div>
-				<a href="javascript:void(0)" id="btSidebar">Sidebar</a>
+				<a href="javascript:void(0)" id="btSidebar">Sidebar</a> | <a href="#modalWizard" data-toggle="modal" data-target=".bd-example-modal-lg">Modal</a>
 			</div>
 		</div>
 	</div>

@@ -45,7 +45,18 @@
 					</div>
 					<div class="box4">
 						<div class="titleArt">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</div>
-						<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
+						<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin<sup class="badge badge-light">1</sup></a>; <a href="">Rädle<sup class="badge badge-light">2</sup></a>, <a href="">Marion<sup class="badge badge-light">3</sup></a>; <a href="">Beste<sup class="badge badge-light">3</sup></a>, <a href="">Christian.<sup class="badge badge-light">4</sup></a> <span id="affiliations" class="fas fa-angle-down"  data-toggle="collapse" href="#affiliationsBox" role="button"></sup>
+
+						</div>
+						<div id="affiliationsBox" class="collapse">
+							<b>Afiliação</b>
+							<ol>
+								<li>Universidade Federal do Rio Grande do Sul, Porto Alegre. Hospital de Clinicas de Porto Alegre. Porto Alegre. BR;</li>
+								<li>Universidade Federal do Rio Grande do Sul. Hospital de Clinicas de Porto Alegre. Porto Alegre. BR;</li>
+								<li>University Hospital Degli Infermi. Department of Maternal-Infant Medicine. IN;</li>
+								<li>McGill University Health Center. Montreal. CA;</li>
+							</ol>
+						</div>
 						<div class="reference"><b><i><a href="">Prog Neuropsychopharmacol Biol Psychiatry</a></i>; 88: 41-52, 2019 Jan 10.</b></div>
 						<div class="dataArticle">Artigo em Inglês | <a href="">MEDLINE</a> | ID: mdl-29953935</div>
 					</div>

@@ -63,6 +63,51 @@ $(window).scroll(function() {
         });
     }
 });
+//wizard
+$('#select1').on('change', function () {
+    if ($(this).val() == "SDG (Agenda 2030)") {
+        $('#etapa1').hide();
+        $('#etapa2').show();
+        $('#etapa3').hide();
+        $('#etapa4').hide();
+
+    }
+});
+$('#select2').on('change', function () {
+    if ($(this).val() == "Erradicação da pobreza") {
+        $('#etapa1').hide();
+        $('#etapa2').hide();
+        $('#etapa3').show();
+        $('#etapa4').hide(); 
+    }
+});
+$('#btEtapa3').on('click', function () {
+    $('#etapa1').hide();
+    $('#etapa2').hide();
+    $('#etapa3').hide();
+    $('#etapa4').show();
+});
+$('.bc1').click(function(){
+   $('#etapa1').show();
+   $('#etapa2').hide();
+   $('#etapa3').hide();
+   $('#etapa4').hide();
+   $('#select1, #select2').val('Opciones');
+})
+$('.bc2').click(function(){
+   $('#etapa1').hide();
+   $('#etapa2').show();
+   $('#etapa3').hide();
+   $('#etapa4').hide();
+   $('#select1, #select2').val('Opciones');
+})
+$('.bc3').click(function(){
+   $('#etapa1').hide();
+   $('#etapa2').hide();
+   $('#etapa3').show();
+   $('#etapa4').hide();
+})
+//preprint
 $('.disclaimerTransparente').click(function(){
   $(this).parent().find(".fa-angle-down").toggleClass("fa-angle-up");
   $('#disclaimer').toggleClass("disclaimer");
