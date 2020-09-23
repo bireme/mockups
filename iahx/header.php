@@ -12,15 +12,17 @@
 				</div>
 				<div class="lang">
 					<ul>
-						<li><a href="" class="active">Pt</a></li>
-						<li><a href="">Es</a></li>
-						<li><a href="">En</a></li>
-						<li><a href="">Fr</a></li>
+						<li><a href="" class="active">português</a></li>
+						<li><a href="">español</a></li>
+						<li><a href="">english</a></li>
+						<li><a href="">français</a></li>
 					</ul>
 				</div>
 				<div class="headerBt">
-					<a href="" class="btnBlue">Descritor de Assunto</a>
-					<!--a href="searchadvanced.php" class="btnBlue">Busca Avançada</a-->
+					<a href="" class="btnBlue">Localizar descritor de assunto</a>
+					<!-- <a href="" class="btnBlue" title="Ajuda"><i class="fas fa-question"></i></a> -->
+					<a href="searchadvanced.php" class="btnBlue">Busca Avançada</a>
+					<a href="#modalWizard" data-toggle="modal" data-target=".bd-example-modal-lg" class="btnBlue" title="Busca de evidências guiada">EVID@Easy</a>
 				</div>
 				<div class="headerSearch" >
 					<form action="search.php">
@@ -35,7 +37,7 @@
 								</select>
 							</div>
 							<div class="col-md-6 inputBoxSearch">
-								<input type="text" id="q" placeholder="Buscar">
+								<input type="text" id="q" placeholder="">
 								<a id="speakBtn" href="#"><i class="fas fa-microphone-alt"></i></a>
 							</div>
 							<div class="col-md-2 btnBoxSearch">

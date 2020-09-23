@@ -1,5 +1,5 @@
- /* @autor: BIREME | OPAS | OMS - > Márcio Alves */
- body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight: 400;}
+/* @autor: BIREME | OPAS | OMS - > Márcio Alves */
+body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight: 400;}
 .padding1{padding: 20px 0;}
 .marginB1{margin-bottom: 10px;}
 .marginB2{margin-bottom: 30px;}
@@ -45,6 +45,7 @@
 .lang ul li .active{background:#30348d; color: #fff;}
 .lang ul li a:hover{ color: #fff; text-decoration:none; background: #464bbb;}
 .headerBt{text-align: right; margin-top: 40px; margin-bottom: 20px;}
+.headerBt a{display: inline-block!important;}
 .listSelectCont{padding: 0; list-style: none;}
 .listSelectCont li{padding: 0; margin-bottom: 5px;}
 .listSelectCont li a{ color: #30348d;}
@@ -81,24 +82,24 @@
 .selectOrder{width: 100%; padding: 5px; font-size: 14px; border: 1px solid #ddd;}
 .formControl{
 	padding: .375rem .75rem; font-size: 1rem; font-weight: 400; line-height: 1.5;  color: #495057;
-   	border: 1px solid #ced4da; border-radius: 0;
+	border: 1px solid #ced4da; border-radius: 0;
 }
 .formAdvance label{ font-size: 12px; }
 .textarea2{border: 1px solid #ddd; border-radius: 0; width: 100%;}
 /*select topo*/
 .headerSearch{ background: #fff; border: 1px solid #ddd;}
-	.btnBoxSearch{	text-align: right;}
-	.inputBoxSearch input,
-	.selectBoxSearch select{width: 100%; height: 100%; border: 0px;	padding: 10px; outline: none;}
-	.formSelect{
-		-webkit-appearance: none; -moz-appearance: none; appearance: none;
-	   	background: url(img/down.svg) no-repeat #fff; background-position: 100% center;
-	   	border:1px solid #ddd;	border-radius: 5px;
-	}
-	.btnBoxSearch button{background: #30348d; color: #fff; border: 0; padding: 10px; height: 50px; width: 50px;}
-	.btnBoxSearch button:hover{	background: #464bbb;}
-	.btnBoxSearch button i{	font-size: 30px;}
-	.textBTSearch{ display: none; }
+.btnBoxSearch{	text-align: right;}
+.inputBoxSearch input,
+.selectBoxSearch select{width: 100%; height: 100%; border: 0px;	padding: 10px; outline: none;}
+.formSelect{
+	-webkit-appearance: none; -moz-appearance: none; appearance: none;
+	background: url(img/down.svg) no-repeat #fff; background-position: 100% center;
+	border:1px solid #ddd;	border-radius: 5px;
+}
+.btnBoxSearch button{background: #30348d; color: #fff; border: 0; padding: 10px; height: 50px; width: 50px;}
+.btnBoxSearch button:hover{	background: #464bbb;}
+.btnBoxSearch button i{	font-size: 30px;}
+.textBTSearch{ display: none; }
 #btnFiltraM{display: none;}
 #aplicarFiltro{ display: none;}
 .to-top {
@@ -158,6 +159,8 @@
 .slick-next{right: 10px!important; z-index: 10;}
 .slick-prev{left: 10px!important; z-index: 10;}
 #q{width: 120%;}
+
+
 .titleBox3{
 	font-weight: 900;  color: #30348c; padding-bottom: 5px;
 	cursor: pointer; border-bottom: 1px solid #ddd; margin-bottom: 10px;
@@ -166,15 +169,22 @@
 .box5{background: #ededed; border:1px solid #e4e4e4; padding: 20px 10px; font-size: 14px; margin-top: 20px;}
 .overflow1{height: 340px; overflow: auto; overflow-x:hidden}
 .overflow2{height: 80px; overflow: auto; overflow-x:hidden}
-/*wizard*/
+
+
+.padding2{padding-bottom: 5px;}
+.card-body:hover, .list-group-item:hover{
+	background: rgba(59, 44, 133, 0.1)!important;
+	border-color: #3b2c85!important; 
+}
 .wizardModalTitle{
 	background-color: #3b2c85;
 	color: #fff;
 	border-radius: 0;
 }
 .wizardModalBody{
-	background-color: #f1f1f1;
+	background-color: #fff;
 }
+
 .wizardModalfooter{
 	background-color: #fff;
 }
@@ -216,7 +226,6 @@
 .wizardColor4{
 	border-left: 5px solid darkcyan; 
 }
-/*preprint*/
 #disclaimer{
 	position: relative;
 	height: 60px;
@@ -256,6 +265,75 @@
 	margin-left:-40px;
 	margin-top:-40px;
 }
+#affiliations{
+	margin-left: 10px;
+	color: #3b2c85;
+	cursor: pointer;
+}
+#affiliations:hover{
+	color: #9e8eed;
+}
+#affiliationsBox{
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-left: 5px solid #ddd;
+	margin: 10px 0;
+	border-radius: 0 5px 5px 0;
+	font-size: 15px;
+}
+.author .badge{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+#affiliationsBox ol{
+	padding-left: 30px;
+}
+#wizardName{
+	background: #007bff;
+	padding:5px 20px;
+	position: absolute;
+	top: -30px; 
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.sw.sw-justified>.nav>li{
+	font-size: 14px;
+}
+.sw.sw-justified>.nav>li h6{
+	font-size: 15px;
+	font-weight: 600;
+	padding-bottom: 3px;
+	background: #3b2c85;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 14px;
+	min-height: 60px;
+	vertical-align: center;
+}
+.sw-theme-dots>.nav .active h6{
+	/*background: #5bc0de!important;*/
+	background-image: linear-gradient(to bottom right, #007bff, #124b5d)!important;
+	color: #ff0!important;
+	border:3px solid #00ffff;
+}
+.sw-theme-dots>.nav .nav-link.done p{
+	color: #3b2c85!important;
+	font-size: 16px;
+}
+.sw.sw-justified>.nav a{
+	color: #666;
+}
+.sw-theme-dots>.nav::before, .sw-theme-dots>.nav .nav-link::before {
+	background: #3b2c85!important;
+}
+.sw-theme-dots>.nav .nav-link.done::after{
+	background: #fdfdfd!important;
+}
+.sw-theme-dots>.nav .nav-link.active::after {
+    background-color: #fff207!important;
+}
 /******************** Breakpoints *******************/
 @media (max-width: 1200px){
 	#resumo, #tabResumo{width: 90%;}
@@ -270,7 +348,7 @@
 	#header{text-align: center;}
 	#titleMain{display: block; float: none!important;}
 	.lang{text-align: center; margin-top: 20px;}
-		.lang ul{padding: 0;}
+	.lang ul{padding: 0;}
 	.headerBt{margin-top: 20px; text-align: center;}
 	.selectBoxSearch{ border: 0;}
 	.inputBoxSearch input{border-top: 1px solid #ddd;}
@@ -300,6 +378,7 @@
 	#tabResumo .active{border: 0; background: #eee;}
 	#q{width: 100%;}
 	.overflow1, .overflow2{height: auto;}
+	.sw.sw-justified>.nav>li h6{min-height: auto;}
 }
 @media (max-width: 556px){
 	#resumo, #tabResumo{width: 100%;}
@@ -310,19 +389,19 @@
 	p,a, h1,h2,h3,h4,h5,h5,	titleArt, b{color: #000!important;}
 	.box4{padding:0;}
 	.d-print-block{max-width: 100%; flex: 0 0 100%;}
-   #resumo, #tabResumo li, .nav-tabs, #tabResumo .active{
-   	border: 0!important; background: #fff; padding: 0; margin: 0;
-   }
+	#resumo, #tabResumo li, .nav-tabs, #tabResumo .active{
+		border: 0!important; background: #fff; padding: 0; margin: 0;
+	}
 	#tabResumo, #tabResumo li{display: none;}
 	.tab-content > .tab-pane {
-	    display: block !important;
-	    opacity: 1 !important; margin-bottom: 30px;
-	    visibility: visible !important;
+		display: block !important;
+		opacity: 1 !important; margin-bottom: 30px;
+		visibility: visible !important;
 	}
 	.breadcrumb, .to-top, .social{display:none!important;}
 	.decs{border-bottom: 0;}
 }
 /*coreçõe svg Internet Explorer Edge*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  img[src$=".svg"] { width: 100%; }
+	img[src$=".svg"] { width: 100%; }
 }
