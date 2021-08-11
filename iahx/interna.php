@@ -60,6 +60,43 @@
 						<div class="reference"><b><i><a href="">Prog Neuropsychopharmacol Biol Psychiatry</a></i>; 88: 41-52, 2019 Jan 10.</b></div>
 						<div class="dataArticle">Artigo em Inglês | <a href="">MEDLINE</a> | ID: mdl-29953935</div>
 					</div>
+					<div class="box4">
+						<div>
+							<div class="semantic_box" style="margin-top: 20px;">
+								<strong>Semantic information from <a href="">SemMedBD</a> (by NLM) <span id="affiliations" class="fas fa-angle-down"  data-toggle="collapse" href="#semantic" role="button"></span></strong>
+								<div id="semantic" class="collapse">
+									Complete Response with Incomplete Platelet Recovery COMPLICATES Respiratory Distress Syndrom <br>
+									<div id="lineSemantic"></div>
+									<div id="semanticBtn">
+										<div class="d-flex justify-content-between bd-highlight mb-3">
+											<div class="p-2 bd-highlight">
+												<a href="" class="btn btn-sm btn-light">Subject</a> <br>
+												Complete Response with Incomplete Platelet Recovery
+											</div>
+											<div class="p-2 bd-highlight text-center">
+												<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
+												COMPLICATES
+											</div>
+											<div class="p-2 bd-highlight text-right">
+												<a href="" class="btn btn-sm btn-light ">Object</a> <br>
+												Respiratory Distress Syndrom
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<br><br><br><br>
+									 	
+									<div id=semantic_btns>
+										<b>Searc by:</b><br>
+										<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+COMPLICATES</a>
+										<a class="btn btn-sm btn-outline-dark">COMPLICATES+omplete Response with Incomplete Platelet Recovery</a>
+										<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
+										<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
+									</div> 	
+								</div>
+							</div>
+						</div>
+					</div>
 
 					<div class="box4 d-print-flex-12">
 						<?php include 'social.php'?>	
