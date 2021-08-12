@@ -334,6 +334,20 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 .sw-theme-dots>.nav .nav-link.active::after {
     background-color: #fff207!important;
 }
+#semantic{
+	overflow-x: scroll;
+	max-height: 400px;
+	margin-top: 20px;
+}
+.semanticContent{
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom:1px solid #ccc;
+}
+.semanticContent:nth-last-child(1){
+	border-bottom: none;
+}
 #lineSemantic{
 	z-index: 1;
 	position: absolute;
@@ -348,12 +362,21 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 	width: 100%;
 	z-index: 2;
 }
+#semantic_btns{
+	padding-top:80px;
+}
 #semantic_btns .btn{
-	margin-bottom: 3px;
+	margin-bottom:3px;
 	text-align: left;
 }
 #semantic_btns .btn:hover{
 	color: #fff;
+}
+.semanticPredicate{
+	text-align: center;
+}
+.semanticObject{
+	text-align: right;
 }
 /******************** Breakpoints *******************/
 @media (max-width: 1200px){
@@ -410,6 +433,10 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 	.overflow1, .overflow2{height: auto;}
 	#wizardName{font-size: 14px!important; margin-top: 10px;}
 	.wizardModalTitle h4{font-size: 20px!important;}
+	#lineSemantic{ display: none; }
+	#semanticBtn{position: static;}
+	.semanticPredicate, .semanticObject{text-align: left;}
+	#semantic_btns{	padding-top: 10px;}
 }
 @media (max-width: 640px){
 	.sw.sw-justified>.nav>li h6{min-height: auto;}
