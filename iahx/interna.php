@@ -67,95 +67,121 @@
 								<div id="semantic" class="collapse">
 									<!-- exemplo 1 -->
 									<div class="semanticContent">
-										Complete Response with Incomplete Platelet Recovery COMPLICATES Respiratory Distress Syndrom <br>
+										1. Headache PROCESS_OF Patients<br>
 										<div id="lineSemantic"></div>
 										<div id="semanticBtn">
 											<div class="d-md-flex justify-content-between bd-highlight mb-3">
 												<div class="p-2 bd-highlight semanticSubject">
 													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
-													Complete Response with Incomplete Platelet Recovery
+													Headache
 												</div>
 												<div class="p-2 bd-highlight semanticPredicate">
 													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
-													COMPLICATES
+													PROCESS_OF
 												</div>
 												<div class="p-2 bd-highlight semanticObject">
 													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
-													Respiratory Distress Syndrom
+													Patients
 												</div>
 											</div>
 										</div>
-										
+
 										<div id=semantic_btns>
-											<b>Searc by:</b><br>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+COMPLICATES</a>
-											<a class="btn btn-sm btn-outline-dark">COMPLICATES+omplete Response with Incomplete Platelet Recovery</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
+											<b>Search by:</b><br>
+											<a class="btn btn-sm btn-outline-dark">Headache+PROCESS_OF</a>
+											<a class="btn btn-sm btn-outline-dark">PROCESS_OF+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Headache+Patients</a>
+										</div> 
+									</div>
+									<!-- exemplo 2 -->
+									<div class="semanticContent">
+										2. Headache PROCESS_OF Patients<br>
+										<div id="lineSemantic"></div>
+										<div id="semanticBtn">
+											<div class="d-md-flex justify-content-between bd-highlight mb-3">
+												<div class="p-2 bd-highlight semanticSubject">
+													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
+													Headache
+												</div>
+												<div class="p-2 bd-highlight semanticPredicate">
+													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
+													PROCESS_OF
+												</div>
+												<div class="p-2 bd-highlight semanticObject">
+													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
+													Patients
+												</div>
+											</div>
+										</div>
+
+										<div id=semantic_btns>
+											<b>Search by:</b><br>
+											<a class="btn btn-sm btn-outline-dark">Headache+PROCESS_OF</a>
+											<a class="btn btn-sm btn-outline-dark">PROCESS_OF+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Headache+Patients</a>
+										</div> 
+									</div>
+									<!-- exemplo 3 -->
+									<div class="semanticContent">
+										3. Headache PROCESS_OF Patients<br>
+										<div id="lineSemantic"></div>
+										<div id="semanticBtn">
+											<div class="d-md-flex justify-content-between bd-highlight mb-3">
+												<div class="p-2 bd-highlight semanticSubject">
+													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
+													Headache
+												</div>
+												<div class="p-2 bd-highlight semanticPredicate">
+													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
+													PROCESS_OF
+												</div>
+												<div class="p-2 bd-highlight semanticObject">
+													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
+													Patients
+												</div>
+											</div>
+										</div>
+
+										<div id=semantic_btns>
+											<b>Search by:</b><br>
+											<a class="btn btn-sm btn-outline-dark">Headache+PROCESS_OF</a>
+											<a class="btn btn-sm btn-outline-dark">PROCESS_OF+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Headache+Patients</a>
+										</div> 
+									</div>
+									<!-- exemplo 4 -->
+									<div class="semanticContent">
+										4. Headache PROCESS_OF Patients<br>
+										<div id="lineSemantic"></div>
+										<div id="semanticBtn">
+											<div class="d-md-flex justify-content-between bd-highlight mb-3">
+												<div class="p-2 bd-highlight semanticSubject">
+													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
+													Headache
+												</div>
+												<div class="p-2 bd-highlight semanticPredicate">
+													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
+													PROCESS_OF
+												</div>
+												<div class="p-2 bd-highlight semanticObject">
+													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
+													Patients
+												</div>
+											</div>
+										</div>
+
+										<div id=semantic_btns>
+											<b>Search by:</b><br>
+											<a class="btn btn-sm btn-outline-dark">Headache+PROCESS_OF</a>
+											<a class="btn btn-sm btn-outline-dark">PROCESS_OF+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Patients</a>
+											<a class="btn btn-sm btn-outline-dark">Headache+Headache+Patients</a>
 										</div> 
 									</div>
 									
-									<!-- exemplo 2 -->
-									<div class="semanticContent">
-										Complete Response with Incomplete Platelet Recovery COMPLICATES Respiratory Distress Syndrom <br>
-										<div id="lineSemantic"></div>
-										<div id="semanticBtn">
-											<div class="d-md-flex justify-content-between bd-highlight mb-3">
-												<div class="p-2 bd-highlight semanticSubject">
-													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
-													Complete Response with Incomplete Platelet Recovery
-												</div>
-												<div class="p-2 bd-highlight semanticPredicate">
-													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
-													COMPLICATES
-												</div>
-												<div class="p-2 bd-highlight semanticObject">
-													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
-													Respiratory Distress Syndrom
-												</div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										
-										<div id=semantic_btns>
-											<b>Searc by:</b><br>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+COMPLICATES</a>
-											<a class="btn btn-sm btn-outline-dark">COMPLICATES+omplete Response with Incomplete Platelet Recovery</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
-										</div> 
-									</div>	
-
-									<!-- exemplo 3 -->
-									<div class="semanticContent">
-										Complete Response with Incomplete Platelet Recovery COMPLICATES Respiratory Distress Syndrom <br>
-										<div id="lineSemantic"></div>
-										<div id="semanticBtn">
-											<div class="d-md-flex justify-content-between bd-highlight mb-3">
-												<div class="p-2 bd-highlight semanticSubject">
-													<a href="" class="btn btn-sm btn-light">Subject</a> <br>
-													Complete Response with Incomplete Platelet Recovery
-												</div>
-												<div class="p-2 bd-highlight semanticPredicate">
-													<a href="" class="btn btn-sm btn-light">Predicate</a> <br>
-													COMPLICATES
-												</div>
-												<div class="p-2 bd-highlight semanticObject">
-													<a href="" class="btn btn-sm btn-light ">Object</a> <br>
-													Respiratory Distress Syndrom
-												</div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										
-										<div id=semantic_btns>
-											<b>Searc by:</b><br>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+COMPLICATES</a>
-											<a class="btn btn-sm btn-outline-dark">COMPLICATES+omplete Response with Incomplete Platelet Recovery</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
-											<a class="btn btn-sm btn-outline-dark">Complete Response with Incomplete Platelet Recovery+Complete Response with Incomplete Platelet Recovery+Respiratory Distress Syndrom</a>
-										</div> 
-									</div>	
 								</div>
 							</div>
 						</div>

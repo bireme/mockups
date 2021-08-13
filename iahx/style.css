@@ -335,23 +335,28 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
     background-color: #fff207!important;
 }
 #semantic{
-	overflow-x: scroll;
-	max-height: 400px;
+	/*overflow-x: scroll;*/
+	/*max-height: 400px;*/
 	margin-top: 20px;
 }
 .semanticContent{
 	position: relative;
 	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom:1px solid #ccc;
+	padding: 20px;
+	border:1px solid #ccc;
+	border-radius: 3px;
+	border-left:5px solid #d5d7ff ;
 }
-.semanticContent:nth-last-child(1){
-	border-bottom: none;
+.semanticContent:nth-child(odd){
+	background-color: #f9f9f9;
+}
+.semanticContent .btn-light{
+	background: #e2e2e2;
 }
 #lineSemantic{
 	z-index: 1;
 	position: absolute;
-	top: 45px;
+	top: 65px;
 	left: 5%;
 	height: 4px;
 	width: 90%;
@@ -359,7 +364,7 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 }
 #semanticBtn{
 	position: absolute;
-	width: 100%;
+	width: 95%;
 	z-index: 2;
 }
 #semantic_btns{
