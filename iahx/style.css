@@ -383,6 +383,9 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 .semanticObject{
 	text-align: right;
 }
+#affiliations{
+	cursor:pointer;
+}
 /******************** Breakpoints *******************/
 @media (max-width: 1200px){
 	#resumo, #tabResumo{width: 90%;}
