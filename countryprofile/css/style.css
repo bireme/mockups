@@ -71,3 +71,16 @@
 .nav-pills{
 	background: #eee!important;
 }
+#maps a{
+	text-decoration: none;
+}
+#maps a:hover p{
+	background: #e2e2e2;
+}
+#maps p{
+	text-decoration: none;
+	background: #eee;
+	padding: 5px 0;
+	margin-top: 10px;
+	display: block;
+}
