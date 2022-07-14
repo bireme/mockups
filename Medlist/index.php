@@ -73,7 +73,7 @@
 
 
 
-	
+
 	<section class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -83,8 +83,7 @@
 						<div class="homeBox">
 							<img src="img/lista1.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">WHO Model List of Essential Medicines 1</a>
-							<a href="lista.php" class="btn btn-sm btn-primary btn-block">WHO Model List of Essential Medicines 2</a>
-							
+							<a href="lista.php" class="btn btn-sm btn-primary btn-block">WHO Model List of Essential Medicines 2</a>					
 						</div>
 					</div>
 					<!-- lista 2 -->
@@ -93,20 +92,16 @@
 							<img src="img/lista2.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 1</a>
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 2</a>
-							
 						</div>
 					</div>
-
-					<!-- lista 2 -->
+					<!-- lista 3 -->
 					<div class="col-md-3">
 						<div class="homeBox">
 							<img src="img/lista4.png" alt="">
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 1</a>
 							<a href="lista.php" class="btn btn-sm btn-primary btn-block">PAHO Strategic Fund Medicine List 2</a>
-							
 						</div>
 					</div>
-
 					<!-- lista 4 -->
 					<div class="col-md-3">
 						<div class="homeBox">
@@ -117,7 +112,6 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	</section>
 	<section class=" padding1">
@@ -135,7 +129,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="sectionCinza padding1">
 		<div class="container">
 			<h3 class="titulo1"><span class="colorText">Comparar </span> Listas por Países</h3>

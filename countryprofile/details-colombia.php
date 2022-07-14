@@ -18,15 +18,24 @@
 					<li class="breadcrumb-item active" aria-current="page">More Information</li>
 				</ol>
 			</nav>
-			<div class="row">
-				<div class="col-1"><img src="img/colombia-flag.jpg" class="img-fluid rounded" alt=""></div>
-				<div class="col-11"><h1>Colombia</h1></div>
-			</div>
 			<hr class="border-primary border-3 opacity-25">
 			<div class="row">
 				<div class="col-md-8 col-lg-9 order-md-2">
 					<?php for ($i=1; $i < 14; $i++) { ?>
-						<h2 id="d<?=$i; ?>"><b>Domain <?=$i; ?>:</b> <small>Demographics, economics, market and expenditure</small></h2>
+						<div class="accordion" id="descripion_<?=$i; ?>">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="heading_<?=$i; ?>">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_<?=$i; ?>" aria-expanded="true" aria-controls="collapse_<?=$i; ?>">
+										<h2 id="d<?=$i; ?>"><b>Domain <?=$i; ?>:</b> <small>Demographics, economics, market and expenditure</small></h2>
+									</button>
+								</h2>
+								<div id="collapse_<?=$i; ?>" class="accordion-collapse collapse show" aria-labelledby="heading_<?=$i; ?>" data-bs-parent="#descripion_<?=$i; ?>">
+									<div class="accordion-body">
+										It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+									</div>
+								</div>
+							</div>
+						</div> <br>
 						<table class="table table-bordered table-striped">
 							<thead>
 								<tr>
@@ -68,8 +77,13 @@
 						<hr class="border-primary border-3 opacity-25">
 					<?php } ?>
 				</div>
-				<div class="col-md-4 col-lg-3 order-md-1">
+				<div class="col-md-4 col-lg-3 order-md-1 flag-title">
 					<div class="sticky-top">
+						<div class="row">
+							<div class="col-3"><img src="img/colombia-flag.jpg" class="img-fluid rounded" alt=""></div>
+							<div class="col-9"><h1>Colombia</h1></div>
+						</div>
+						<hr class="border-primary border-3 opacity-25">
 						<ul class="nav flex-column nav-pills">
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="#d1">
@@ -137,7 +151,9 @@
 								</a>
 							</li>
 						</ul>
-						<br><a href="colombia.php" class="btn btn-warning btn-lg">More Information</a>
+						<br>
+						<a aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn btn-warning">See other country</a>
+						<?php include 'select_country.php' ?>
 					</div>
 				</div>
 			</div>
