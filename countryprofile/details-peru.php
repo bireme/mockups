@@ -155,6 +155,7 @@
 						<br>
 						<a aria-controls="offcanvasExample" data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn btn-warning">See other country</a>
 						<?php include 'select_country.php' ?>
+						<hr class="border-primary border-3 opacity-25">
 					</div>
 				</div>
 			</div>
