@@ -11,7 +11,7 @@
 	<?php include 'header.php'; ?>
 	<main id="main_container" class="padding1">
 		<div class="container">
-			<nav aria-label="breadcrumb">
+			<nav aria-label="breadcrumb" class="d-print-none">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.php">Home</a></li>
 					<li class="breadcrumb-item"><a href="colombia.php">Colombia</a></li>
@@ -77,7 +77,7 @@
 						<hr class="border-primary border-3 opacity-25">
 					<?php } ?>
 				</div>
-				<div class="col-md-4 col-lg-3 order-md-1 flag-title">
+				<div class="col-md-4 col-lg-3 order-md-1 flag-title d-print-none">
 					<div class="sticky-top">
 						<div class="row">
 							<div class="col-3"><img src="img/colombia-flag.jpg" class="img-fluid rounded" alt=""></div>

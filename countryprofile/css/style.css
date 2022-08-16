@@ -87,3 +87,30 @@
 .flag-title h1{
 	font-size: 20px;
 }
+@media print {
+	#header, #footer{
+		padding: 10px;
+	}
+	#header-title{
+		font-size: 18px;
+	}
+	#logo-opas img{
+		max-height: 80px!important;
+	}
+	.accordion-header h2{
+		font-size: 20px;
+	}
+	.accordion-button{
+		background: #fff!important;
+		color: #000!important;
+	}
+	.accordion-button:not(.collapsed)::after, .accordion-button::after{
+		display:none!important;
+	}
+	#main_container{
+		padding: 10px;
+	}
+	#footer, .breadcrumb{
+		display: none;
+	}
+}

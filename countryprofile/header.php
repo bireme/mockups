@@ -1,7 +1,7 @@
 <header id="header">
 	<div class="container" style="position: relative;">
 		<div id="header-title">Pharmaceutical and Health Technology Country Profile</div>
-		<div id="lang">
+		<div id="lang" class="d-print-none">
 			<ul>
 				<li class="current-lang"><a href="#">Español</a></li>
 				<li><a href="#">English</a></li>

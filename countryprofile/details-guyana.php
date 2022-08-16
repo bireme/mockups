@@ -11,11 +11,13 @@
 	<?php include 'header.php'; ?>
 	<main id="main_container" class="padding1">
 		<div class="container">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-				<li class="breadcrumb-item"><a href="guyana.php">Guyana</a></li>
-				<li class="breadcrumb-item active" aria-current="page">More Information</li>
-			</ol>
+			<nav aria-label="breadcrumb" class="d-print-none">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+					<li class="breadcrumb-item"><a href="guyana.php">Guyana</a></li>
+					<li class="breadcrumb-item active" aria-current="page">More Information</li>
+				</ol>
+			</nav>
 			<hr class="border-primary border-3 opacity-25">
 			<div class="row">
 				<div class="col-md-8 col-lg-9 order-md-2">
@@ -76,7 +78,7 @@
 						<hr class="border-primary border-3 opacity-25">
 					<?php } ?>
 				</div>
-				<div class="col-md-4 col-lg-3 order-md-1 flag-title">
+				<div class="col-md-4 col-lg-3 order-md-1 flag-title d-print-none">
 					<div class="sticky-top">
 						<div class="row">
 							<div class="col-3"><img src="img/guyana-flag.jpg" class="img-fluid rounded" alt=""></div>
