@@ -20,6 +20,7 @@
 	<?php include 'topAcessibility.php'?>
 	<?php include 'sidebar.php'?>
 	<?php include 'header.php' ?>
+	<?php include 'info.php' ?>
 	<section class="">
 		<div class="container">
 			<div class="row">

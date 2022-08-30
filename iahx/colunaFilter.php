@@ -113,19 +113,19 @@
 		<div class="box2 collapse show" id="bases">
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check6"></div>
-				<label class="labelCheck1" for="check6">MEDILNE	(26390999)</label>
+				<label class="labelCheck1" for="check6">MEDILNE	(26390999)</label></label><i class="fa fa-info-circle icon-info"></i>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check7"></div>
-				<label class="labelCheck1" for="check7">LILACS (849813)</label>
+				<label class="labelCheck1" for="check7">LILACS (849813)</label></label><i class="fa fa-info-circle icon-info"></i>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check8"></div>
-				<label class="labelCheck1" for="check8">IBECS (171950)</label>
+				<label class="labelCheck1" for="check8">IBECS (171950)</label></label><i class="fa fa-info-circle icon-info"></i>
 			</div>
 			<div class="boxCheck">
 				<div class="inputCheck1"><input type="checkbox" id="check9"></div>
-				<label class="labelCheck1" for="check9">Lorem ipsum dolor.</label>
+				<label class="labelCheck1" for="check9">Lorem ipsum dolor.</label></label><i class="fa fa-info-circle icon-info"></i>
 			</div>
 		</div>
 	</div>

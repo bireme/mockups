@@ -112,3 +112,16 @@ $('.disclaimerTransparente').click(function(){
   $(this).parent().find(".fa-angle-down").toggleClass("fa-angle-up");
   $('#disclaimer').toggleClass("disclaimer");
 })
+
+$('.icon-info').click(function(){
+    $('#info-box').toggleClass('icon-info-active');
+    $('#info-closed').toggle();
+})
+$('#close-info').click(function(){
+    $('#info-box').toggleClass('icon-info-active');
+    $('#info-closed').toggle();
+})
+$('#info-closed').click(function(){
+    $('#info-box').toggleClass('icon-info-active');
+    $('#info-closed').toggle();
+})
