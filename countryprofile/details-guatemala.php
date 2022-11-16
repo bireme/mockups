@@ -12,6 +12,7 @@
 	<main id="main_container" class="padding1">
 		<div class="container">
 			<nav aria-label="breadcrumb" class="d-print-none">
+				<div class="float-end"><a href="#" class="btn btn-sm btn-outline-secondary" ><i class="fa-solid fa-print"></i></a></div>
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.php">Home</a></li>
 					<li class="breadcrumb-item"><a href="guatemala.php">Guatemala</a></li>

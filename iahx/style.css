@@ -391,6 +391,9 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 	padding: 10px 0 0 10px;
 	color: #999;
 	cursor: pointer;
+	position: absolute;
+    right: 0;
+    top: -2px;
 }
 .icon-info:hover{
 	color: #30348d;
@@ -427,6 +430,8 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 	#resumo, #tabResumo{width: 90%;}
 	.modal-xl{max-width: 90%;}
 	#lineSemantic{top: 70px;}
+	.labelCheck1{max-width: 70%;}
+	.icon-info{background: red;}
 }
 @media (max-width: 1024px){
 	.sw.sw-justified>.nav>li h6{min-height: 77px;}
@@ -481,6 +486,7 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 	#semanticBtn{position: static;}
 	.semanticPredicate, .semanticObject{text-align: left;}
 	#semantic_btns{	padding-top: 10px;}
+	.labelCheck1{max-width: 80%;}
 }
 @media (max-width: 640px){
 	.sw.sw-justified>.nav>li h6{min-height: auto;}
