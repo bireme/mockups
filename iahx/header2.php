@@ -37,7 +37,7 @@
 								</select>
 							</div>
 							<div class="col-md-6 inputBoxSearch">
-								<input type="text" id="q" placeholder="">
+								<input type="text" id="q" placeholder="Dengue" value="Dengue">
 								<a id="speakBtn" href="#"><i class="fas fa-microphone-alt"></i></a>
 							</div>
 							<div class="col-md-2 btnBoxSearch">

@@ -19,7 +19,7 @@
 <body>
 	<?php include 'topAcessibility.php'?>
 	<?php include 'sidebar.php'?>
-	<?php include 'header2.php' ?>
+	<?php include 'header.php' ?>
 	<?php include 'info.php' ?>
 	<section class="container">
 		<nav>
@@ -42,13 +42,13 @@
 		<div class="container">
 			<ul class="nav nav-tabs" id="myTab" role="tablist">
 				<li class="nav-item" role="presentation">
-					<button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true"><b>Literatura LA&C</b> <br> <small>9.385</small></button>
+					<button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true"><b>Literatura LA&C</b> <br> <small> 1.872.874</small></button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="all-lit-tab" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Todas Literaturas</b> <br> <small>54.661</small></button>
+					<button class="nav-link" id="all-lit-tab" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Todas Literaturas</b> <br> <small> 38.189.092</small></button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><b>Outros Recursos</b> <br> <small>804</small></button>
+					<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><b>Outros Recursos</b> <br> <small>45.863</small></button>
 				</li>
 			</ul>
 
@@ -68,13 +68,13 @@
 								<div class="col-md-4 text-center">
 									<small>	Mostrar:</small> <a href=""><b>20</b></a> | <a href="">50</a> | <a href="">100</a>
 								</div>
-								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>9.385</b></small></div>
+								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>1.872.874</b></small></div>
 							</div>
 						</div>
 						<?php  include 'colunaFilter.php' ?>
 						<!-- Centro -->
 						<div class="col-md-7 d-print-block" id="main_container">
-							<?php for ($i=0; $i < 15; $i++) { ?>
+							<?php for ($i=0; $i < 20; $i++) { ?>
 								<div class="box1">
 									<div class="inputCheck1 d-print-none"><input type="checkbox"><small><?=$i; ?></small></div>
 									<div class="textArt">
@@ -136,17 +136,17 @@
 								<div class="col-md-4 text-center">
 									<small>	Mostrar:</small> <a href=""><b>20</b></a> | <a href="">50</a> | <a href="">100</a>
 								</div>
-								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>54.661</b></small></div>
+								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>38.189.092</b></small></div>
 							</div>
 						</div>
-						<?php  include 'colunaFilter2.php' ?>
+						<?php  include 'colunaFilter.php' ?>
 						<!-- Centro -->
 						<div class="col-md-7 d-print-block" id="main_container">
-							<?php for ($i=0; $i < 15; $i++) { ?>
+							<?php for ($i=0; $i < 20; $i++) { ?>
 								<div class="box1">
 									<div class="inputCheck1 d-print-none"><input type="checkbox"><small><?=$i; ?></small></div>
 									<div class="textArt">
-										<div class="titleArt"><a href="interna.php">A pesar del récord de casos de dengue, América Latina y el Caribe mantiene baja la tasa de letalidad.</a></div>
+										<div class="titleArt"><a href="interna.php">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</a></div>
 										<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
 										<div class="reference"><i><a href="">Prog Neuropsychopharmacol Biol Psychiatry;</a></i> <b> 88: 41-52, 2019 Jan 10.</b></div>
 										<div class="dataArticle">Artigo em Inglês | <a href="">MEDLINE</a> | ID: mdl-29953935</div>
@@ -204,17 +204,17 @@
 								<div class="col-md-4 text-center">
 									<small>	Mostrar:</small> <a href=""><b>20</b></a> | <a href="">50</a> | <a href="">100</a>
 								</div>
-								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>804</b></small></div>
+								<div class="col-md-4 text-right resultM"><small>Resultados <b>1-20</b> de <b>45.863</b></small></div>
 							</div>
 						</div>
-						<?php  include 'colunaFilter3.php' ?>
+						<?php  include 'colunaFilter.php' ?>
 						<!-- Centro -->
 						<div class="col-md-7 d-print-block" id="main_container">
-							<?php for ($i=0; $i < 15; $i++) { ?>
+							<?php for ($i=0; $i < 20; $i++) { ?>
 								<div class="box1">
 									<div class="inputCheck1 d-print-none"><input type="checkbox"><small><?=$i; ?></small></div>
 									<div class="textArt">
-										<div class="titleArt"><a href="interna.php">Saúde da capital investe em ações de nebulização (fumacê) contra a dengue.</a></div>
+										<div class="titleArt"><a href="interna.php">Methamphetamine-associated difficulties in cognitive control allocation may normalize after abstinence.</a></div>
 										<div class="author"><a href="">Stock</a>, <a href="">Ann-Kathrin</a>; <a href="">Rädle</a>, <a href="">Marion</a>; <a href="">Beste</a>, <a href="">Christian</a>.</div>
 										<div class="reference"><i><a href="">Prog Neuropsychopharmacol Biol Psychiatry;</a></i> <b> 88: 41-52, 2019 Jan 10.</b></div>
 										<div class="dataArticle">Artigo em Inglês | <a href="">MEDLINE</a> | ID: mdl-29953935</div>
