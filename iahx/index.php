@@ -40,7 +40,7 @@
 	</section>
 	<section class="">
 		<div class="container">
-			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<ul class="nav nav-tabs" id="myTab" role="tablist"> <!-- Tabs -->
 				<li class="nav-item" role="presentation">
 					<button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true"><b>Literatura LA&C</b> <br> <small>9.385</small></button>
 				</li>
