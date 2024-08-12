@@ -1,0 +1,46 @@
+#header{
+	padding: 20px 0;
+}
+#logo-bvs img{
+	height: 120px;
+}
+#nav{
+	background-color: #19bfff!important;
+	padding: 10px 0;
+}
+#nav .nav-link{
+	color: #fff;
+}
+#search{
+	background: url('../img/bg-search.jpg') center  no-repeat;
+	background-size:100%;
+	padding: 80px 0px 80px 20px;
+	border-bottom: 1px solid #bbe8fc;
+	color: #fff;
+	/*text-shadow: 2px 2px 2px #000;*/
+	margin-bottom: 50px;
+}
+.search-icons{
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+}
+#search-itens input[type="radio"]{
+	margin: 0 5px 0 10px;
+}
+#footer{
+	background-color: #f2f2f2;
+	padding: 40px 0;
+	font-size: 14px;
+}
+#logo-footer{
+	max-height: 60px;
+}
+#powered{
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0 10px 0;
+}
+#powered img{
+	margin-bottom: 10px;
+}
