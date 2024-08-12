@@ -523,6 +523,7 @@ body{background: #f5f5f5;font-family: 'Source Sans Pro', sans-serif; font-weight
 @media (max-width: 640px){
 	.sw.sw-justified>.nav>li h6{min-height: auto;}
 	.sw.sw-justified>.nav>li{margin-bottom: -25px;}
+	/*ajutstes de tabs*/
 	#myTab .nav-item, #myTab .nav-item .nav-link{width: 100%;}
 	.nav{flex-direction: column!important;}
 }
