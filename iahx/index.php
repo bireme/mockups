@@ -40,15 +40,29 @@
 	</section>
 	<section class="">
 		<div class="container">
-			<ul class="nav nav-tabs" id="myTab" role="tablist"> <!-- Tabs -->
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <!-- Tabs -->
+    <li class="nav-item" role="presentation" style="position: relative;">
+        <button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true">
+            <b>
+                <span class="highlight-text">LILACS Plus</span>
+            </b>
+            <br>
+            Literatura científica e técnica da América Latina e Caribe
+            <br><br>
+            <small>9.385</small>
+        </button>
+        <!-- Ícone de informação com link fora do botão -->
+        <a href="https://bvsalud.org/produtos-e-servicos/#menu-lilacs" target="_blank" style="position: absolute; top: 10px; right: 10px; text-decoration:none;">
+            <i class="fas fa-info-circle"></i>
+        </a>
+    </li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true"><b>Literatura LA&C</b> <br> <small>9.385</small></button>
+					<button class="nav-link" id="all-lit-tab" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Literatura Global</b> <br> 
+						Coleção de bases de dados bibliográficas da BVS<br><br><small>54.661</small> </button>
 				</li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="all-lit-tab" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Todas Literaturas</b> <br> <small>54.661</small></button>
-				</li>
-				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><b>Outros Recursos</b> <br> <small>804</small></button>
+					<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><b>Outras Fontes de Informação</b> <br>Perguntas e respostas-SOF, Sites-LIS, Multimídia e Recursos educacionais-CVSP<br> <small>804</small></button>
 				</li>
 			</ul>
 
