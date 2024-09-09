@@ -40,10 +40,10 @@
 	</section>
 	<section class="">
 		<div class="container">
-		<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<ul class="nav nav-tabs" id="tabOptions" role="tablist">
     <!-- Tabs -->
     <li class="nav-item" role="presentation" style="position: relative;">
-        <button class="nav-link active" id="lilac-plus-tab" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true">
+        <button class="nav-link active" id="tab-1" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true">
             <b>
                 <span class="highlight-text">LILACS Plus</span>
             </b>
@@ -58,11 +58,8 @@
         </a>
     </li>
 				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="all-lit-tab" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Literatura Global</b> <br> 
+					<button class="nav-link" id="tab-2" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Literatura Global</b> <br> 
 						Coleção de bases de dados bibliográficas da BVS<br><br><small>54.661</small> </button>
-				</li>
-				<li class="nav-item" role="presentation">
-					<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><b>Outras Fontes de Informação</b> <br>Perguntas e respostas-SOF, Sites-LIS, Multimídia e Recursos educacionais-CVSP<br> <small>804</small></button>
 				</li>
 			</ul>
 
