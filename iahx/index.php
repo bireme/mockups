@@ -53,9 +53,9 @@
             <small>9.385</small>
         </button>
         <!-- Ícone de informação com link fora do botão -->
-        <a href="https://bvsalud.org/produtos-e-servicos/#menu-lilacs" target="_blank" style="position: absolute; top: 10px; right: 10px; text-decoration:none;">
-			<i class="fa-solid fa-circle-info"></i>
-        </a>
+        <a href="#" target="_blank" class="info-link">
+    		<i class="fa-solid fa-circle-info"></i>
+				</a>
     </li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="tab-2" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Literatura Global</b> <br> 
