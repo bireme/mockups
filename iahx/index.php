@@ -42,7 +42,7 @@
 		<div class="container">
 		<ul class="nav nav-tabs" id="tabOptions" role="tablist">
     <!-- Tabs -->
-    <li class="nav-item" role="presentation" style="position: relative;">
+    <li class="nav-item" role="presentation">
         <button class="nav-link active" id="tab-1" data-toggle="tab" data-target="#lilac-plus" type="button" role="tab" aria-controls="lilac-plus" aria-selected="true">
             <b>
                 <span class="highlight-text">LILACS Plus</span>
