@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="css/feedback.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/sidebar.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,900" rel="stylesheet">
 </head>
 <body>
@@ -49,17 +49,17 @@
             </b>
             <br>
             Literatura científica e técnica da América Latina e Caribe
-            <br><br>
+            <br>
             <small>9.385</small>
         </button>
         <!-- Ícone de informação com link fora do botão -->
         <a href="https://bvsalud.org/produtos-e-servicos/#menu-lilacs" target="_blank" style="position: absolute; top: 10px; right: 10px; text-decoration:none;">
-            <i class="fas fa-info-circle"></i>
+			<i class="fa-solid fa-circle-info"></i>
         </a>
     </li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="tab-2" data-toggle="tab" data-target="#all-lit" type="button" role="tab" aria-controls="all-lit" aria-selected="false"><b>Literatura Global</b> <br> 
-						Coleção de bases de dados bibliográficas da BVS<br><br><small>54.661</small> </button>
+						Coleção de bases de dados da BVS<br><small>54.661</small> </button>
 				</li>
 			</ul>
 
